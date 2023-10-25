@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT Certification Path/2..md",
+                "file": "PNPT Certification Path/1. What need to Learn.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PNPT Certification Path/2..md",
+                "file": "PNPT Certification Path/1. What need to Learn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PNPT Certification Path/2..md",
+                "file": "PNPT Certification Path/1. What need to Learn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +125,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PNPT Certification Path/2..md"
+                "file": "PNPT Certification Path/1. What need to Learn.md"
               }
             }
+          },
+          {
+            "id": "a88a9796b03565c7",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,11 +155,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "99b8042c696f90a8",
+  "active": "06eaf169e4d38d07",
   "lastOpenFiles": [
+    "PNPT Certification Path/2..md",
     "Untitled",
     "PNPT Certification Path/1. What need to Learn.md",
-    "PNPT Certification Path/2..md",
     "PNPT Certification Path",
     "Untitled/Untitled.md",
     "nhfjdf.md"

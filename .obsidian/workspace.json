@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT Certification Path/2. Useful Network Commands.md",
+                "file": "PNPT Certification Path/3. Installing and updating.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "af3095085d650761",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PNPT Certification Path/2. Useful Network Commands.md",
+                "file": "PNPT Certification Path/3. Installing and updating.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PNPT Certification Path/2. Useful Network Commands.md",
+                "file": "PNPT Certification Path/3. Installing and updating.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PNPT Certification Path/2. Useful Network Commands.md"
+                "file": "PNPT Certification Path/3. Installing and updating.md"
               }
             }
           },
@@ -158,9 +157,11 @@
   },
   "active": "06eaf169e4d38d07",
   "lastOpenFiles": [
-    "PNPT Certification Path/1. What need to Learn.md",
     "PNPT Certification Path/2. Useful Network Commands.md",
+    "PNPT Certification Path/3. Installing and updating.md",
+    "PNPT Certification Path/1. What need to Learn.md",
     "Untitled",
+    "3..md",
     "PNPT Certification Path",
     "Untitled/Untitled.md",
     "nhfjdf.md"

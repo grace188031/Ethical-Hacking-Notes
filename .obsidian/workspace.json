@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT Certification Path/5. Python.md",
+                "file": "PNPT Certification Path/7. Reconnaisance.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "af3095085d650761",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PNPT Certification Path/5. Python.md",
+                "file": "PNPT Certification Path/7. Reconnaisance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PNPT Certification Path/5. Python.md",
+                "file": "PNPT Certification Path/7. Reconnaisance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PNPT Certification Path/5. Python.md"
+                "file": "PNPT Certification Path/7. Reconnaisance.md"
               }
             }
           },
@@ -159,9 +158,11 @@
   },
   "active": "99b8042c696f90a8",
   "lastOpenFiles": [
+    "PNPT Certification Path/6. Ethical Hacking.md",
+    "PNPT Certification Path/7. Reconnaisance.md",
+    "PNPT Certification Path/5. Python.md",
     "PNPT Certification Path/Installing Pimpmykali.png",
     "Pasted image 20231025224207.png",
-    "PNPT Certification Path/5. Python.md",
     "PNPT Certification Path/3. Installing and updating.md",
     "PNPT Certification Path/4. Bashscripts.md",
     "PNPT Certification Path/2. Useful Network Commands.md",

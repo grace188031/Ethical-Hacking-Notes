@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT Certification Path/7. Reconnaisance.md",
+                "file": "Ethical Hacking/7. Reconnaisance.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Reconnaisance",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PNPT Certification Path/7. Reconnaisance.md",
+                "file": "Ethical Hacking/7. Reconnaisance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PNPT Certification Path/7. Reconnaisance.md",
+                "file": "Ethical Hacking/7. Reconnaisance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PNPT Certification Path/7. Reconnaisance.md"
+                "file": "Ethical Hacking/7. Reconnaisance.md"
               }
             }
           },
@@ -156,10 +156,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "99b8042c696f90a8",
+  "active": "06eaf169e4d38d07",
   "lastOpenFiles": [
-    "PNPT Certification Path/6. Ethical Hacking.md",
-    "PNPT Certification Path/7. Reconnaisance.md",
+    "Ethical Hacking/6. Ethical Hacking.md",
+    "Ethical Hacking/7. Reconnaisance.md",
+    "Ethical Hacking",
     "PNPT Certification Path/5. Python.md",
     "PNPT Certification Path/Installing Pimpmykali.png",
     "Pasted image 20231025224207.png",
@@ -167,7 +168,6 @@
     "PNPT Certification Path/4. Bashscripts.md",
     "PNPT Certification Path/2. Useful Network Commands.md",
     "PNPT Certification Path/1. What need to Learn.md",
-    "Untitled",
     "3..md",
     "PNPT Certification Path",
     "Untitled/Untitled.md",

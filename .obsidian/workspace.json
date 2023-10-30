@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "How to add Git repository/Steps in adding Git from Remote.md",
+                "file": "Ethical Hacking/7.2 Gathering Breached Credentials with Breach-Parse.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "How to add Git repository/Steps in adding Git from Remote.md",
+                "file": "Ethical Hacking/7.2 Gathering Breached Credentials with Breach-Parse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "How to add Git repository/Steps in adding Git from Remote.md",
+                "file": "Ethical Hacking/7.2 Gathering Breached Credentials with Breach-Parse.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "How to add Git repository/Steps in adding Git from Remote.md"
+                "file": "Ethical Hacking/7.2 Gathering Breached Credentials with Breach-Parse.md"
               }
             }
           },
@@ -156,10 +156,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "06eaf169e4d38d07",
+  "active": "99b8042c696f90a8",
   "lastOpenFiles": [
-    "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
     "How to add Git repository/Steps in adding Git from Remote.md",
+    "Ethical Hacking/7.2 Gathering Breached Credentials with Breach-Parse.md",
+    "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
     "How to add Git repository",
     "Pasted image 20231027193500.png",
     "Pasted image 20231027193047.png",

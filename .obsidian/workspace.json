@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/7.4 Hunting SubDomains.md",
+                "file": "How to add Git repository/Steps in adding owasp-amass git.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/7.4 Hunting SubDomains.md",
+                "file": "How to add Git repository/Steps in adding owasp-amass git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/7.4 Hunting SubDomains.md",
+                "file": "How to add Git repository/Steps in adding owasp-amass git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/7.4 Hunting SubDomains.md"
+                "file": "How to add Git repository/Steps in adding owasp-amass git.md"
               }
             }
           },
@@ -158,18 +158,19 @@
   },
   "active": "06eaf169e4d38d07",
   "lastOpenFiles": [
+    "How to add Git repository/Steps in adding Git from Remote.md",
+    "How to add Git repository/Steps in adding owasp-amass git.md",
+    "Ethical Hacking/7.4 Hunting SubDomains.md",
     "Pasted image 20231030044734.png",
     "PNPT Certification Path/1. What need to Learn.md",
     "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
     "Ethical Hacking/6. Ethical Hacking.md",
     "Ethical Hacking/7. Reconnaisance.md",
     "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
-    "Ethical Hacking/7.4 Hunting SubDomains.md",
     "Pasted image 20231030042715.png",
     "Pasted image 20231030042512.png",
     "Ethical Hacking/7.2 Gathering Breached Credentials with Breach-Parse.md",
     "Pasted image 20231030041751.png",
-    "How to add Git repository/Steps in adding Git from Remote.md",
     "How to add Git repository",
     "Pasted image 20231027193500.png",
     "Pasted image 20231027193047.png",
@@ -177,7 +178,6 @@
     "Pasted image 20231027192237.png",
     "Pasted image 20231027192049.png",
     "Pasted image 20231027190334.png",
-    "Pasted image 20231027185403.png",
     "Ethical Hacking",
     "PNPT Certification Path/5. Python.md",
     "PNPT Certification Path/3. Installing and updating.md",

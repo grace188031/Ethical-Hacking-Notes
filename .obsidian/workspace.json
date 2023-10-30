@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/7.2 Gathering Breached Credentials with Breach-Parse.md",
+                "file": "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/7.2 Gathering Breached Credentials with Breach-Parse.md",
+                "file": "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/7.2 Gathering Breached Credentials with Breach-Parse.md",
+                "file": "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/7.2 Gathering Breached Credentials with Breach-Parse.md"
+                "file": "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md"
               }
             }
           },
@@ -158,9 +158,12 @@
   },
   "active": "06eaf169e4d38d07",
   "lastOpenFiles": [
+    "Pasted image 20231030042715.png",
+    "Pasted image 20231030042512.png",
+    "Ethical Hacking/7.2 Gathering Breached Credentials with Breach-Parse.md",
+    "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
     "Pasted image 20231030041751.png",
     "How to add Git repository/Steps in adding Git from Remote.md",
-    "Ethical Hacking/7.2 Gathering Breached Credentials with Breach-Parse.md",
     "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
     "How to add Git repository",
     "Pasted image 20231027193500.png",
@@ -175,8 +178,6 @@
     "Ethical Hacking/6. Ethical Hacking.md",
     "Ethical Hacking",
     "PNPT Certification Path/5. Python.md",
-    "PNPT Certification Path/Installing Pimpmykali.png",
-    "Pasted image 20231025224207.png",
     "PNPT Certification Path/3. Installing and updating.md",
     "PNPT Certification Path/4. Bashscripts.md",
     "PNPT Certification Path/2. Useful Network Commands.md",

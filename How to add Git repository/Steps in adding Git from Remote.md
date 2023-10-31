@@ -57,6 +57,6 @@ breach-parse.sh  install.sh  README.md
 
 ```
 
-|  Stakeholder   |  Purpose   |
-| --- | --- |
-|     Employee of Contoso|     |
+|  Stakeholder   |  Purpose   | Key Messages
+| --- | --- |---|
+|Vendor for hardware and software|Supply high-quality and reliable hardware and software solutions that meet the project's requirements and contribute to the successful execution and completion of the project.  | |

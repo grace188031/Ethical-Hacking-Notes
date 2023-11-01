@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "How to add Git repository/Steps in adding Git from Remote.md",
+                "file": "Ethical Hacking/7.4 Identifying Website Technologies.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "How to add Git repository/Steps in adding Git from Remote.md",
+                "file": "Ethical Hacking/7.4 Identifying Website Technologies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "How to add Git repository/Steps in adding Git from Remote.md",
+                "file": "Ethical Hacking/7.4 Identifying Website Technologies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "How to add Git repository/Steps in adding Git from Remote.md"
+                "file": "Ethical Hacking/7.4 Identifying Website Technologies.md"
               }
             }
           },
@@ -158,14 +158,14 @@
   },
   "active": "06eaf169e4d38d07",
   "lastOpenFiles": [
+    "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
+    "How to add Git repository/Steps in adding Git from Remote.md",
     "Ethical Hacking/7.2 Gathering Breached Credentials with Breach-Parse.md",
     "Untitled.canvas",
     "Ethical Hacking/7.4 Identifying Website Technologies.md",
     "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
-    "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
     "Ethical Hacking/7.4 Hunting SubDomains.md",
     "How to add Git repository/Steps in adding owasp-amass git.md",
-    "How to add Git repository/Steps in adding Git from Remote.md",
     "Pasted image 20231030044734.png",
     "PNPT Certification Path/1. What need to Learn.md",
     "Ethical Hacking/6. Ethical Hacking.md",

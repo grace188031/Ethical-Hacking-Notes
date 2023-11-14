@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT Certification Path/2. Useful Network Commands.md",
+                "file": "Ethical Hacking/7.4 Hunting SubDomains.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PNPT Certification Path/2. Useful Network Commands.md",
+                "file": "Ethical Hacking/7.4 Hunting SubDomains.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PNPT Certification Path/2. Useful Network Commands.md",
+                "file": "Ethical Hacking/7.4 Hunting SubDomains.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PNPT Certification Path/2. Useful Network Commands.md"
+                "file": "Ethical Hacking/7.4 Hunting SubDomains.md"
               }
             }
           },
@@ -158,6 +158,8 @@
   },
   "active": "06eaf169e4d38d07",
   "lastOpenFiles": [
+    "PNPT Certification Path/5. Python.md",
+    "PNPT Certification Path/2. Useful Network Commands.md",
     "Ethical Hacking/7.4 Hunting SubDomains.md",
     "Pasted image 20231027192237.png",
     "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
@@ -181,10 +183,8 @@
     "Pasted image 20231027192049.png",
     "Pasted image 20231027190334.png",
     "Ethical Hacking",
-    "PNPT Certification Path/5. Python.md",
     "PNPT Certification Path/3. Installing and updating.md",
     "PNPT Certification Path/4. Bashscripts.md",
-    "PNPT Certification Path/2. Useful Network Commands.md",
     "3..md",
     "PNPT Certification Path",
     "Untitled/Untitled.md",

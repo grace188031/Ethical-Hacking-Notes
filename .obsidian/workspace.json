@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Reconnaisance",
+                "query": "legacy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -156,7 +157,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "06eaf169e4d38d07",
+  "active": "0854c0df333bac3a",
   "lastOpenFiles": [
     "PNPT Certification Path/5. Python.md",
     "PNPT Certification Path/2. Useful Network Commands.md",

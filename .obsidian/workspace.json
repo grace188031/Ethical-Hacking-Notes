@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/7.4 Hunting SubDomains.md",
+                "file": "How to add Git repository/Steps in adding owasp-amass git.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "legacy",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/7.4 Hunting SubDomains.md",
+                "file": "How to add Git repository/Steps in adding owasp-amass git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/7.4 Hunting SubDomains.md",
+                "file": "How to add Git repository/Steps in adding owasp-amass git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/7.4 Hunting SubDomains.md"
+                "file": "How to add Git repository/Steps in adding owasp-amass git.md"
               }
             }
           },
@@ -157,15 +156,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0854c0df333bac3a",
+  "active": "06eaf169e4d38d07",
   "lastOpenFiles": [
+    "How to add Git repository/Steps in adding Git from Remote.md",
+    "Ethical Hacking/7.4 Hunting SubDomains.md",
     "PNPT Certification Path/5. Python.md",
     "PNPT Certification Path/2. Useful Network Commands.md",
-    "Ethical Hacking/7.4 Hunting SubDomains.md",
     "Pasted image 20231027192237.png",
     "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
     "Ethical Hacking/7.4 Identifying Website Technologies.md",
-    "How to add Git repository/Steps in adding Git from Remote.md",
     "Ethical Hacking/7.2 Gathering Breached Credentials with Breach-Parse.md",
     "Untitled.canvas",
     "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",

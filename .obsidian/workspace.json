@@ -11,11 +11,9 @@
             "id": "06eaf169e4d38d07",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "How to add Git repository/Steps in adding owasp-amass git.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20231027193500.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "How to add Git repository/Steps in adding owasp-amass git.md",
+                "file": "Pasted image 20231027193500.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "How to add Git repository/Steps in adding owasp-amass git.md",
+                "file": "Pasted image 20231027193500.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "How to add Git repository/Steps in adding owasp-amass git.md"
+                "file": "Pasted image 20231027193500.png"
               }
             }
           },
@@ -156,33 +154,33 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "06eaf169e4d38d07",
+  "active": "99b8042c696f90a8",
   "lastOpenFiles": [
-    "Untitled/Untitled.md",
-    "How to add Git repository/Steps in adding owasp-amass git.md",
     "How to add Git repository/Steps in adding Git from Remote.md",
+    "How to add Git repository/Steps in adding owasp-amass git.md",
     "Ethical Hacking/7.4 Hunting SubDomains.md",
-    "PNPT Certification Path/5. Python.md",
-    "PNPT Certification Path/2. Useful Network Commands.md",
-    "Pasted image 20231027192237.png",
-    "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
     "Ethical Hacking/7.4 Identifying Website Technologies.md",
-    "Ethical Hacking/7.2 Gathering Breached Credentials with Breach-Parse.md",
-    "Untitled.canvas",
-    "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
-    "Pasted image 20231030044734.png",
-    "PNPT Certification Path/1. What need to Learn.md",
-    "Ethical Hacking/6. Ethical Hacking.md",
-    "Ethical Hacking/7. Reconnaisance.md",
-    "Pasted image 20231030042715.png",
     "Pasted image 20231030042512.png",
+    "Pasted image 20231030042715.png",
     "Pasted image 20231030041751.png",
-    "How to add Git repository",
     "Pasted image 20231027193500.png",
     "Pasted image 20231027193047.png",
     "Pasted image 20231027192836.png",
+    "Pasted image 20231027192237.png",
     "Pasted image 20231027192049.png",
     "Pasted image 20231027190334.png",
+    "Pasted image 20231027185403.png",
+    "Untitled/Untitled.md",
+    "PNPT Certification Path/5. Python.md",
+    "PNPT Certification Path/2. Useful Network Commands.md",
+    "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
+    "Ethical Hacking/7.2 Gathering Breached Credentials with Breach-Parse.md",
+    "Untitled.canvas",
+    "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
+    "PNPT Certification Path/1. What need to Learn.md",
+    "Ethical Hacking/6. Ethical Hacking.md",
+    "Ethical Hacking/7. Reconnaisance.md",
+    "How to add Git repository",
     "Ethical Hacking",
     "PNPT Certification Path/3. Installing and updating.md",
     "PNPT Certification Path/4. Bashscripts.md",

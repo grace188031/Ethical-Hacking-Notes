@@ -21,8 +21,19 @@
                 }
               }
             }
+          },
+          {
+            "id": "1b9d40d6a96a2334",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -159,7 +170,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "06eaf169e4d38d07",
+  "active": "1b9d40d6a96a2334",
   "lastOpenFiles": [
     "Pasted image 20231027193500.png",
     "How to add Git repository/Steps in adding Git from Remote.md",

@@ -26,9 +26,9 @@
             "id": "1b9d40d6a96a2334",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "image",
               "state": {
-                "currentVersion": "1.5.11"
+                "file": "Pasted image 20231027183953.png"
               }
             }
           }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "Pasted image 20231027183953.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "Pasted image 20231027183953.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.canvas"
+                "file": "Pasted image 20231027183953.png"
               }
             }
           },

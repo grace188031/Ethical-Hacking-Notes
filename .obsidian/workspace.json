@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
+                "file": "Ethical Hacking/7.4 Identifying Website Technologies.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
+                "file": "Ethical Hacking/7.4 Identifying Website Technologies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
+                "file": "Ethical Hacking/7.4 Identifying Website Technologies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md"
+                "file": "Ethical Hacking/7.4 Identifying Website Technologies.md"
               }
             }
           },
@@ -186,23 +186,23 @@
   },
   "active": "09e4d22a22fad839",
   "lastOpenFiles": [
+    "Ethical Hacking/7.4 Hunting SubDomains.md",
+    "Ethical Hacking/7.4 Identifying Website Technologies.md",
+    "Pasted image 20231030044734.png",
+    "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
     "Ethical Hacking/7.2 Gathering Breached Credentials with Breach-Parse.md",
     "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
     "Pasted image 20231027183953.png",
     "Pasted image 20231025224207.png",
-    "Ethical Hacking/7.4 Hunting SubDomains.md",
-    "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
     "Pasted image 20231027193500.png",
     "How to add Git repository/Steps in adding Git from Remote.md",
     "How to add Git repository/Steps in adding owasp-amass git.md",
-    "Ethical Hacking/7.4 Identifying Website Technologies.md",
     "Pasted image 20231030042512.png",
     "Pasted image 20231030042715.png",
     "Pasted image 20231030041751.png",
     "Pasted image 20231027193047.png",
     "Pasted image 20231027192836.png",
     "Pasted image 20231027192237.png",
-    "Pasted image 20231027192049.png",
     "Untitled/Untitled.md",
     "PNPT Certification Path/5. Python.md",
     "PNPT Certification Path/2. Useful Network Commands.md",

@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
+                "file": "Ethical Hacking/7.4 Hunting SubDomains.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
+                "file": "Ethical Hacking/7.4 Hunting SubDomains.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
+                "file": "Ethical Hacking/7.4 Hunting SubDomains.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md"
+                "file": "Ethical Hacking/7.4 Hunting SubDomains.md"
               }
             }
           },
@@ -197,25 +197,25 @@
   },
   "active": "ad4fd34e003139d9",
   "lastOpenFiles": [
+    "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
+    "checking_associated_email_with_gmail.png",
+    "crt.sh_check_what_tools_using_domain.png",
     "Ethical Hacking/7.4 Hunting SubDomains.md",
+    "Clearbit_sample_email_found.png",
+    "Hunter.io.png",
     "Pasted image 20240527200325.png",
     "hashes.org_for_dehashing_password.png",
-    "Clearbit_sample_email_found.png",
     "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
     "email_checker_net_if_email_exists.png",
-    "checking_associated_email_with_gmail.png",
     "Ethical Hacking/7.2 Gathering Breached Credentials with Breach-Parse.md",
-    "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
     "Verify_email_after_clearbit.png",
     "Clearbit_email_gmail.png",
     "PNPT Certification Path/2. Useful Network Commands.md",
     "Clearbit_email_finder.png",
-    "phonebok_email_finder.png",
     "conflict-files-obsidian-git.md",
     "Ethical Hacking/7. Reconnaisance.md",
     "Ethical Hacking/7.6 Information Gathering with Burp Suite.md",
     "Ethical Hacking/7.5 Identifying Website Technologies.md",
-    "WhatWeb.png",
     "How to add Git repository/Steps in adding Git from Remote.md",
     "How to add Git repository/Steps in adding owasp-amass git.md",
     "Untitled/Untitled.md",

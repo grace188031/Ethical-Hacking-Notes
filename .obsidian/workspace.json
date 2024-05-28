@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/7.6 Information Gathering with Burp Suite.md",
+                "file": "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/7.6 Information Gathering with Burp Suite.md",
+                "file": "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/7.6 Information Gathering with Burp Suite.md",
+                "file": "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/7.6 Information Gathering with Burp Suite.md"
+                "file": "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md"
               }
             }
           },
@@ -197,8 +197,8 @@
   },
   "active": "ad4fd34e003139d9",
   "lastOpenFiles": [
-    "Ethical Hacking/7.5 Identifying Website Technologies.md",
     "Ethical Hacking/7.6 Information Gathering with Burp Suite.md",
+    "Ethical Hacking/7.5 Identifying Website Technologies.md",
     "Pasted image 20240527200325.png",
     "WhatWeb.png",
     "Pasted image 20231027192836.png",

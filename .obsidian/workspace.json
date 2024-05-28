@@ -55,9 +55,21 @@
                 "file": "hashes.org_for_dehashing password.png"
               }
             }
+          },
+          {
+            "id": "11258f4d46125666",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -123,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hashes.org_for_dehashing password.png",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hashes.org_for_dehashing password.png",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hashes.org_for_dehashing password.png"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -193,8 +205,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ad4fd34e003139d9",
+  "active": "11258f4d46125666",
   "lastOpenFiles": [
+    "hashes.org_for_dehashing password.png",
+    "conflict-files-obsidian-git.md",
     "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
     "Ethical Hacking/7. Reconnaisance.md",
     "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",

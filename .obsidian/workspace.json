@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/7.4 Hunting SubDomains.md",
+                "file": "Ethical Hacking/7.5 Identifying Website Technologies.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/7.4 Hunting SubDomains.md",
+                "file": "Ethical Hacking/7.5 Identifying Website Technologies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/7.4 Hunting SubDomains.md",
+                "file": "Ethical Hacking/7.5 Identifying Website Technologies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/7.4 Hunting SubDomains.md"
+                "file": "Ethical Hacking/7.5 Identifying Website Technologies.md"
               }
             }
           },
@@ -195,15 +195,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ad4fd34e003139d9",
+  "active": "99b8042c696f90a8",
   "lastOpenFiles": [
+    "Ethical Hacking/7.4 Hunting SubDomains.md",
     "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
     "checking_associated_email_with_gmail.png",
     "crt.sh_check_what_tools_using_domain.png",
-    "Ethical Hacking/7.4 Hunting SubDomains.md",
     "Clearbit_sample_email_found.png",
     "Hunter.io.png",
-    "Pasted image 20240527200325.png",
+    "whatweb_usage.png",
     "hashes.org_for_dehashing_password.png",
     "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
     "email_checker_net_if_email_exists.png",

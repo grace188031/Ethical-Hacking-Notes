@@ -50,9 +50,11 @@
             "id": "ad4fd34e003139d9",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "hashes.org_for_dehashing password.png"
+                "file": "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -123,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hashes.org_for_dehashing password.png",
+                "file": "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hashes.org_for_dehashing password.png",
+                "file": "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hashes.org_for_dehashing password.png"
+                "file": "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md"
               }
             }
           },
@@ -195,11 +197,13 @@
   },
   "active": "ad4fd34e003139d9",
   "lastOpenFiles": [
+    "Ethical Hacking/7.4 Hunting SubDomains.md",
+    "Pasted image 20240527200325.png",
+    "hashes.org_for_dehashing_password.png",
     "Clearbit_sample_email_found.png",
     "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
     "email_checker_net_if_email_exists.png",
     "checking_associated_email_with_gmail.png",
-    "hashes.org_for_dehashing password.png",
     "Ethical Hacking/7.2 Gathering Breached Credentials with Breach-Parse.md",
     "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
     "Verify_email_after_clearbit.png",
@@ -211,9 +215,7 @@
     "Ethical Hacking/7. Reconnaisance.md",
     "Ethical Hacking/7.6 Information Gathering with Burp Suite.md",
     "Ethical Hacking/7.5 Identifying Website Technologies.md",
-    "Pasted image 20240527200325.png",
     "WhatWeb.png",
-    "Ethical Hacking/7.4 Hunting SubDomains.md",
     "How to add Git repository/Steps in adding Git from Remote.md",
     "How to add Git repository/Steps in adding owasp-amass git.md",
     "Untitled/Untitled.md",

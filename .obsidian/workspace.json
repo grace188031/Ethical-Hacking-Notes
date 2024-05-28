@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
+                "file": "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
+                "file": "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
+                "file": "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md"
+                "file": "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md"
               }
             }
           },
@@ -197,6 +197,8 @@
   },
   "active": "ad4fd34e003139d9",
   "lastOpenFiles": [
+    "Ethical Hacking/7. Reconnaisance.md",
+    "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
     "Ethical Hacking/7.6 Information Gathering with Burp Suite.md",
     "Ethical Hacking/7.5 Identifying Website Technologies.md",
     "Pasted image 20240527200325.png",
@@ -210,7 +212,6 @@
     "Pasted image 20231025224207.png",
     "dehashed_forchecking_breached_credential.png",
     "Ethical Hacking/7.4 Hunting SubDomains.md",
-    "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
     "Ethical Hacking/7.2 Gathering Breached Credentials with Breach-Parse.md",
     "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
     "How to add Git repository/Steps in adding Git from Remote.md",
@@ -221,7 +222,6 @@
     "Untitled.canvas",
     "PNPT Certification Path/1. What need to Learn.md",
     "Ethical Hacking/6. Ethical Hacking.md",
-    "Ethical Hacking/7. Reconnaisance.md",
     "How to add Git repository",
     "Ethical Hacking",
     "PNPT Certification Path/3. Installing and updating.md",

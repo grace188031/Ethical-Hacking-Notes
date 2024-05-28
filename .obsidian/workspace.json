@@ -50,11 +50,9 @@
             "id": "ad4fd34e003139d9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
-                "mode": "source",
-                "source": false
+                "file": "Clearbit_sample_email_found.png"
               }
             }
           }
@@ -125,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
+                "file": "Clearbit_sample_email_found.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
+                "file": "Clearbit_sample_email_found.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md"
+                "file": "Clearbit_sample_email_found.png"
               }
             }
           },
@@ -197,9 +195,9 @@
   },
   "active": "ad4fd34e003139d9",
   "lastOpenFiles": [
+    "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
     "email_checker_net_if_email_exists.png",
     "checking_associated_email_with_gmail.png",
-    "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
     "hashes.org_for_dehashing password.png",
     "Ethical Hacking/7.2 Gathering Breached Credentials with Breach-Parse.md",
     "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
@@ -215,7 +213,6 @@
     "Ethical Hacking/7.5 Identifying Website Technologies.md",
     "Pasted image 20240527200325.png",
     "WhatWeb.png",
-    "Hunter.io.png",
     "Ethical Hacking/7.4 Hunting SubDomains.md",
     "How to add Git repository/Steps in adding Git from Remote.md",
     "How to add Git repository/Steps in adding owasp-amass git.md",

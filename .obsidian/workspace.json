@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/7.5 Identifying Website Technologies.md",
+                "file": "Ethical Hacking/8.2 Scanning with Nmap.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/7.5 Identifying Website Technologies.md",
+                "file": "Ethical Hacking/8.2 Scanning with Nmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/7.5 Identifying Website Technologies.md",
+                "file": "Ethical Hacking/8.2 Scanning with Nmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/7.5 Identifying Website Technologies.md"
+                "file": "Ethical Hacking/8.2 Scanning with Nmap.md"
               }
             }
           },
@@ -197,6 +197,7 @@
   },
   "active": "09e4d22a22fad839",
   "lastOpenFiles": [
+    "Ethical Hacking/7.5 Identifying Website Technologies.md",
     "Ethical Hacking/7.6 Information Gathering with Burp Suite.md",
     "Ethical Hacking/7.7 Google Fu.md",
     "Ethical Hacking/7.8 Utilizing Social Media.md",
@@ -217,7 +218,6 @@
     "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
     "Ethical Hacking/Untitled",
     "Ethical Hacking/7. Reconnaisance.md",
-    "Ethical Hacking/7.5 Identifying Website Technologies.md",
     "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
     "Search_google.png",
     "Pasted image 20240602180449.png",

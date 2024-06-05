@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/7.6 Information Gathering with Burp Suite.md",
+                "file": "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5
+    "width": 361.5
   },
   "right": {
     "id": "af3095085d650761",
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/7.6 Information Gathering with Burp Suite.md",
+                "file": "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/7.6 Information Gathering with Burp Suite.md",
+                "file": "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/7.6 Information Gathering with Burp Suite.md"
+                "file": "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md"
               }
             }
           },
@@ -197,16 +197,18 @@
   },
   "active": "09e4d22a22fad839",
   "lastOpenFiles": [
+    "Ethical Hacking/7.6 Information Gathering with Burp Suite.md",
+    "Ethical Hacking/8.2 Scanning with Nmap.md",
+    "Pasted image 20231025224207.png",
+    "turn_on_off_burpsuite_foxy.png",
+    "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
+    "Download_foxyproxy.png",
     "Ethical Hacking/7.5 Identifying Website Technologies.md",
     "Ethical Hacking/7.2 Gathering Breached Credentials with Breach-Parse.md",
     "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
     "Ethical Hacking/7.7 Google Fu.md",
     "burpsuite_cert.png",
-    "Ethical Hacking/7.6 Information Gathering with Burp Suite.md",
-    "Pasted image 20240605180952.png",
-    "Pasted image 20240605180659.png",
-    "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
-    "Ethical Hacking/8.2 Scanning with Nmap.md",
+    "foxy_proxy_setting.png",
     "Ethical Hacking/8.1 Installing Kioptrix.md",
     "Ethical Hacking/7.8 Utilizing Social Media.md",
     "Ethical Hacking/8. Scanning and Enumeration.md",
@@ -216,8 +218,6 @@
     "arp-scan.png",
     "kioptrix_login.png",
     "Intercept_on.png",
-    "Kioptrix_download_ova.png",
-    "Kioptrix.png",
     "Ethical Hacking/6. Ethical Hacking.md",
     "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
     "Ethical Hacking/Untitled",

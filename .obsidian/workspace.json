@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
+                "file": "Ethical Hacking/8.5 Enumerating SMB.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
+                "file": "Ethical Hacking/8.5 Enumerating SMB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
+                "file": "Ethical Hacking/8.5 Enumerating SMB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md"
+                "file": "Ethical Hacking/8.5 Enumerating SMB.md"
               }
             }
           },
@@ -198,8 +198,10 @@
   "active": "09e4d22a22fad839",
   "lastOpenFiles": [
     "Ethical Hacking/8.4 Enumerating HTTP and HTTPS Part 2.md",
-    "Pasted image 20240606185722.png",
+    "Ethical Hacking/8.5 Enumerating SMB.md",
     "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
+    "Ethical Hacking/8.2 Scanning with Nmap.md",
+    "Pasted image 20240606185722.png",
     "Pasted image 20240606185244.png",
     "Pasted image 20240606184710.png",
     "Pasted image 20240606184631.png",
@@ -212,7 +214,6 @@
     "PNPT Certification Path/4. Bashscripts.md",
     "PNPT Certification Path/3. Installing and updating.md",
     "pimpmykali.png",
-    "Ethical Hacking/8.2 Scanning with Nmap.md",
     "Ethical Hacking/8.1 Installing Kioptrix.md",
     "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
     "Ethical Hacking/8. Scanning and Enumeration.md",

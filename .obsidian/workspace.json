@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/8.2 Scanning with Nmap.md",
+                "file": "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/8.2 Scanning with Nmap.md",
+                "file": "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/8.2 Scanning with Nmap.md",
+                "file": "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/8.2 Scanning with Nmap.md"
+                "file": "Ethical Hacking/7.1 Reconnaissance - Discovering Email Address.md"
               }
             }
           },
@@ -197,6 +197,7 @@
   },
   "active": "09e4d22a22fad839",
   "lastOpenFiles": [
+    "Ethical Hacking/8.2 Scanning with Nmap.md",
     "Ethical Hacking/8.1 Installing Kioptrix.md",
     "Ethical Hacking/8. Scanning and Enumeration.md",
     "Ethical Hacking/7.8 Utilizing Social Media.md",
@@ -206,7 +207,6 @@
     "Ethical Hacking/7.4 Hunting SubDomains.md",
     "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
     "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
-    "Ethical Hacking/8.2 Scanning with Nmap.md",
     "kioptrix_redirection.png",
     "Ethical Hacking/8.4 Enumerating HTTP and HTTPS Part 2.md",
     "kioptrix_site.png",

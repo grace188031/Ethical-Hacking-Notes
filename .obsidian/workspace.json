@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PNPT Certification Path/5. Python.md",
+                "file": "Ethical Hacking/8.5 Enumerating SMB.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PNPT Certification Path/5. Python.md",
+                "file": "Ethical Hacking/8.5 Enumerating SMB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PNPT Certification Path/5. Python.md",
+                "file": "Ethical Hacking/8.5 Enumerating SMB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PNPT Certification Path/5. Python.md"
+                "file": "Ethical Hacking/8.5 Enumerating SMB.md"
               }
             }
           },
@@ -197,6 +197,8 @@
   },
   "active": "09e4d22a22fad839",
   "lastOpenFiles": [
+    "Ethical Hacking/8.6 Enumerating SSH.md",
+    "PNPT Certification Path/5. Python.md",
     "PNPT Certification Path/4. Bashscripts.md",
     "PNPT Certification Path/3. Installing and updating.md",
     "PNPT Certification Path/2. Useful Network Commands.md",
@@ -219,7 +221,6 @@
     "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
     "Ethical Hacking/8.4 Enumerating HTTP and HTTPS Part 2.md",
     "Ethical Hacking/8.5 Enumerating SMB.md",
-    "Ethical Hacking/8.6 Enumerating SSH.md",
     "Ethical Hacking/8.7 Researching Potential Vulnerabilities.md",
     "Images/whatweb_usage.png",
     "Images/Burpsuite_target.png",
@@ -232,7 +233,6 @@
     "Images/kioptrix_login.png",
     "Images/Intercept_burpsuite.png",
     "Images/metasploit_smb_versioninfo.png",
-    "PNPT Certification Path/5. Python.md",
     "Ethical Hacking/Untitled",
     "Images/Burpsuite_proxy.md",
     "Images/Untitled.canvas",

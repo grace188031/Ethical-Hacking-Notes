@@ -38,9 +38,11 @@
             "id": "09e4d22a22fad839",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Images/Burpsuite_target.png"
+                "file": "Ethical Hacking/8.4 Enumerating HTTP and HTTPS Part 2.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -123,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Images/Burpsuite_target.png",
+                "file": "Ethical Hacking/8.4 Enumerating HTTP and HTTPS Part 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Images/Burpsuite_target.png",
+                "file": "Ethical Hacking/8.4 Enumerating HTTP and HTTPS Part 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Images/Burpsuite_target.png"
+                "file": "Ethical Hacking/8.4 Enumerating HTTP and HTTPS Part 2.md"
               }
             }
           },
@@ -193,12 +195,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "99b8042c696f90a8",
+  "active": "09e4d22a22fad839",
   "lastOpenFiles": [
+    "Ethical Hacking/8.6 Enumerating SSH.md",
+    "Images/Burpsuite_target.png",
     "Ethical Hacking/8.4 Enumerating HTTP and HTTPS Part 2.md",
     "Ethical Hacking/8.7 Researching Potential Vulnerabilities.md",
     "Images",
-    "Ethical Hacking/8.6 Enumerating SSH.md",
     "Ethical Hacking/8.5 Enumerating SMB.md",
     "burpsuite_repeater.png",
     "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
@@ -212,7 +215,6 @@
     "Ethical Hacking/8.1 Installing Kioptrix.md",
     "metasploit_smb_versioninfo.png",
     "metasploit_smb.png",
-    "Images/Burpsuite_target.png",
     "PNPT Certification Path/5. Python.md",
     "PNPT Certification Path/4. Bashscripts.md",
     "PNPT Certification Path/3. Installing and updating.md",

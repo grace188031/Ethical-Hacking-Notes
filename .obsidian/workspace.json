@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
+                "file": "Ethical Hacking/9 Vulnerability Scanning with Nessus.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
+                "file": "Ethical Hacking/9 Vulnerability Scanning with Nessus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
+                "file": "Ethical Hacking/9 Vulnerability Scanning with Nessus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md"
+                "file": "Ethical Hacking/9 Vulnerability Scanning with Nessus.md"
               }
             }
           },
@@ -209,11 +209,15 @@
   },
   "active": "6f527d5c7f8d3262",
   "lastOpenFiles": [
+    "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
+    "Ethical Hacking/9 Vulnerability Scanning with Nessus.md",
+    "Pasted image 20240611224821.png",
+    "Images/Burpsuite_target.png",
+    "Ethical Hacking/8.4 Enumerating HTTP and HTTPS Part 2.md",
+    "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
     "Ethical Hacking/8.6 Enumerating SSH.md",
     "Ethical Hacking/8.5 Enumerating SMB.md",
-    "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
     "Ethical Hacking/8.2 Scanning with Nmap.md",
-    "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
     "Ethical Hacking/8.7 Researching Potential Vulnerabilities.md",
     "PNPT Certification Path/5. Python.md",
     "PNPT Certification Path/4. Bashscripts.md",
@@ -233,10 +237,7 @@
     "Ethical Hacking/7.7 Google Fu.md",
     "Ethical Hacking/7.8 Utilizing Social Media.md",
     "Ethical Hacking/8. Scanning and Enumeration.md",
-    "Ethical Hacking/8.1 Installing Kioptrix.md",
-    "Ethical Hacking/8.4 Enumerating HTTP and HTTPS Part 2.md",
     "Images/whatweb_usage.png",
-    "Images/Burpsuite_target.png",
     "Images",
     "Images/burpsuite_repeater.png",
     "Images/crt.sh_check_what_tools_using_domain.png",
@@ -245,7 +246,6 @@
     "Images/Kioptrix_download_ova.png",
     "Images/kioptrix_login.png",
     "Images/Intercept_burpsuite.png",
-    "Images/metasploit_smb_versioninfo.png",
     "Ethical Hacking/Untitled",
     "Images/Untitled.canvas",
     "How to add Git repository",

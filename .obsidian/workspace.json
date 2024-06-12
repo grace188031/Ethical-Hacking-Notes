@@ -50,9 +50,11 @@
             "id": "6f527d5c7f8d3262",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.3"
+                "file": "Ethical Hacking/8.7 Researching Potential Vulnerabilities.md",
+                "mode": "source",
+                "source": false
               }
             }
           },

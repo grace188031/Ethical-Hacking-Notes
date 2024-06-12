@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/9 Vulnerability Scanning with Nessus.md",
+                "file": "Ethical Hacking/9.1 Scanning with Nessus Part 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/9 Vulnerability Scanning with Nessus.md",
+                "file": "Ethical Hacking/9.1 Scanning with Nessus Part 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/9 Vulnerability Scanning with Nessus.md",
+                "file": "Ethical Hacking/9.1 Scanning with Nessus Part 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/9 Vulnerability Scanning with Nessus.md"
+                "file": "Ethical Hacking/9.1 Scanning with Nessus Part 1.md"
               }
             }
           },
@@ -209,8 +209,10 @@
   },
   "active": "6f527d5c7f8d3262",
   "lastOpenFiles": [
-    "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
+    "Images/Nessus_Debian.png",
     "Ethical Hacking/9 Vulnerability Scanning with Nessus.md",
+    "Ethical Hacking/9.1 Scanning with Nessus Part 1.md",
+    "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
     "Pasted image 20240611224821.png",
     "Images/Burpsuite_target.png",
     "Ethical Hacking/8.4 Enumerating HTTP and HTTPS Part 2.md",
@@ -235,8 +237,6 @@
     "Ethical Hacking/7.5 Identifying Website Technologies.md",
     "Ethical Hacking/7.6 Information Gathering with Burp Suite.md",
     "Ethical Hacking/7.7 Google Fu.md",
-    "Ethical Hacking/7.8 Utilizing Social Media.md",
-    "Ethical Hacking/8. Scanning and Enumeration.md",
     "Images/whatweb_usage.png",
     "Images",
     "Images/burpsuite_repeater.png",

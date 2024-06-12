@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/8.7 Researching Potential Vulnerabilities.md",
+                "file": "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/8.7 Researching Potential Vulnerabilities.md",
+                "file": "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/8.7 Researching Potential Vulnerabilities.md",
+                "file": "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/8.7 Researching Potential Vulnerabilities.md"
+                "file": "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md"
               }
             }
           },
@@ -209,9 +209,10 @@
   },
   "active": "6f527d5c7f8d3262",
   "lastOpenFiles": [
+    "Ethical Hacking/8.7 Researching Potential Vulnerabilities.md",
+    "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
     "Ethical Hacking/8.6 Enumerating SSH.md",
     "Ethical Hacking/8.5 Enumerating SMB.md",
-    "Ethical Hacking/8.7 Researching Potential Vulnerabilities.md",
     "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
     "PNPT Certification Path/5. Python.md",
     "PNPT Certification Path/4. Bashscripts.md",
@@ -246,7 +247,6 @@
     "Images/Intercept_burpsuite.png",
     "Images/metasploit_smb_versioninfo.png",
     "Ethical Hacking/Untitled",
-    "Images/Burpsuite_proxy.md",
     "Images/Untitled.canvas",
     "How to add Git repository",
     "Ethical Hacking",

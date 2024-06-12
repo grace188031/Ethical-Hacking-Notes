@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
+                "file": "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
+                "file": "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
+                "file": "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md"
+                "file": "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md"
               }
             }
           },
@@ -209,11 +209,12 @@
   },
   "active": "6f527d5c7f8d3262",
   "lastOpenFiles": [
-    "Ethical Hacking/8.7 Researching Potential Vulnerabilities.md",
-    "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
     "Ethical Hacking/8.6 Enumerating SSH.md",
-    "Ethical Hacking/8.5 Enumerating SMB.md",
     "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
+    "Ethical Hacking/8.2 Scanning with Nmap.md",
+    "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
+    "Ethical Hacking/8.7 Researching Potential Vulnerabilities.md",
+    "Ethical Hacking/8.5 Enumerating SMB.md",
     "PNPT Certification Path/5. Python.md",
     "PNPT Certification Path/4. Bashscripts.md",
     "PNPT Certification Path/3. Installing and updating.md",
@@ -233,7 +234,6 @@
     "Ethical Hacking/7.8 Utilizing Social Media.md",
     "Ethical Hacking/8. Scanning and Enumeration.md",
     "Ethical Hacking/8.1 Installing Kioptrix.md",
-    "Ethical Hacking/8.2 Scanning with Nmap.md",
     "Ethical Hacking/8.4 Enumerating HTTP and HTTPS Part 2.md",
     "Images/whatweb_usage.png",
     "Images/Burpsuite_target.png",

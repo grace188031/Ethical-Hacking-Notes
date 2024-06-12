@@ -88,6 +88,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "15ad49c073a4ef62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Ethical Hacking/9.1 Scanning with Nessus Part 1.md",
                 "mode": "source",
                 "source": false
@@ -107,7 +119,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -243,16 +255,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ce3acf6eddf6981e",
+  "active": "15ad49c073a4ef62",
   "lastOpenFiles": [
+    "Images/Cherry_Tree_Notetaking.png",
     "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
-    "Ethical Hacking/9 Vulnerability Scanning with Nessus.md",
+    "Images/Nessus_Debian.png",
+    "Images/Pasted image 20240606181449.png",
+    "Images/Nessus_Debian.png",
     "Ethical Hacking/9.1 Scanning with Nessus Part 1.md",
+    "Ethical Hacking/9 Vulnerability Scanning with Nessus.md",
     "Pasted image 20240612183933.png",
     "Ethical Hacking/8.6 Enumerating SSH.md",
     "Ethical Hacking/8.7 Researching Potential Vulnerabilities.md",
-    "Images/Nessus_Debian.png",
-    "Images/Cherry_Tree_Notetaking.png",
     "PNPT Certification Path/5. Python.md",
     "Images/Untitled.canvas",
     "[.md",
@@ -280,8 +294,6 @@
     "Images",
     "Images/burpsuite_repeater.png",
     "Images/crt.sh_check_what_tools_using_domain.png",
-    "Images/dirbuster_tree_view.png",
-    "Images/dirbuster_Webalizer.png",
     "Ethical Hacking/Untitled",
     "How to add Git repository",
     "Ethical Hacking",

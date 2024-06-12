@@ -83,6 +83,18 @@
             }
           },
           {
+            "id": "ce3acf6eddf6981e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ethical Hacking/9 Vulnerability Scanning with Nessus.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ad4fd34e003139d9",
             "type": "leaf",
             "state": {
@@ -95,7 +107,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -161,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/9.1 Scanning with Nessus Part 1.md",
+                "file": "Ethical Hacking/9 Vulnerability Scanning with Nessus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/9.1 Scanning with Nessus Part 1.md",
+                "file": "Ethical Hacking/9 Vulnerability Scanning with Nessus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/9.1 Scanning with Nessus Part 1.md"
+                "file": "Ethical Hacking/9 Vulnerability Scanning with Nessus.md"
               }
             }
           },
@@ -231,25 +243,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3b404010fca6edde",
+  "active": "ce3acf6eddf6981e",
   "lastOpenFiles": [
+    "Ethical Hacking/9.1 Scanning with Nessus Part 1.md",
+    "Ethical Hacking/8.6 Enumerating SSH.md",
+    "Ethical Hacking/8.7 Researching Potential Vulnerabilities.md",
+    "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
+    "Images/Nessus_Debian.png",
+    "Images/Cherry_Tree_Notetaking.png",
+    "Pasted image 20240612183933.png",
+    "PNPT Certification Path/5. Python.md",
+    "Images/Untitled.canvas",
+    "[.md",
     "Ethical Hacking/9 Vulnerability Scanning with Nessus.md",
     "Ethical Hacking/7.7 Google Fu.md",
-    "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
-    "Ethical Hacking/9.1 Scanning with Nessus Part 1.md",
-    "Pasted image 20240612183933.png",
-    "[.md",
     "Images/dirbuster_settings.png",
     "Ethical Hacking/8.4 Enumerating HTTP and HTTPS Part 2.md",
     "Ethical Hacking/8.5 Enumerating SMB.md",
-    "Ethical Hacking/8.6 Enumerating SSH.md",
-    "Ethical Hacking/8.7 Researching Potential Vulnerabilities.md",
-    "Images/Nessus_Debian.png",
-    "Pasted image 20240611224821.png",
     "Images/Burpsuite_target.png",
     "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
     "Ethical Hacking/8.2 Scanning with Nmap.md",
-    "PNPT Certification Path/5. Python.md",
     "PNPT Certification Path/4. Bashscripts.md",
     "PNPT Certification Path/3. Installing and updating.md",
     "PNPT Certification Path/2. Useful Network Commands.md",
@@ -263,7 +276,6 @@
     "Ethical Hacking/7.3 Hunting Breached Credentials with Dehashed.md",
     "Ethical Hacking/7.4 Hunting SubDomains.md",
     "Ethical Hacking/7.5 Identifying Website Technologies.md",
-    "Ethical Hacking/7.6 Information Gathering with Burp Suite.md",
     "Images/whatweb_usage.png",
     "Images",
     "Images/burpsuite_repeater.png",
@@ -271,7 +283,6 @@
     "Images/dirbuster_tree_view.png",
     "Images/dirbuster_Webalizer.png",
     "Ethical Hacking/Untitled",
-    "Images/Untitled.canvas",
     "How to add Git repository",
     "Ethical Hacking",
     "PNPT Certification Path"

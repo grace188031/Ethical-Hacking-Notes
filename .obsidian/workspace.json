@@ -88,7 +88,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/9 Vulnerability Scanning with Nessus.md",
+                "file": "Ethical Hacking/9.1 Scanning with Nessus Part 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/9 Vulnerability Scanning with Nessus.md",
+                "file": "Ethical Hacking/9.1 Scanning with Nessus Part 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/9 Vulnerability Scanning with Nessus.md",
+                "file": "Ethical Hacking/9.1 Scanning with Nessus Part 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/9 Vulnerability Scanning with Nessus.md"
+                "file": "Ethical Hacking/9.1 Scanning with Nessus Part 1.md"
               }
             }
           },
@@ -245,17 +245,17 @@
   },
   "active": "ce3acf6eddf6981e",
   "lastOpenFiles": [
+    "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
+    "Ethical Hacking/9 Vulnerability Scanning with Nessus.md",
     "Ethical Hacking/9.1 Scanning with Nessus Part 1.md",
+    "Pasted image 20240612183933.png",
     "Ethical Hacking/8.6 Enumerating SSH.md",
     "Ethical Hacking/8.7 Researching Potential Vulnerabilities.md",
-    "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
     "Images/Nessus_Debian.png",
     "Images/Cherry_Tree_Notetaking.png",
-    "Pasted image 20240612183933.png",
     "PNPT Certification Path/5. Python.md",
     "Images/Untitled.canvas",
     "[.md",
-    "Ethical Hacking/9 Vulnerability Scanning with Nessus.md",
     "Ethical Hacking/7.7 Google Fu.md",
     "Images/dirbuster_settings.png",
     "Ethical Hacking/8.4 Enumerating HTTP and HTTPS Part 2.md",

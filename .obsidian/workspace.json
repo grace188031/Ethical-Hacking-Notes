@@ -124,7 +124,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/10.4 Manual Exploitation.md",
+                "file": "Ethical Hacking/10.5 Brute Force Attack.md",
                 "mode": "source",
                 "source": false
               }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/10.4 Manual Exploitation.md",
+                "file": "Ethical Hacking/10.5 Brute Force Attack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -214,7 +214,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/10.4 Manual Exploitation.md",
+                "file": "Ethical Hacking/10.5 Brute Force Attack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -237,7 +237,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/10.4 Manual Exploitation.md"
+                "file": "Ethical Hacking/10.5 Brute Force Attack.md"
               }
             }
           },
@@ -269,12 +269,13 @@
   },
   "active": "ad4fd34e003139d9",
   "lastOpenFiles": [
+    "Ethical Hacking/10.4 Manual Exploitation.md",
+    "Ethical Hacking/10.5 Brute Force Attack.md",
     "Ethical Hacking/8.7 Researching Potential Vulnerabilities.md",
     "Ethical Hacking/8.6 Enumerating SSH.md",
     "Ethical Hacking/8.5 Enumerating SMB.md",
     "Ethical Hacking/8.4 Enumerating HTTP and HTTPS Part 2.md",
     "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
-    "Ethical Hacking/10.4 Manual Exploitation.md",
     "Ethical Hacking/10.3 Gaining Root with Metaslpoit.md",
     "Ethical Hacking/10.2 Staged vs Non-Staged Payloads.md",
     "Ethical Hacking/7.6 Information Gathering with Burp Suite.md",
@@ -305,7 +306,6 @@
     "PNPT Certification Path/3. Installing and updating.md",
     "PNPT Certification Path/2. Useful Network Commands.md",
     "PNPT Certification Path/1. What need to Learn.md",
-    "How to add Git repository/Steps in adding owasp-amass git.md",
     "Images",
     "Ethical Hacking/Untitled",
     "How to add Git repository",

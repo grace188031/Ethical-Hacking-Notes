@@ -124,7 +124,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/10.3 Gaining Root with Metaslpoit.md",
+                "file": "Ethical Hacking/10.4 Manual Exploitation.md",
                 "mode": "source",
                 "source": false
               }
@@ -197,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/10.3 Gaining Root with Metaslpoit.md",
+                "file": "Ethical Hacking/10.4 Manual Exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -214,7 +214,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/10.3 Gaining Root with Metaslpoit.md",
+                "file": "Ethical Hacking/10.4 Manual Exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -237,7 +237,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/10.3 Gaining Root with Metaslpoit.md"
+                "file": "Ethical Hacking/10.4 Manual Exploitation.md"
               }
             }
           },
@@ -269,8 +269,14 @@
   },
   "active": "ad4fd34e003139d9",
   "lastOpenFiles": [
-    "Ethical Hacking/10.2 Staged vs Non-Staged Payloads.md",
+    "Ethical Hacking/8.7 Researching Potential Vulnerabilities.md",
+    "Ethical Hacking/8.6 Enumerating SSH.md",
+    "Ethical Hacking/8.5 Enumerating SMB.md",
+    "Ethical Hacking/8.4 Enumerating HTTP and HTTPS Part 2.md",
+    "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
+    "Ethical Hacking/10.4 Manual Exploitation.md",
     "Ethical Hacking/10.3 Gaining Root with Metaslpoit.md",
+    "Ethical Hacking/10.2 Staged vs Non-Staged Payloads.md",
     "Ethical Hacking/7.6 Information Gathering with Burp Suite.md",
     "Ethical Hacking/10.1 Reverse Shells vs Bind Shells.md",
     "Ethical Hacking/10 Exploitation Basic.md",
@@ -283,7 +289,6 @@
     "Pasted image 20240613164741.png",
     "Pasted image 20240613164237.png",
     "Ethical Hacking/7.8 Utilizing Social Media.md",
-    "Ethical Hacking/8.7 Researching Potential Vulnerabilities.md",
     "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
     "Ethical Hacking/9.1 Scanning with Nessus Part 1.md",
     "Pasted image 20240613163235.png",
@@ -291,21 +296,16 @@
     "Pasted image 20240612193134.png",
     "Images/Pasted.md",
     "Images/Burpsuite_proxy.md",
-    "Ethical Hacking/8.6 Enumerating SSH.md",
     "PNPT Certification Path/5. Python.md",
     "Images/Untitled.canvas",
     "[.md",
     "Ethical Hacking/7.7 Google Fu.md",
-    "Ethical Hacking/8.4 Enumerating HTTP and HTTPS Part 2.md",
-    "Ethical Hacking/8.5 Enumerating SMB.md",
-    "Ethical Hacking/8.3 Enumerating HTTP and HTTPS Part 1.md",
     "Ethical Hacking/8.2 Scanning with Nmap.md",
     "PNPT Certification Path/4. Bashscripts.md",
     "PNPT Certification Path/3. Installing and updating.md",
     "PNPT Certification Path/2. Useful Network Commands.md",
     "PNPT Certification Path/1. What need to Learn.md",
     "How to add Git repository/Steps in adding owasp-amass git.md",
-    "How to add Git repository/Steps in adding Git from Remote.md",
     "Images",
     "Ethical Hacking/Untitled",
     "How to add Git repository",

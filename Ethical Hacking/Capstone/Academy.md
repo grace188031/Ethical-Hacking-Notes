@@ -50,11 +50,11 @@ Nmap done: 1 IP address (1 host up) scanned in 18.61 seconds
 ## Enumerate the HTTP
 
 - Access the http://192.168.64.3
-![[Pasted image 20240619185941.png]]
+![Alt](../../Images/academypage.png)
 
 Checking path in the web reveals the Apache version
 
-![[Pasted image 20240619190825.png]]
+![Alt](../../Images/academyredirect.png)
 **Note: Finding revealing too much information**
 
 ## Exploiting FTP
@@ -327,4 +327,4 @@ academy                 [Status: 301, Size: 314, Words: 20, Lines: 10, Duration:
 
 - Now access the academy http://192.168.64.3/academy
 
-![[Pasted image 20240703191557.png]]
+![Alt](../../Images/academywebdir.png)

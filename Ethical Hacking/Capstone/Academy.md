@@ -356,6 +356,16 @@ In the php-reverse-shell.php code, we need to change the IP address(ip of our ka
 
 Our Kali's Ip address is 192.168.64.4
 
+Now, we will do reverse shell in our kali while uploading rever shell php code into the student photo
+
+![[Pasted image 20240706004736.png]]
+
+
+
+![[Pasted image 20240706004802.png]]
+
+
+
 
 
 

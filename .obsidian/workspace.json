@@ -26,108 +26,72 @@
             "id": "1b9d40d6a96a2334",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ethical Hacking/7.5 Identifying Website Technologies.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "09e4d22a22fad839",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ethical Hacking/8.7 Researching Potential Vulnerabilities.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "6f527d5c7f8d3262",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ethical Hacking/8.4 Enumerating HTTP and HTTPS Part 2.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "e18483903915b602",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ethical Hacking/9.1 Scanning with Nessus Part 1.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "3b404010fca6edde",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ethical Hacking/9.1 Scanning with Nessus Part 1.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "ce3acf6eddf6981e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "15ad49c073a4ef62",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ethical Hacking/9.1 Scanning with Nessus Part 1.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "c4cc191cd5c518b8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ethical Hacking/10.2 Staged vs Non-Staged Payloads.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "ad4fd34e003139d9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ethical Hacking/10.6 Credential Stuffing and Spraying.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -197,7 +161,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/10.6 Credential Stuffing and Spraying.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -214,7 +177,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/10.6 Credential Stuffing and Spraying.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,9 +198,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Ethical Hacking/10.6 Credential Stuffing and Spraying.md"
-              }
+              "state": {}
             }
           },
           {

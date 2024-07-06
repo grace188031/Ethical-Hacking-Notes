@@ -362,7 +362,30 @@ Now, we will do reverse shell in our kali while uploading rever shell php code i
 
 
 
-![[Pasted image 20240706004802.png]]
+![[Pasted image 20240706005720.png]]
+
+upload the shell.php you created/downloaded from the site. while doing the reverse shell. As you see below:
+
+We were able to access the shell while doing the reverse shell
+
+![[Pasted image 20240706005903.png]]
+
+
+However, we are not the root user. As seen in the image below, we cannot do sudo
+
+![[Pasted image 20240706010105.png]]
+
+
+We will now search for linpeas online to do privilege escalation
+
+Here is the linpeas --> https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS
+
+You can copy the script: https://github.com/peass-ng/PEASS-ng/blob/master/linPEAS/builder/linpeas_parts/linpeas_base.sh in /root/transfer
+
+```
+mkdir 
+
+```
 
 
 

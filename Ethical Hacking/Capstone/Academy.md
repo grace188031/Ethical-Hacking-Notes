@@ -340,4 +340,19 @@ INSERT INTO `students` (`StudentRegno`, `studentPhoto`, `password`, `studentName
 The StudentRegNo is **10201321** and the password is the decoded cd73502828457d15655bbd7a63fb0bc8 which is **student**
 
 
+![[Pasted image 20240706003400.png]]
+
+
+Searching for php revere shell online
+
+We found out https://github.com/pentestmonkey/php-reverse-shell
+
+Copy the code https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php to your kali
+
+
+
+
+
+
+
 

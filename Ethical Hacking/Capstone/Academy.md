@@ -515,3 +515,57 @@ grimmie@academy:~$
 
 ![[Pasted image 20240706015231.png]]
 
+
+
+Lets see if we have root privilege. As checked, we have no root privilege and we cant check the cron jobs
+
+```
+grimmie@academy:~$ cat backup.sh 
+#!/bin/bash
+
+rm /tmp/backup.zip
+zip -r /tmp/backup.zip /var/www/html/academy/includes
+chmod 700 /tmp/backup.zip
+grimmie@academy:~$ sudo -l
+-bash: sudo: command not found
+grimmie@academy:~$ sudo -i
+-bash: sudo: command not found
+grimmie@academy:~$ cat backup.sh 
+#!/bin/bash
+
+rm /tmp/backup.zip
+zip -r /tmp/backup.zip /var/www/html/academy/includes
+chmod 700 /tmp/backup.zip
+grimmie@academy:~$ crontab -l
+no crontab for grimmie
+grimmie@academy:~$ crontab -u root -l
+must be privileged to use -u
+
+```
+
+
+List the timers
+
+```
+grimmie@academy:~$ systemctl list-timers
+NEXT                         LEFT          LAST                         PASSE
+Sat 2024-07-06 02:09:00 EDT  3min 44s left Sat 2024-07-06 01:39:01 EDT  26min
+Sat 2024-07-06 06:32:38 EDT  4h 27min left Fri 2024-07-05 23:39:52 EDT  2h 25
+Sat 2024-07-06 14:54:51 EDT  12h left      Fri 2024-07-05 23:39:52 EDT  2h 25
+Sun 2024-07-07 00:00:00 EDT  21h left      Sat 2024-07-06 00:27:52 EDT  1h 37
+Sun 2024-07-07 00:00:00 EDT  21h left      Sat 2024-07-06 00:27:52 EDT  1h 37
+Sun 2024-07-07 00:27:22 EDT  22h left      Fri 2024-07-05 23:55:01 EDT  2h 10
+
+6 timers listed.
+Pass --all to see loaded but inactive timers, too.
+
+```
+
+We want validation that it is indeed running on a timer
+Lets go to google and search pspy
+
+Download the 64 bit static version
+
+![[Pasted image 20240706020854.png]]
+
+

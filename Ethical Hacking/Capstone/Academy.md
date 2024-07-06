@@ -451,7 +451,41 @@ $ ./linpeas.sh
 
 ### Note some important information
 
+```
+/var/www/html/academy/admin/includes/config.php:$mysql_password = "My_V3ryS3cur3_P4ss";
+/var/www/html/academy/includes/config.php:$mysql_password = "My_V3ryS3cur3_P4ss";
+
+```
+
+![[Pasted image 20240706013553.png]]
+
+Backup file seen
+
+```
+╔══════════╣ Backup files (limited 100)
+-rwxr-xr-- 1 grimmie administrator 112 May 30  2021 /home/grimmie/backup.sh 
+```
+
+![[Pasted image 20240706013836.png]]
 
 
+Checking the config.php in the shell 
+
+```
+$ cat /var/www/html/academy/admin/includes/config.php
+<?php
+$mysql_hostname = "localhost";
+$mysql_user = "grimmie";
+$mysql_password = "My_V3ryS3cur3_P4ss";
+$mysql_database = "onlinecourse";
+$bd = mysqli_connect($mysql_hostname, $mysql_user, $mysql_password, $mysql_database) or die("Could not connect database");
+
+
+?>
+
+```
+
+When we go to cat /etc/passwd we see the user grimmie......
+... Hence, there is a user grimmie and we can try the "My_V3ryS3cur3_P4ss" to access via ssh
 
 

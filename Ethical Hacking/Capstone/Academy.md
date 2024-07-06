@@ -380,7 +380,7 @@ We will now search for linpeas online to do privilege escalation
 
 Here is the linpeas --> https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS
 
-You can copy the script: https://github.com/peass-ng/PEASS-ng/blob/master/linPEAS/builder/linpeas_parts/linpeas_base.sh in /root/transfer
+You can wget the script https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh in  /root/transfer
 
 ```
 ┌──(root㉿kali)-[~]
@@ -388,10 +388,8 @@ You can copy the script: https://github.com/peass-ng/PEASS-ng/blob/master/linPEA
 ┌──(root㉿kali)-[~]
 └─# cd /transfer  
 ┌──(root㉿kali)-[/transfer]
-└─# nano linpeas.sh                              
-┌──(root㉿kali)-[/transfer]
-└─# ls
-linpeas.sh
+└─# wget https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh
+
 
 ```
 
@@ -450,6 +448,8 @@ linpeas.sh
 $ ./linpeas.sh  
 
 ```
+
+### Note some important information
 
 
 

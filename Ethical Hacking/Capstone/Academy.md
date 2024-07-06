@@ -328,3 +328,16 @@ academy                 [Status: 301, Size: 314, Words: 20, Lines: 10, Duration:
 - Now access the academy http://192.168.64.3/academy
 
 ![Alt](../../Images/academywebdir.png)
+
+
+Based from the database:
+
+```
+INSERT INTO `students` (`StudentRegno`, `studentPhoto`, `password`, `studentName`, `pincode`, `session`, `department`, `semester`, `cgpa`, `creationdate`, `updationDate`) VALUES
+('10201321', '', 'cd73502828457d15655bbd7a63fb0bc8', 'Rum Ham', '777777', '', '', '', '7.60', '2021-05-29 14:36:56', '');
+```
+
+The StudentRegNo is **10201321** and the password is the decoded cd73502828457d15655bbd7a63fb0bc8 which is **student**
+
+
+

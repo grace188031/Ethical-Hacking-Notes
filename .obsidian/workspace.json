@@ -90,8 +90,12 @@
             "id": "ad4fd34e003139d9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Ethical Hacking/Capstone/Academy.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -161,6 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Ethical Hacking/Capstone/Academy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,6 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Ethical Hacking/Capstone/Academy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +204,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Ethical Hacking/Capstone/Academy.md"
+              }
             }
           },
           {
@@ -229,6 +237,12 @@
   },
   "active": "ad4fd34e003139d9",
   "lastOpenFiles": [
+    "Ethical Hacking/Capstone/Blue - PNPT.md",
+    "Ethical Hacking/Capstone/Academy.md",
+    "Ethical Hacking/1-Reconnaisance/7.4 Hunting SubDomains.md",
+    "Ethical Hacking/1-Reconnaisance/7.1 Reconnaissance - Discovering Email Address.md",
+    "Ethical Hacking/1-Reconnaisance/7. Reconnaisance.md",
+    "Ethical Hacking/0-Steps in Ethical Hacking/0-Steps in Ethical Hacking.md",
     "Ethical Hacking/10.5 Brute Force Attack.md",
     "Ethical Hacking/10.6 Credential Stuffing and Spraying.md",
     "Pasted image 20240613203442.png",
@@ -260,12 +274,6 @@
     "Images/Burpsuite_proxy.md",
     "PNPT Certification Path/5. Python.md",
     "Images/Untitled.canvas",
-    "[.md",
-    "Ethical Hacking/7.7 Google Fu.md",
-    "Ethical Hacking/8.2 Scanning with Nmap.md",
-    "PNPT Certification Path/4. Bashscripts.md",
-    "PNPT Certification Path/3. Installing and updating.md",
-    "PNPT Certification Path/2. Useful Network Commands.md",
     "Images",
     "Ethical Hacking/Untitled",
     "How to add Git repository",

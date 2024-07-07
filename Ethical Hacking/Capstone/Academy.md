@@ -1,3 +1,12 @@
+#exploitftp
+#ftpdownload
+#ftpupload
+#hascat
+#md5
+#ffuf
+#phpreverseshell
+#academy
+
 
 Password: tcm
 IP: 192.168.64.3
@@ -117,6 +126,8 @@ We can always adapt it to our needs.
 
 ### Lets check the value of the hash
 
+#hash-identifier
+
 - We can use the `hash-identifier` service in the kali
 - In the results, it said that it must be MD5 Hash
 ```
@@ -199,6 +210,8 @@ cd73502828457d15655bbd7a63fb0bc8:student
 
 ## Using the dirb 
 
+#dirb
+
 dirbuster to check the directories
 
 - `dirb http://192.168.64.3`
@@ -235,6 +248,8 @@ WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
 
 
 ## Using tool ffuf
+
+#ffuf
 
 - Install the ffuf first
 ```
@@ -350,6 +365,8 @@ We found out https://github.com/pentestmonkey/php-reverse-shell
 Copy the code https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php to your kali
 
 In the php-reverse-shell.php code, we need to change the IP address(ip of our kali). WE can change the port number as well but now we will leave this as port 1234
+#phpreverseshell 
+#reverseshellinjection
 
 
 ![Alt](../../Images/changingipportphpreverseshell.png)
@@ -394,6 +411,7 @@ You can wget the script https://github.com/peass-ng/PEASS-ng/releases/latest/dow
 ```
 
 Now let's do the privilege escalation
+#pythonhttpserver
 
 
 ![Alt](../../Images/usimgpythonhtpservertodownload.png)
@@ -565,6 +583,7 @@ We want validation that it is indeed running on a timer
 Lets go to google and search pspy
 
 Download the 64 bit static version
+#linpeas
 
 ![Alt](../../Images/usingpspy64bittocheckprocess.png)
 
@@ -620,6 +639,7 @@ grimmie@academy:/tmp$ chmod +x pspy64
 ```
 
 Run the pspy64. We will see all the process running in the machine
+#pspy64
 
 ```
 ./pspy64

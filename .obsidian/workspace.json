@@ -92,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/Capstone/Academy.md",
+                "file": "Ethical Hacking/Capstone/Blue - PNPT.md",
                 "mode": "source",
                 "source": false
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/Capstone/Academy.md",
+                "file": "Ethical Hacking/Capstone/Blue - PNPT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/Capstone/Academy.md",
+                "file": "Ethical Hacking/Capstone/Blue - PNPT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/Capstone/Academy.md"
+                "file": "Ethical Hacking/Capstone/Blue - PNPT.md"
               }
             }
           },
@@ -237,19 +237,21 @@
   },
   "active": "ad4fd34e003139d9",
   "lastOpenFiles": [
-    "Pasted image 20240706031938.png",
+    "Pasted image 20240618173441.png",
+    "Pasted image 20240617140045.png",
+    "Ethical Hacking/Capstone/Academy.md",
+    "linpeasresultofshell.png",
+    "Ethical Hacking/Capstone/Blue - PNPT.md",
+    "Ethical Hacking/Capstone/Untitled.md",
+    "Ethical Hacking/Capstone/Blue - TryHackMe.md",
+    "rootacquiredusingreverseshell.png",
     "Pasted image 20240706022043.png",
     "Pasted image 20240706021821.png",
-    "Pasted image 20240706021726.png",
+    "pspyprocess.png",
     "Pasted image 20240706021230.png",
     "Pasted image 20240706021114.png",
-    "Pasted image 20240706020854.png",
-    "Pasted image 20240706015231.png",
-    "Pasted image 20240706013836.png",
-    "Pasted image 20240706013553.png",
-    "Pasted image 20240706011446.png",
-    "Ethical Hacking/Capstone/Academy.md",
-    "Ethical Hacking/Capstone/Blue - PNPT.md",
+    "usingpspy64bittocheckprocess.png",
+    "accessusersshusingpwfromlinpeas.png",
     "Ethical Hacking/1-Reconnaisance/7.4 Hunting SubDomains.md",
     "Ethical Hacking/1-Reconnaisance/7.1 Reconnaissance - Discovering Email Address.md",
     "Ethical Hacking/1-Reconnaisance/7. Reconnaisance.md",
@@ -271,8 +273,6 @@
     "Ethical Hacking/7.8 Utilizing Social Media.md",
     "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
     "Ethical Hacking/9.1 Scanning with Nessus Part 1.md",
-    "Images/Pasted.md",
-    "Images/Burpsuite_proxy.md",
     "Images/Untitled.canvas",
     "Images",
     "Ethical Hacking/Untitled",

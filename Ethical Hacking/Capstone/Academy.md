@@ -340,7 +340,7 @@ INSERT INTO `students` (`StudentRegno`, `studentPhoto`, `password`, `studentName
 The StudentRegNo is **10201321** and the password is the decoded cd73502828457d15655bbd7a63fb0bc8 which is **student**
 
 
-![[Pasted image 20240706003400.png]]
+![Alt](../../Images/reverseshellinjectioninphoto.png)
 
 
 Searching for php revere shell online
@@ -352,28 +352,28 @@ Copy the code https://github.com/pentestmonkey/php-reverse-shell/blob/master/php
 In the php-reverse-shell.php code, we need to change the IP address(ip of our kali). WE can change the port number as well but now we will leave this as port 1234
 
 
-![[Pasted image 20240706003924.png]]
+![Alt](../../Images/changingipportphpreverseshell.png)
 
 Our Kali's Ip address is 192.168.64.4
 
 Now, we will do reverse shell in our kali while uploading rever shell php code into the student photo
 
-![[Pasted image 20240706004736.png]]
+![Alt](../../Images/serverinitiatingreverse.png)
 
 
 
-![[Pasted image 20240706005720.png]]
+![Alt](../../Images/reverseshelluploaded.png)
 
 upload the shell.php you created/downloaded from the site. while doing the reverse shell. As you see below:
 
 We were able to access the shell while doing the reverse shell
 
-![[Pasted image 20240706005903.png]]
+![Alt](../../Images/shellaquired.png)
 
 
 However, we are not the root user. As seen in the image below, we cannot do sudo
 
-![[Pasted image 20240706010105.png]]
+![Alt](../../Images/wwwdatauser.png)
 
 
 We will now search for linpeas online to do privilege escalation
@@ -393,15 +393,15 @@ You can wget the script https://github.com/peass-ng/PEASS-ng/releases/latest/dow
 
 ```
 
-Now lets do the privilege escalation
+Now let's do the privilege escalation
 
 
-![[Pasted image 20240706011130.png]]
+![Alt](../../Images/usimgpythonhtpservertodownload.png)
 
 
 Now we will do the download or `wget` to copy the linpeas to the shell(of the remote machine) that we access using our kali
 
-![[Pasted image 20240706011330.png]]
+![Alt](../../Images/downloadingdatafromkali.png)
 
 
 ```┌──(root㉿kali)-[~]
@@ -457,7 +457,7 @@ $ ./linpeas.sh
 
 ```
 
-![[Pasted image 20240706013553.png]]
+![Alt](../../Images/linpeasresultofshell.png)
 
 Backup file seen
 
@@ -466,7 +466,7 @@ Backup file seen
 -rwxr-xr-- 1 grimmie administrator 112 May 30  2021 /home/grimmie/backup.sh 
 ```
 
-![[Pasted image 20240706013836.png]]
+![Alt](../../Images/backupfilesseeninlinpeas.png)
 
 
 Checking the config.php in the shell 
@@ -513,7 +513,7 @@ grimmie@academy:~$
 ```
 
 
-![[Pasted image 20240706015231.png]]
+![Alt](../../Images/accessusersshusingpwfromlinpeas.png)
 
 
 
@@ -566,7 +566,7 @@ Lets go to google and search pspy
 
 Download the 64 bit static version
 
-![[Pasted image 20240706020854.png]]
+![Alt](../../Images/usingpspy64bittocheckprocess.png)
 
 Copy the pspy to the /transfer. Remember you have listerner `python -m http.server 80`
 
@@ -625,7 +625,7 @@ Run the pspy64. We will see all the process running in the machine
 ./pspy64
 ```
 
-![[Pasted image 20240706021726.png]]
+![Alt](../../Images/pspyprocess.png)
 
 
 We can indeed see that the backup is running
@@ -681,4 +681,4 @@ root@academy:~#
 
 ```
 
-![[Pasted image 20240706031938.png]]
+![Alt](../../Images/rootacquiredusingreverseshell.png)

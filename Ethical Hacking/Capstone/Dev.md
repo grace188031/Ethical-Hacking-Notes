@@ -98,4 +98,16 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 - http://192.168.64.6:8080
 		- PHP Version 7.3.27-1~deb10u1
 		- Linux dev 4.19.0-16-amd64 #1 SMP Debian 4.19.181-1 (2021-03-19) x86_64 
-		- 
+
+
+## Exploit port 80
+
+- http://192.168.64.6
+		- There is bolt cms webpage not in proper location
+
+
+## Directory scanning using ffuf
+
+#ffuf 
+
+`ffuf -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt:FUZZ -u http://192.168.64.6/FUZZ -mc 200,204,301,302,307,401,403,405

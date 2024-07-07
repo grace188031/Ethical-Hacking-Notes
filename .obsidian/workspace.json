@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Ethical Hacking/Capstone/Dev.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -165,8 +165,9 @@
   },
   "active": "06eaf169e4d38d07",
   "lastOpenFiles": [
-    "Ethical Hacking/2-Scanning and Enumeration/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
+    "Ethical Hacking/Capstone/Blue - TryHackMe.md",
     "Ethical Hacking/Capstone/Dev.md",
+    "Ethical Hacking/2-Scanning and Enumeration/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
     "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md",
     "Ethical Hacking/Capstone/Academy.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.5 Enumerating SMB.md",
@@ -182,7 +183,6 @@
     "Images/academypage.png",
     "How to add Git repository/Steps in adding owasp-amass git.md",
     "How to add Git repository/Steps in adding Git from Remote.md",
-    "Ethical Hacking/Capstone/Blue - TryHackMe.md",
     "Ethical Hacking/Capstone/Blue - PNPT.md",
     "Ethical Hacking/3-Exploit/10 Exploitation Basic.md",
     "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9 Vulnerability Scanning with Nessus.md",

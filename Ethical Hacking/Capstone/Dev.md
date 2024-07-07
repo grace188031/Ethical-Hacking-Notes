@@ -120,4 +120,6 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 2. Make a directory to mount that nfs file share to your directory by using `mkdir /mnt/dev
 3. mount the /mnt/dev directory to the nfs file share `mnt -t nfs 192.168.64.6:/srv/nfs /mnt/dev`
 4. Go to the directory `cd /mnt/dev`
-5. list the directory 
+5. list the directory `ls`
+6. unzip the file `unzip save.zip`
+7. However it has password, we need to install fcrackzip

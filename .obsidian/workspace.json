@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#bruteforceattack",
+                "query": "tag:#ffuf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +81,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -179,7 +180,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ad4fd34e003139d9",
+  "active": "0854c0df333bac3a",
   "lastOpenFiles": [
     "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
     "Untitled 2.canvas",

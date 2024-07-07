@@ -1,4 +1,5 @@
-
+#Openluck #SMBexploit #payload #meterpreter 
+#metasploit
 
 User: Password123!
 Administrator: Password456!

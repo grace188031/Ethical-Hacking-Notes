@@ -23,83 +23,15 @@
             }
           },
           {
-            "id": "1b9d40d6a96a2334",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "09e4d22a22fad839",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "6f527d5c7f8d3262",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "e18483903915b602",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "3b404010fca6edde",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "ce3acf6eddf6981e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "15ad49c073a4ef62",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "c4cc191cd5c518b8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "ad4fd34e003139d9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ethical Hacking/Capstone/Academy.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -128,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ftpdownload",
+                "query": "tag:#bruteforceattack",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -145,8 +77,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -166,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/Capstone/Academy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/Capstone/Academy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Ethical Hacking/Capstone/Academy.md"
-              }
+              "state": {}
             }
           },
           {
@@ -217,9 +144,17 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "f16dc0f45cc3a1ee",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -236,26 +171,37 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0854c0df333bac3a",
+  "active": "99b8042c696f90a8",
   "lastOpenFiles": [
+    "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
+    "Untitled 2.canvas",
+    "2024-07-07.md",
+    "Untitled 1.canvas",
+    "PNPT Certification Path/3. Installing and updating.md",
+    "PNPT Certification Path/2. Useful Network Commands.md",
+    "PNPT Certification Path/1. What need to Learn.md",
+    "Images/academypage.png",
+    "How to add Git repository/Steps in adding owasp-amass git.md",
+    "How to add Git repository/Steps in adding Git from Remote.md",
+    "Ethical Hacking/Capstone/Blue - TryHackMe.md",
     "Ethical Hacking/Capstone/Blue - PNPT.md",
     "Ethical Hacking/Capstone/Academy.md",
+    "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md",
+    "Ethical Hacking/3-Exploit/10 Exploitation Basic.md",
+    "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9 Vulnerability Scanning with Nessus.md",
+    "Untitled.canvas",
     "Ethical Hacking/3-Exploit/10.6 Credential Stuffing and Spraying.md",
     "Ethical Hacking/3-Exploit/10.5 Brute Force Attack.md",
     "Ethical Hacking/3-Exploit/10.4 Manual Exploitation.md",
     "Ethical Hacking/3-Exploit/10.3 Gaining Root with Metasploit.md",
     "Ethical Hacking/3-Exploit/10.2 Staged vs Non-Staged Payloads.md",
-    "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md",
-    "Ethical Hacking/3-Exploit/10 Exploitation Basic.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.7 Researching Potential Vulnerabilities.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
-    "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9 Vulnerability Scanning with Nessus.md",
     "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9.1 Scanning with Nessus Part 1.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.6 Enumerating SSH.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.3 Enumerating HTTP and HTTPS Part 1.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.4 Enumerating HTTP and HTTPS Part 2.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.5 Enumerating SMB.md",
-    "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
     "Pasted image 20240619191104.png",
     "Pasted image 20240619190222.png",
     "Pasted image 20240617140157.png",
@@ -265,15 +211,6 @@
     "Pasted image 20240706011446.png",
     "Images/pspycronjobprocess.png",
     "Pasted image 20240706021230.png",
-    "Pasted image 20240706021114.png",
-    "Ethical Hacking/Capstone/Blue - TryHackMe.md",
-    "Ethical Hacking/Capstone/Untitled.md",
-    "Ethical Hacking/1-Reconnaisance/7.4 Hunting SubDomains.md",
-    "Ethical Hacking/1-Reconnaisance/7.1 Reconnaissance - Discovering Email Address.md",
-    "Ethical Hacking/1-Reconnaisance/7. Reconnaisance.md",
-    "Ethical Hacking/0-Steps in Ethical Hacking/0-Steps in Ethical Hacking.md",
-    "Ethical Hacking/10.5 Brute Force Attack.md",
-    "Ethical Hacking/10.6 Credential Stuffing and Spraying.md",
     "Images/Untitled.canvas",
     "Images",
     "Ethical Hacking/Untitled",

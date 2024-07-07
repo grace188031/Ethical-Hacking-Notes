@@ -1,4 +1,4 @@
-
+#metasploit #shell_to_meterpreter #meterpreter #hashdump #wordlists #rockyou #eternalblue
 ## Reconnaissance
 
 `nmap -sS -Pn -A- -p- -oN nmap.txt 192.168.64.2`

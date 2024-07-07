@@ -1,10 +1,4 @@
-#exploitftp
-#ftpdownload
-#ftpupload
-#hascat
-#md5
-#ffuf
-#phpreverseshell
+#exploitftp #ftpdownload #ftpupload #hascat #md5 #ffuf #phpreverseshell
 #academy
 
 

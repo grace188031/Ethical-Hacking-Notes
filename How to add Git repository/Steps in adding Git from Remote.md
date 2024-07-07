@@ -1,3 +1,6 @@
+#github #gitaddfromremote
+
+
 1. Go to specific directory and fork the code in your repository
 2. Go to /opt/<specific folder> then git init
 3. Initialize your remote connection by adding it

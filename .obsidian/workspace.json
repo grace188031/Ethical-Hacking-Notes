@@ -90,9 +90,11 @@
             "id": "ad4fd34e003139d9",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20240619191104.png"
+                "file": "Ethical Hacking/2-Scanning and Enumeration/8.7 Researching Potential Vulnerabilities.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -163,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20240619191104.png",
+                "file": "Ethical Hacking/2-Scanning and Enumeration/8.7 Researching Potential Vulnerabilities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20240619191104.png",
+                "file": "Ethical Hacking/2-Scanning and Enumeration/8.7 Researching Potential Vulnerabilities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20240619191104.png"
+                "file": "Ethical Hacking/2-Scanning and Enumeration/8.7 Researching Potential Vulnerabilities.md"
               }
             }
           },
@@ -235,6 +237,12 @@
   },
   "active": "ad4fd34e003139d9",
   "lastOpenFiles": [
+    "Ethical Hacking/2-Scanning and Enumeration/8.6 Enumerating SSH.md",
+    "Ethical Hacking/2-Scanning and Enumeration/8.3 Enumerating HTTP and HTTPS Part 1.md",
+    "Ethical Hacking/2-Scanning and Enumeration/8.4 Enumerating HTTP and HTTPS Part 2.md",
+    "Ethical Hacking/2-Scanning and Enumeration/8.5 Enumerating SMB.md",
+    "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
+    "Pasted image 20240619191104.png",
     "Pasted image 20240619190222.png",
     "Pasted image 20240617140157.png",
     "Pasted image 20240617140045.png",
@@ -242,7 +250,6 @@
     "Ethical Hacking/Capstone/Academy.md",
     "downloadlinpeasonshell.png",
     "Pasted image 20240706011446.png",
-    "Pasted image 20240619191104.png",
     "Images/pspycronjobprocess.png",
     "Pasted image 20240706021230.png",
     "Pasted image 20240706021114.png",
@@ -266,10 +273,6 @@
     "Ethical Hacking/7.6 Information Gathering with Burp Suite.md",
     "Ethical Hacking/10.1 Reverse Shells vs Bind Shells.md",
     "Ethical Hacking/10 Exploitation Basic.md",
-    "Ethical Hacking/9 Vulnerability Scanning with Nessus.md",
-    "Ethical Hacking/7.8 Utilizing Social Media.md",
-    "Ethical Hacking/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
-    "Ethical Hacking/9.1 Scanning with Nessus Part 1.md",
     "Images/Untitled.canvas",
     "Images",
     "Ethical Hacking/Untitled",

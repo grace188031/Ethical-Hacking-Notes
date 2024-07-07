@@ -99,17 +99,19 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 		- PHP Version 7.3.27-1~deb10u1
 		- Linux dev 4.19.0-16-amd64 #1 SMP Debian 4.19.181-1 (2021-03-19) x86_64 
 
-Here are the valid directories as per ffuf
+Here are the valid directories as per ffuf (has return 301)
 
-ffuf -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt:FUZZ -u http://192.168.64.6/FUZZ -mc 200,204,301,302,307,401,403,405
-
-
-Here are the directories (has return 301)
+```
+ffuf -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt:FUZZ -u http://192.168.64.6:8080/FUZZ -mc 200,204,301,302,307,401,403,405
 
 dev                     [Status: 301, Size: 317, Words: 20, Lines: 10, Duration: 17ms]
                         [Status: 200, Size: 94605, Words: 4689, Lines: 1160, Duration: 69ms]
 server-status           [Status: 403, Size: 279, Words: 20, Lines: 10, Duration: 25ms]
+```
 
+dev site
+
+![[Pasted image 20240707193457.png]]
 ## Exploit port 80
 
 - http://192.168.64.6
@@ -120,9 +122,21 @@ server-status           [Status: 403, Size: 279, Words: 20, Lines: 10, Duration:
 
 #ffuf 
 
+
+
+Here are the valid directories as per ffuf (has return 301)
+
+```
 `ffuf -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt:FUZZ -u http://192.168.64.6/FUZZ -mc 200,204,301,302,307,401,403,405
 
-Here are 
+public                  [Status: 301, Size: 313, Words: 20, Lines: 10, Duration: 33ms]
+#                       [Status: 200, Size: 3833, Words: 926, Lines: 108, Duration: 209ms]
+src                     [Status: 301, Size: 310, Words: 20, Lines: 10, Duration: 17ms]
+app                     [Status: 301, Size: 310, Words: 20, Lines: 10, Duration: 23ms]
+vendor                  [Status: 301, Size: 313, Words: 20, Lines: 10, Duration: 23ms]
+extensions              [Status: 301, Size: 317, Words: 20, Lines: 10, Duration: 17ms]
+
+```
 
 
 ## Exploit nfs

@@ -135,6 +135,10 @@ where:
 - -p - we are using wordlistfile rockyou.txt
 - save.zip - the file that we will unzip
 
+9. After cracking, we found out that the pw is java101
+10. After unzipping we unzion sa save.zip and found id_rsa file and todo.txt
+11. We tried the id_rsa file in connecting using jp username but cant connect 
+
 ```
 ┌──(root㉿kali)-[~]
 └─# showmount -e 192.168.64.6
@@ -191,5 +195,21 @@ id_rsa  save.zip  todo.txt
 - Keep coding in Java because it's awesome
 
 jp
+
+┌──(root㉿kali)-[/mnt/dev]
+└─# ssh -i id_rsa jp@192.168.64.6
+The authenticity of host '192.168.64.6 (192.168.64.6)' can't be established.
+ED25519 key fingerprint is SHA256:NHMY4yX3pvvY0+B19v9tKZ+FdH9JOewJJKnKy2B0tW8.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '192.168.64.6' (ED25519) to the list of known hosts.
+jp@192.168.64.6's password: 
+Permission denied, please try again.
+jp@192.168.64.6's password: 
+
+                                                                                                                                                      
+┌──(root㉿kali)-[/mnt/dev]
+└─# 
+
 
 ```

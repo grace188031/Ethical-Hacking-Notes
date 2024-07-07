@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md",
+                "file": "Ethical Hacking/Capstone/Dev.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md",
+                "file": "Ethical Hacking/Capstone/Dev.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md",
+                "file": "Ethical Hacking/Capstone/Dev.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md"
+                "file": "Ethical Hacking/Capstone/Dev.md"
               }
             }
           },
@@ -165,8 +165,9 @@
   },
   "active": "06eaf169e4d38d07",
   "lastOpenFiles": [
-    "Ethical Hacking/Capstone/Academy.md",
     "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md",
+    "Ethical Hacking/Capstone/Dev.md",
+    "Ethical Hacking/Capstone/Academy.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.5 Enumerating SMB.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
     "Images/Untitled.canvas",

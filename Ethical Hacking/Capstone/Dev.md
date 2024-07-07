@@ -111,3 +111,13 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 #ffuf 
 
 `ffuf -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt:FUZZ -u http://192.168.64.6/FUZZ -mc 200,204,301,302,307,401,403,405
+
+
+## Exploit nfs
+
+
+1. Check nfs file share by using `showmount -e 192.168.64.6`
+2. Make a directory to mount that nfs file share to your directory by using `mkdir /mnt/dev
+3. mount the /mnt/dev directory to the nfs file share `mnt -t nfs 192.168.64.6:/srv/nfs /mnt/dev`
+4. Go to the directory `cd /mnt/dev`
+5. list the directory 

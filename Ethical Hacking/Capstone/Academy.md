@@ -630,7 +630,7 @@ Run the pspy64. We will see all the process running in the machine
 
 We can indeed see that the backup is running
 
-![[Pasted image 20240706021821.png]]
+![Alt](../../Images/pspycronjobprocess.png)
 
 
 Now we can use the backup.sh to hack into the root

@@ -353,7 +353,7 @@ WARNING: Running pip as the 'root' user can result in broken permissions and con
 **It said that it was not patched**
 You can take a screenshot of it
 
-![[Pasted image 20240618173441.png]]
+![Alt](../../Images/runningpythoneternalchecker.png)
 
 
 Go to shellcode directory and run the shell

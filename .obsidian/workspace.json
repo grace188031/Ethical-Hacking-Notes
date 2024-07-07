@@ -90,11 +90,9 @@
             "id": "ad4fd34e003139d9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Ethical Hacking/Capstone/Blue - PNPT.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20240619191104.png"
               }
             }
           }
@@ -165,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/Capstone/Blue - PNPT.md",
+                "file": "Pasted image 20240619191104.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/Capstone/Blue - PNPT.md",
+                "file": "Pasted image 20240619191104.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/Capstone/Blue - PNPT.md"
+                "file": "Pasted image 20240619191104.png"
               }
             }
           },
@@ -237,21 +235,20 @@
   },
   "active": "ad4fd34e003139d9",
   "lastOpenFiles": [
-    "Pasted image 20240618173441.png",
+    "Pasted image 20240619190222.png",
+    "Pasted image 20240617140157.png",
     "Pasted image 20240617140045.png",
+    "Pasted image 20240613202355.png",
     "Ethical Hacking/Capstone/Academy.md",
-    "linpeasresultofshell.png",
-    "Ethical Hacking/Capstone/Blue - PNPT.md",
-    "Ethical Hacking/Capstone/Untitled.md",
-    "Ethical Hacking/Capstone/Blue - TryHackMe.md",
-    "rootacquiredusingreverseshell.png",
-    "Pasted image 20240706022043.png",
-    "Pasted image 20240706021821.png",
-    "pspyprocess.png",
+    "downloadlinpeasonshell.png",
+    "Pasted image 20240706011446.png",
+    "Pasted image 20240619191104.png",
+    "Images/pspycronjobprocess.png",
     "Pasted image 20240706021230.png",
     "Pasted image 20240706021114.png",
-    "usingpspy64bittocheckprocess.png",
-    "accessusersshusingpwfromlinpeas.png",
+    "Ethical Hacking/Capstone/Blue - TryHackMe.md",
+    "Ethical Hacking/Capstone/Blue - PNPT.md",
+    "Ethical Hacking/Capstone/Untitled.md",
     "Ethical Hacking/1-Reconnaisance/7.4 Hunting SubDomains.md",
     "Ethical Hacking/1-Reconnaisance/7.1 Reconnaissance - Discovering Email Address.md",
     "Ethical Hacking/1-Reconnaisance/7. Reconnaisance.md",

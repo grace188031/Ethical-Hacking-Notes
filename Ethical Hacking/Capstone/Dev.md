@@ -71,3 +71,31 @@ OS and Service detection performed. Please report any incorrect results at https
 Nmap done: 1 IP address (1 host up) scanned in 9.82 seconds
 
 ```
+
+## Exploit port 8080
+
+```
+8080/tcp  open  http     Apache httpd 2.4.38 ((Debian))
+|_http-server-header: Apache/2.4.38 (Debian)
+|_http-title: PHP 7.3.27-1~deb10u1 - phpinfo()
+| http-open-proxy: Potentially OPEN proxy.
+|_Methods supported:CONNECTION
+37319/tcp open  mountd   1-3 (RPC #100005)
+40815/tcp open  nlockmgr 1-4 (RPC #100021)
+43943/tcp open  mountd   1-3 (RPC #100005)
+47231/tcp open  mountd   1-3 (RPC #100005)
+MAC Address: 26:8C:8C:9E:4A:EE (Unknown)
+Device type: general purpose
+Running: Linux 5.X
+OS CPE: cpe:/o:linux:linux_kernel:5
+OS details: Linux 5.0 - 5.5
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+```
+
+
+- http://192.168.64.6:8080
+		- PHP Version 7.3.27-1~deb10u1
+		- Linux dev 4.19.0-16-amd64 #1 SMP Debian 4.19.181-1 (2021-03-19) x86_64 
+		- 

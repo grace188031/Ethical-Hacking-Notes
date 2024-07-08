@@ -23,9 +23,11 @@
             "id": "46d6a64532944bc6",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-08 16.33.04.excalidraw.md"
+                "file": "Ethical Hacking/3-Exploit/10.5 Brute Force Attack.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-08 16.33.04.excalidraw.md",
+                "file": "Ethical Hacking/3-Exploit/10.5 Brute Force Attack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-08 16.33.04.excalidraw.md",
+                "file": "Ethical Hacking/3-Exploit/10.5 Brute Force Attack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-08 16.33.04.excalidraw.md"
+                "file": "Ethical Hacking/3-Exploit/10.5 Brute Force Attack.md"
               }
             }
           },
@@ -177,11 +179,12 @@
   },
   "active": "46d6a64532944bc6",
   "lastOpenFiles": [
+    "Ethical Hacking/Capstone/Blue - TryHackMe.md",
+    "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
+    "Excalidraw/Drawing 2024-07-08 16.33.04.excalidraw.md",
     "excalidraw.pdf.pdf",
     "excalidraw.pdf",
-    "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
     "PNPT Certification Path/2. Useful Network Commands.md",
-    "Excalidraw/Drawing 2024-07-08 16.33.04.excalidraw.md",
     "Pasted Image 20240708163326_049.png",
     "Excalidraw/Drawing 2024-07-08 16.32.32.excalidraw.md",
     "Ethical Hacking/Capstone/Butler.md",
@@ -196,7 +199,6 @@
     "Images/configyml.png",
     "Pasted image 20240707195943.png",
     "Pasted image 20240707193457.png",
-    "Ethical Hacking/Capstone/Blue - TryHackMe.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
     "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.5 Enumerating SMB.md",

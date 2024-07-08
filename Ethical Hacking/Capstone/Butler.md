@@ -227,4 +227,11 @@ Hyper-V Requirements:      A hypervisor has been detected. Features required for
 
 >> Search winpeas in google and download the latest bersion
 
-#download
+#downloadwinpeas
+
+https://github.com/peass-ng/PEASS-ng/releases/tag/20240707-68b6f322
+
+Use the winpeasx64
+
+- winPEASx64.exe 
+

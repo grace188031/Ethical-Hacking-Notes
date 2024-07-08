@@ -90,12 +90,13 @@ Send to repeater then send to intruder
 ![[Pasted image 20240708190618.png]]
 
 #burpsuiteintruder
-#sniper 
+#clusterbomb
 
 1. Choose clusterbomb
 2. Clear
 3. Doubleclick the username and add
 4. Doubleclick the password and add
+5. Start attack
 
 clusterbomb - every single user with every single password
 use different combinations
@@ -103,4 +104,25 @@ use different combinations
 ![[Pasted image 20240708191821.png]]
 
 
-Payl
+Payload 2
+
+![[Pasted image 20240708191940.png]]
+
+![[Pasted image 20240708192040.png]]
+
+
+Check the length of the response
+
+![[Pasted image 20240708192636.png]]
+
+Here is the difference in the response
+
+no session cookie, length = 315
+
+![[Pasted image 20240708192759.png]]
+
+there is session cookie ; length = 309
+
+![[Pasted image 20240708192906.png]]
+
+Since there is session cookie now when we tried jenkins; jenkins. T

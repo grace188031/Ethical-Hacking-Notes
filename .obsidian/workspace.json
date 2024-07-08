@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 361.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "af3095085d650761",
@@ -163,7 +164,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,6 +181,8 @@
   },
   "active": "46d6a64532944bc6",
   "lastOpenFiles": [
+    "Pasted image 20240708183622.png",
+    "Pasted image 20240708183417.png",
     "PNPT Certification Path/5. Python.md",
     "PNPT Certification Path/1. What need to Learn.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
@@ -220,9 +224,7 @@
     "Ethical Hacking/3-Exploit/10.4 Manual Exploitation.md",
     "Ethical Hacking/3-Exploit/10.3 Gaining Root with Metasploit.md",
     "Ethical Hacking/3-Exploit/10.2 Staged vs Non-Staged Payloads.md",
-    "Ethical Hacking/2-Scanning and Enumeration/8.7 Researching Potential Vulnerabilities.md",
     "Pasted image 20240619191104.png",
-    "Pasted image 20240619190222.png",
     "Images",
     "Ethical Hacking/Untitled",
     "How to add Git repository",

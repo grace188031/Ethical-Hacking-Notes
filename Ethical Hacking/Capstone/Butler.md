@@ -89,4 +89,18 @@ Send to repeater then send to intruder
 
 ![[Pasted image 20240708190618.png]]
 
+#burpsuiteintruder
+#sniper 
 
+1. Choose clusterbomb
+2. Clear
+3. Doubleclick the username and add
+4. Doubleclick the password and add
+
+clusterbomb - every single user with every single password
+use different combinations
+
+![[Pasted image 20240708191821.png]]
+
+
+Payl

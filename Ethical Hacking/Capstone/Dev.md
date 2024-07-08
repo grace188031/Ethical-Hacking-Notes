@@ -112,6 +112,14 @@ server-status           [Status: 403, Size: 279, Words: 20, Lines: 10, Duration:
 dev site
 
 ![[Pasted image 20240707193457.png]]
+
+
+Check the boltwire exploit in your browser
+
+https://www.exploit-db.com/exploits/48411
+
+![[Pasted image 20240707195943.png]]
+
 ## Exploit port 80
 
 - http://192.168.64.6
@@ -138,7 +146,26 @@ extensions              [Status: 301, Size: 317, Words: 20, Lines: 10, Duration:
 
 ```
 
+##### Exploring the app site we see the config.yml that contains password
 
+![Alt](../../Images/configyml.png)
+
+Password in config.yml
+
+```
+# Database setup. The driver can be either 'sqlite', 'mysql' or 'postgres'.
+#
+# For SQLite, only the databasename is required. However, MySQL and PostgreSQL
+# also require 'username', 'password', and optionally 'host' ( and 'port' ) if the database
+# server is not on the same host as the web server.
+#
+# If you're trying out Bolt, just keep it set to SQLite for now.
+database:
+    driver: sqlite
+    databasename: bolt
+    username: bolt
+    password: I_love_java
+```
 ## Exploit nfs
 
 

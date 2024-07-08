@@ -85,5 +85,8 @@ We can brute force access it using burp suite
 ![[Pasted image 20240708185535.png]]
 
 
+Send to repeater then send to intruder
+
+![[Pasted image 20240708190618.png]]
 
 

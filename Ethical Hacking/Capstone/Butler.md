@@ -125,4 +125,16 @@ there is session cookie ; length = 309
 
 ![[Pasted image 20240708192906.png]]
 
-Since there is session cookie now when we tried jenkins; jenkins. T
+Since there is a session cookie now when we tried Jenkins as username and Jenkins as password. Let's try to log in now as jenkins/jenkins
+
+We were able to log in.
+
+![[Pasted image 20240708193156.png]]
+
+![[Pasted image 20240708193449.png]]
+
+#groovyreverseshell #revershelljenkins #exploitgroovyreverseshell
+
+Source:
+- https://blog.pentesteracademy.com/abusing-jenkins-groovy-script-console-to-get-shell-98b951fa64a6
+- https://gist.github.com/frohoff/fed1ffaab9b9beeb1c76 - githubgroovyreverseshell

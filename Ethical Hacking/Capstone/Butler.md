@@ -3,4 +3,8 @@
 #hackwindows
 
 
-LowPrivilegeUser : butler
+LowPrivilegeUser - butler: JeNkIn5@44
+Admin - administrator: A%rc!BcA!
+
+
+

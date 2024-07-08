@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/3-Exploit/10.5 Brute Force Attack.md",
+                "file": "Ethical Hacking/Capstone/Butler.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/3-Exploit/10.5 Brute Force Attack.md",
+                "file": "Ethical Hacking/Capstone/Butler.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/3-Exploit/10.5 Brute Force Attack.md",
+                "file": "Ethical Hacking/Capstone/Butler.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/3-Exploit/10.5 Brute Force Attack.md"
+                "file": "Ethical Hacking/Capstone/Butler.md"
               }
             }
           },
@@ -179,6 +179,7 @@
   },
   "active": "46d6a64532944bc6",
   "lastOpenFiles": [
+    "Ethical Hacking/3-Exploit/10.5 Brute Force Attack.md",
     "Ethical Hacking/Capstone/Blue - TryHackMe.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
     "Excalidraw/Drawing 2024-07-08 16.33.04.excalidraw.md",
@@ -215,7 +216,6 @@
     "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9 Vulnerability Scanning with Nessus.md",
     "Untitled.canvas",
     "Ethical Hacking/3-Exploit/10.6 Credential Stuffing and Spraying.md",
-    "Ethical Hacking/3-Exploit/10.5 Brute Force Attack.md",
     "Ethical Hacking/3-Exploit/10.4 Manual Exploitation.md",
     "Ethical Hacking/3-Exploit/10.3 Gaining Root with Metasploit.md",
     "Ethical Hacking/3-Exploit/10.2 Staged vs Non-Staged Payloads.md",

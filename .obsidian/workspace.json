@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "46d6a64532944bc6",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-07-08 16.33.04.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/Capstone/Butler.md",
+                "file": "Excalidraw/Drawing 2024-07-08 16.33.04.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/Capstone/Butler.md",
+                "file": "Excalidraw/Drawing 2024-07-08 16.33.04.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/Capstone/Butler.md"
+                "file": "Excalidraw/Drawing 2024-07-08 16.33.04.excalidraw.md"
               }
             }
           },
@@ -160,11 +171,19 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "06eaf169e4d38d07",
+  "active": "46d6a64532944bc6",
   "lastOpenFiles": [
+    "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
+    "PNPT Certification Path/2. Useful Network Commands.md",
+    "Excalidraw/Drawing 2024-07-08 16.33.04.excalidraw.md",
+    "Pasted Image 20240708163326_049.png",
+    "Excalidraw/Drawing 2024-07-08 16.32.32.excalidraw.md",
+    "Ethical Hacking/Capstone/Butler.md",
+    "Excalidraw",
     "Ethical Hacking/Capstone/Dev.md",
     "2024-07-07.md",
     "Pasted image 20240707201209.png",
@@ -181,11 +200,9 @@
     "Ethical Hacking/2-Scanning and Enumeration/8.5 Enumerating SMB.md",
     "Images/Untitled.canvas",
     "Untitled 3.canvas",
-    "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "PNPT Certification Path/3. Installing and updating.md",
-    "PNPT Certification Path/2. Useful Network Commands.md",
     "PNPT Certification Path/1. What need to Learn.md",
     "Images/academypage.png",
     "How to add Git repository/Steps in adding owasp-amass git.md",
@@ -199,12 +216,8 @@
     "Ethical Hacking/3-Exploit/10.3 Gaining Root with Metasploit.md",
     "Ethical Hacking/3-Exploit/10.2 Staged vs Non-Staged Payloads.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.7 Researching Potential Vulnerabilities.md",
-    "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9.1 Scanning with Nessus Part 1.md",
-    "Ethical Hacking/2-Scanning and Enumeration/8.6 Enumerating SSH.md",
-    "Ethical Hacking/2-Scanning and Enumeration/8.3 Enumerating HTTP and HTTPS Part 1.md",
     "Pasted image 20240619191104.png",
     "Pasted image 20240619190222.png",
-    "Pasted image 20240617140157.png",
     "Images",
     "Ethical Hacking/Untitled",
     "How to add Git repository",

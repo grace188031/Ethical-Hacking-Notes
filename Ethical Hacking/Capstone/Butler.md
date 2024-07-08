@@ -77,3 +77,7 @@ Nmap done: 1 IP address (1 host up) scanned in 524.40 seconds
 - https://github.com/gquere/pwn_jenkins
 - https://hacktricks.boitatech.com.br/pentesting/pentesting-web/jenkins
 - https://hacktricks.boitatech.com.br/pentesting/pentesting-web/jenkins
+
+default credential of Jenkins is admin/password but not working
+We can brute force access it
+

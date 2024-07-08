@@ -79,5 +79,11 @@ Nmap done: 1 IP address (1 host up) scanned in 524.40 seconds
 - https://hacktricks.boitatech.com.br/pentesting/pentesting-web/jenkins
 
 default credential of Jenkins is admin/password but not working
-We can brute force access it
+We can brute force access it using burp suite
+
+
+![[Pasted image 20240708185535.png]]
+
+
+
 

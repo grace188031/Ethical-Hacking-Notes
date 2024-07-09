@@ -324,3 +324,12 @@ dir
               16 Dir(s)  12,389,249,024 bytes free
 
 ```
+
+executing winpeas.exe, please see the results below
+
+![[Pasted image 20240708201429.png]]
+
+
+We saw executable service
+
+![[Pasted image 20240708201859.png]]

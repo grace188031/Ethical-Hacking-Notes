@@ -400,10 +400,27 @@ chmod u+x linpeas.sh
 ![[Pasted image 20240710191259.png]]
 
 #linuxfind
-- Lets also try find command to check all the binaries that has sticky bit set using the command `find / -type f -perm 4000 2>/dev/null`
+- Lets also try find command to check all the binaries that has sticky bit set using the command `find / -type f -perm -4000 2>/dev/null`
 ```
+www-data@blackpearl:/tmp$ find / -type f -perm -4000 2>/dev/null
+find / -type f -perm -4000 2>/dev/null
+/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/usr/lib/eject/dmcrypt-get-device
+/usr/lib/openssh/ssh-keysign
+/usr/bin/umount
+/usr/bin/newgrp
+/usr/bin/mount
+/usr/bin/php7.3
+/usr/bin/su
+/usr/bin/chfn
+/usr/bin/passwd
+/usr/bin/chsh
+/usr/bin/gpasswd
 
 ```
+
+- there is a sticky bit set for the php. Now lets go to gtfo bin to search for the script that can elevate our privilege escalation using the /usr/bin/php7.3 with sticky bit set
+#gtfobin 
 
 - Checking the source code of the default website, we see the webmaster: `alek@blackpearl.tcm`
 

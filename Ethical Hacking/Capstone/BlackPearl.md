@@ -400,6 +400,12 @@ chmod u+x linpeas.sh
 ![[Pasted image 20240710125702.png]]
 
 
+
+
+
+
+
+
 ### Enumerating port 53
 
 #dnsreconaissance
@@ -422,4 +428,3 @@ chmod u+x linpeas.sh
 ![[Pasted image 20240710131738.png]]
 
 - We can now enumerate again using ffuf. The enumeration is in the 80/http enumeration section above
-- 

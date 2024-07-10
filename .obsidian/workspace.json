@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/Capstone/Butler.md",
+                "file": "Ethical Hacking/Capstone/BlackPearl.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 292.5
   },
   "right": {
     "id": "af3095085d650761",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/Capstone/Butler.md",
+                "file": "Ethical Hacking/Capstone/BlackPearl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/Capstone/Butler.md",
+                "file": "Ethical Hacking/Capstone/BlackPearl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/Capstone/Butler.md"
+                "file": "Ethical Hacking/Capstone/BlackPearl.md"
               }
             }
           },
@@ -181,6 +180,9 @@
   },
   "active": "46d6a64532944bc6",
   "lastOpenFiles": [
+    "Ethical Hacking/Capstone/Dev.md",
+    "Ethical Hacking/Capstone/BlackPearl.md",
+    "Ethical Hacking/Capstone/Butler.md",
     "Pasted image 20240708202418.png",
     "Pasted image 20240708202356.png",
     "Pasted image 20240708202341.png",
@@ -191,11 +193,9 @@
     "Pasted image 20240708194618.png",
     "Pasted image 20240708194235.png",
     "Pasted image 20240708193749.png",
-    "Pasted image 20240708193739.png",
     "PNPT Certification Path/5. Python.md",
     "PNPT Certification Path/1. What need to Learn.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
-    "Ethical Hacking/Capstone/Butler.md",
     "Ethical Hacking/3-Exploit/10.5 Brute Force Attack.md",
     "Ethical Hacking/Capstone/Blue - TryHackMe.md",
     "Excalidraw/Drawing 2024-07-08 16.33.04.excalidraw.md",
@@ -204,7 +204,6 @@
     "PNPT Certification Path/2. Useful Network Commands.md",
     "Excalidraw/Drawing 2024-07-08 16.32.32.excalidraw.md",
     "Excalidraw",
-    "Ethical Hacking/Capstone/Dev.md",
     "2024-07-07.md",
     "Ethical Hacking/Capstone/Academy.md",
     "Ethical Hacking/Capstone/Blue - PNPT.md",

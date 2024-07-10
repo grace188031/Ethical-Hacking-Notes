@@ -395,8 +395,16 @@ chmod u+x linpeas.sh
 ```
 
 #linpeas
-- In checking linpeas.sh, always start below a the important information starts below. 
-	- Also checked that there are binary files that has sticky bit set
+- In checking linpeas.sh, always start below the important information starts below. 
+	- Also checked that there are binary files that has a sticky bit set
+![[Pasted image 20240710191259.png]]
+
+#linuxfind
+- Lets also try find command to check all the binaries that has sticky bit set using the command `find / -type f -perm 4000 2>/dev/null`
+```
+
+```
+
 - Checking the source code of the default website, we see the webmaster: `alek@blackpearl.tcm`
 
 ![[Pasted image 20240710125702.png]]

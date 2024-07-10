@@ -46,6 +46,8 @@ Nmap done: 1 IP address (1 host up) scanned in 17.36 seconds
 ### Enumerating port 80
 
 - No result in ffuf, no directories detected using the `ffuf -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt:FUZZ -u http://192.168.64.8/FUZZ -mc 200,204,301,302,307,401,403,405`
+- We did dns reconaissance to know the name of the site and do FUZZ again using the ffuf
+
 - Checking the source code of the default website, we see the webmaster: `alek@blackpearl.tcm`
 
 ![[Pasted image 20240710125702.png]]
@@ -55,7 +57,7 @@ Nmap done: 1 IP address (1 host up) scanned in 17.36 seconds
 
 #dnsreconaissance
 
-- DNS reconaissance to the victim using `dnsrecon -r 127.0.0.0/24 -n 192.168.64.8 -d lk`, we saw that the domain of the victim is **blackpearl.com**
+- DNS reconaissance to the victim using `dnsrecon -r 127.0.0.0/24 -n 192.168.64.8 -d lk`, we saw that the name of the victim's machine is **blackpearl.com**
 ```
 ┌──(root㉿kali)-[~]
 └─# dnsrecon -r 127.0.0.0/24 -n 192.168.64.8 -d lk
@@ -65,4 +67,9 @@ Nmap done: 1 IP address (1 host up) scanned in 17.36 seconds
 
 ```
 
-- COnfigure the 
+- Configure the host file `/etc/hosts` to give a name to the victim's machine
+
+![[Pasted image 20240710130740.png]]
+```
+
+```

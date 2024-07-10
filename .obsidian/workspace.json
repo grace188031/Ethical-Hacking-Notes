@@ -35,9 +35,11 @@
             "id": "41dca6ca89bfd2a8",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-10 19.26.09.excalidraw.md"
+                "file": "Ethical Hacking/Capstone/Dev.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -71,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "netd",
+                "query": "#gtf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -108,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-10 19.26.09.excalidraw.md",
+                "file": "Ethical Hacking/Capstone/Dev.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-10 19.26.09.excalidraw.md",
+                "file": "Ethical Hacking/Capstone/Dev.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-07-10 19.26.09.excalidraw.md"
+                "file": "Ethical Hacking/Capstone/Dev.md"
               }
             }
           },
@@ -190,10 +193,15 @@
   },
   "active": "41dca6ca89bfd2a8",
   "lastOpenFiles": [
+    "Ethical Hacking/Capstone/Blue - PNPT.md",
+    "Ethical Hacking/Capstone/BlackPearl.md",
+    "Pasted image 20240710193257.png",
+    "Pasted image 20240710193050.png",
+    "Ethical Hacking/Capstone/Dev.md",
+    "Ethical Hacking/2-Scanning and Enumeration/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
+    "Excalidraw/Drawing 2024-07-10 19.26.09.excalidraw.md",
     "Pasted Image 20240710192844_366.png",
     "Pasted Image 20240710192757_362.png",
-    "Ethical Hacking/Capstone/BlackPearl.md",
-    "Excalidraw/Drawing 2024-07-10 19.26.09.excalidraw.md",
     "Excalidraw",
     "Pasted image 20240710191259.png",
     "Pasted image 20240710132114.png",
@@ -201,11 +209,7 @@
     "Pasted image 20240710130740.png",
     "Pasted image 20240710130039.png",
     "Pasted image 20240710125702.png",
-    "Ethical Hacking/Capstone/Dev.md",
     "Ethical Hacking/Capstone/Butler.md",
-    "Pasted image 20240708202418.png",
-    "Pasted image 20240708202356.png",
-    "Pasted image 20240708202341.png",
     "PNPT Certification Path/5. Python.md",
     "PNPT Certification Path/1. What need to Learn.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
@@ -218,8 +222,6 @@
     "Excalidraw/Drawing 2024-07-08 16.32.32.excalidraw.md",
     "2024-07-07.md",
     "Ethical Hacking/Capstone/Academy.md",
-    "Ethical Hacking/Capstone/Blue - PNPT.md",
-    "Ethical Hacking/2-Scanning and Enumeration/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
     "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.5 Enumerating SMB.md",
     "Images/Untitled.canvas",

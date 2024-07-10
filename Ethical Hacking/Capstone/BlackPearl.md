@@ -45,6 +45,24 @@ Nmap done: 1 IP address (1 host up) scanned in 17.36 seconds
 
 ### Enumerating port 80
 
-1. Use ffuf to enumerate the web directoried
+- No result in ffuf, no directories detected using the `ffuf -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt:FUZZ -u http://192.168.64.8/FUZZ -mc 200,204,301,302,307,401,403,405`
+- Checking the source code of the default website, we see the webmaster: `alek@blackpearl.tcm`
+
+![[Pasted image 20240710125702.png]]
 
 
+### Enumerating port 53
+
+#dnsreconaissance
+
+- DNS reconaissance to the victim using `dnsrecon -r 127.0.0.0/24 -n 192.168.64.8 -d lk`, we saw that the domain of the victim is **blackpearl.com**
+```
+┌──(root㉿kali)-[~]
+└─# dnsrecon -r 127.0.0.0/24 -n 192.168.64.8 -d lk
+[*] Performing Reverse Lookup from 127.0.0.0 to 127.0.0.255
+[+]      PTR blackpearl.tcm 127.0.0.1
+[+] 1 Records Found
+
+```
+
+- COnfigure the 

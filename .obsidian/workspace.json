@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/Capstone/Butler.md",
+                "file": "Ethical Hacking/4- Capstone/Butler.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/Capstone/BlackPearl.md",
+                "file": "Ethical Hacking/4- Capstone/BlackPearl.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/Capstone/Dev.md",
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/Active Directory Components.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/Capstone/Dev.md",
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/Active Directory Components.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/Capstone/Dev.md",
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/Active Directory Components.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/Capstone/Dev.md"
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/Active Directory Components.md"
               }
             }
           },
@@ -193,13 +192,16 @@
   },
   "active": "41dca6ca89bfd2a8",
   "lastOpenFiles": [
-    "Ethical Hacking/Capstone/Blue - PNPT.md",
-    "Ethical Hacking/Capstone/BlackPearl.md",
+    "Ethical Hacking/4- Capstone/Dev.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/Active Directory Components.md",
+    "Excalidraw/Drawing 2024-07-10 19.26.09.excalidraw.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking",
+    "Ethical Hacking/Active Directory Ethical Hacking.md",
+    "Ethical Hacking/4- Capstone/BlackPearl.md",
+    "Ethical Hacking/4- Capstone/Blue - PNPT.md",
     "Pasted image 20240710193257.png",
     "Pasted image 20240710193050.png",
-    "Ethical Hacking/Capstone/Dev.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
-    "Excalidraw/Drawing 2024-07-10 19.26.09.excalidraw.md",
     "Pasted Image 20240710192844_366.png",
     "Pasted Image 20240710192757_362.png",
     "Excalidraw",
@@ -209,19 +211,19 @@
     "Pasted image 20240710130740.png",
     "Pasted image 20240710130039.png",
     "Pasted image 20240710125702.png",
-    "Ethical Hacking/Capstone/Butler.md",
+    "Ethical Hacking/4- Capstone/Butler.md",
     "PNPT Certification Path/5. Python.md",
     "PNPT Certification Path/1. What need to Learn.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
     "Ethical Hacking/3-Exploit/10.5 Brute Force Attack.md",
-    "Ethical Hacking/Capstone/Blue - TryHackMe.md",
+    "Ethical Hacking/4- Capstone/Blue - TryHackMe.md",
     "Excalidraw/Drawing 2024-07-08 16.33.04.excalidraw.md",
     "excalidraw.pdf.pdf",
     "excalidraw.pdf",
     "PNPT Certification Path/2. Useful Network Commands.md",
     "Excalidraw/Drawing 2024-07-08 16.32.32.excalidraw.md",
     "2024-07-07.md",
-    "Ethical Hacking/Capstone/Academy.md",
+    "Ethical Hacking/4- Capstone/Academy.md",
     "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.5 Enumerating SMB.md",
     "Images/Untitled.canvas",
@@ -235,9 +237,7 @@
     "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9 Vulnerability Scanning with Nessus.md",
     "Untitled.canvas",
     "Ethical Hacking/3-Exploit/10.6 Credential Stuffing and Spraying.md",
-    "Ethical Hacking/3-Exploit/10.4 Manual Exploitation.md",
     "Images",
-    "Ethical Hacking/Untitled",
     "How to add Git repository",
     "Ethical Hacking",
     "PNPT Certification Path"

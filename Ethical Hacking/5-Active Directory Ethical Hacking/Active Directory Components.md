@@ -50,3 +50,12 @@
 		- Trust can extend outside forest
 	- Objects
 
+| Object         | Description                                                                                   |
+| -------------- | --------------------------------------------------------------------------------------------- |
+| User           | - Enable network resource access for a user                                                   |
+| Inetorgperson  | - Similar to User account; Used for compatibility with other directory services               |
+| Contacts       | - Used primarily to assign e-mail addresses to external users; Does not enable network access |
+| Groups         | - Use to simplify administration of access control                                            |
+| Computers      | - Enables auhtnetication and audition computer access to resources                            |
+| Printers       | - Use to simplify process of locating printers                                                |
+| Shared Folders | - Enables users to search  for shared folders based on properties                             |

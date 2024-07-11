@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/Active Directory Components.md",
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/AD Lab Requirements.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/Active Directory Components.md",
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/AD Lab Requirements.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/Active Directory Components.md",
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/AD Lab Requirements.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/Active Directory Components.md"
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/AD Lab Requirements.md"
               }
             }
           },
@@ -192,8 +192,9 @@
   },
   "active": "41dca6ca89bfd2a8",
   "lastOpenFiles": [
-    "Ethical Hacking/4- Capstone/Dev.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/Active Directory Components.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/AD Lab Requirements.md",
+    "Ethical Hacking/4- Capstone/Dev.md",
     "Excalidraw/Drawing 2024-07-10 19.26.09.excalidraw.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking",
     "Ethical Hacking/Active Directory Ethical Hacking.md",
@@ -236,7 +237,6 @@
     "Ethical Hacking/3-Exploit/10 Exploitation Basic.md",
     "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9 Vulnerability Scanning with Nessus.md",
     "Untitled.canvas",
-    "Ethical Hacking/3-Exploit/10.6 Credential Stuffing and Spraying.md",
     "Images",
     "How to add Git repository",
     "Ethical Hacking",

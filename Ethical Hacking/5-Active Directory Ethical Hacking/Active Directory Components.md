@@ -2,8 +2,8 @@
 - Physical
 	- Data Store
 	- Domain Controllers
-		- Host a copy of AD DS Store
-			- Consists of Ntds.dit file
+		- Host a copy of the AD DS Store
+			- Consists of Ntds.dit file - this NTDS.dit has important information(password hashes)
 			- Is stored by default in the %SystemRoot%\NTDS folder on all domain controllers
 			- Is accessible only through  the domain controller processes and protocols
 		- Provide Authentication and Authorization Services
@@ -14,9 +14,24 @@
 - Logical
 	- Partitions
 	- Schema
+		- Defines every type of object that can be stored  in the directory
+		- Enforces rules regarding object creation and configuration
+		- Class Object - function is what objects can be created in the directory (e.g. User, Computer)
+		- Attribute Object - Information that can be attached to an object (Display name)
 	- Domains
+		- Are used to group and manage objects in an organization
+		- An administrative body for applying policies to objects and groups
+		- A replication boundary  for replicating data between domain controllers
+		- An authentication and authorization boundary that provides a way to limit the scope of access to resources
+
 	- Domain Trees
+		-  Can have additional child domains
+		- By default create a two-way transitive trust with other domains
 	- Forests
+		- Share a common schema
+		- Share a common configureation partition
+		- Share a common global catalog  to enable searching
+		- Enables trust
 	- Sites
 	- Organizational Units (OU)
 	- 

@@ -28,7 +28,21 @@ take the hash and use `hashcat` to crack it
 #respondertool
 If you execute `sudo responder --help`, you will get to know several options
 
+Make sure the following (e.g http, SMB) are "ON" but by default, they must be "ON"
 
+![[Pasted image 20240711195044.png]]
 
+As see here, its listening DHCP events
 
+![[Pasted image 20240711195155.png]]
 
+- Sign In to Punisher machine using fcastle while the kali reposnder is "ON"
+- Access the attacker's machine in the file explorer using `\\192.168.64.4`
+- While accessing the attacker's machine using SMB, we were able to capture the hash
+Image of the Punisher's machine while accessing `\\192.168.64.4`
+
+![[Pasted image 20240711195727.png]]
+
+Image of the kali machine while the responder is "ON". 
+
+![[Pasted image 20240711195645.png]]

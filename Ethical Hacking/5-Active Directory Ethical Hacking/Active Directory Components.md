@@ -1,3 +1,22 @@
 
 - Physical
-- 
+	- Data Store
+	- Domain Controllers
+		- Host a copy of AD DS Store
+			- Consists of Ntds.dit file
+			- Is stored by default in the %SystemRoot%\NTDS folder on all domain controllers
+			- Is accessible only through  the domain controller processes and protocols
+		- Provide Authentication and Authorization Services
+		- Replicate updates to other domain controllers in the domain and forest
+		- Allow administrative access to manage user accounts a resources
+	- Global Catalog Server
+	- Read-Only Domain Controller (RODC)
+- Logical
+	- Partitions
+	- Schema
+	- Domains
+	- Domain Trees
+	- Forests
+	- Sites
+	- Organizational Units (OU)
+	- 

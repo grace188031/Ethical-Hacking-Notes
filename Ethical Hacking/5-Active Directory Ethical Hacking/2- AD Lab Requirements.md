@@ -71,9 +71,9 @@ UserPrincipalName : sqlservice@ -Path DC=marvel,DC=local
 Machine 1: Punisher
 User: fcastle
 password: `P@$$w0rd1`
-Local Admin password: Administrator : `P@$$w0rd!`
-Frank Castle: `P@$$w0rd1`
-Pei Parker: `P@$$w0rd2`
+Local Admin password: 
+	- Administrator: `P@$$w0rd!`
+	- Frank Castle: `P@$$w0rd1`
 
 
 Ip address: 192.168.64.220
@@ -83,8 +83,9 @@ Gateway: 192.168.64.1
 Machine 2:
 User: pparker
 password: `P@$$w0rd2`
-Local Admin password: `P@$$w0rd!`
+Local Admin password: Administrator `P@$$w0rd!`
 
+peterparker: `P@$$w0rd2`
 Ip address: 192.168.64.221
 
 

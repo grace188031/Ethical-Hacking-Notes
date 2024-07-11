@@ -25,13 +25,28 @@
 		- An authentication and authorization boundary that provides a way to limit the scope of access to resources
 
 	- Domain Trees
+		-  hierarchy of domains in AD DS
 		-  Can have additional child domains
 		- By default create a two-way transitive trust with other domains
 	- Forests
+		- Collection of one or more domain trees
 		- Share a common schema
-		- Share a common configureation partition
-		- Share a common global catalog  to enable searching
-		- Enables trust
+		- Share a common configuration partition
+		- Share a common global catalogue to enable searching
+		- Enables trust between all domains in the forest
+		- Share the Enterprise Admins and Schema group
 	- Sites
 	- Organizational Units (OU)
-	- 
+		- Are active directory containers that contain users, groups, computers and other OUs
+		- Represent your organization hierarchically and logically
+		- Manage a collection of objects in a consistent way
+		- Delegate permissions to administer a group of objects
+		- Apply policies
+	- Trusts
+		- provides a mechanism  for users to gain  access to resources in another domain
+		- Directional Trust - The trust direction flows from trusting domain to the trusted domain
+		- Transitive Trust - The trust relationship is extended beyond two domain trust to include other trusted domains
+		- All domains in a forest trust all other domains in the forest
+		- Trust can extend outside forest
+	- Objects
+

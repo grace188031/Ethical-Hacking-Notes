@@ -47,4 +47,16 @@ Image of the kali machine while the responder is "ON".
 
 ![[Pasted image 20240711195645.png]]
 
-- Use hashcat to identify the module `hashcat | grep NTLM`
+- Use hashcat to identify the module `hashcat --help | grep NTLM`
+```
+┌──(root㉿kali)-[~]
+└─# hashcat --help | grep NTLM
+   5500 | NetNTLMv1 / NetNTLMv1+ESS                                  | Network Protocol
+  27000 | NetNTLMv1 / NetNTLMv1+ESS (NT)                             | Network Protocol
+   5600 | NetNTLMv2                                                  | Network Protocol
+  27100 | NetNTLMv2 (NT)                                             | Network Protocol
+   1000 | NTLM                                                       | Operating System
+                                                             
+```
+
+Search hashcat modules

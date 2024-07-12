@@ -47,4 +47,4 @@ Image of the kali machine while the responder is "ON".
 
 ![[Pasted image 20240711195645.png]]
 
-- Use hashcat
+- Use hashcat to identify the module `hashcat | grep NTLM`

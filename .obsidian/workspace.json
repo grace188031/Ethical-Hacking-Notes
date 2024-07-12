@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md",
+                "file": "Ethical Hacking/4- Capstone/Academy.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#gtf",
+                "query": "#hash-",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md",
+                "file": "Ethical Hacking/4- Capstone/Academy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md",
+                "file": "Ethical Hacking/4- Capstone/Academy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md"
+                "file": "Ethical Hacking/4- Capstone/Academy.md"
               }
             }
           },
@@ -192,6 +193,7 @@
   },
   "active": "41dca6ca89bfd2a8",
   "lastOpenFiles": [
+    "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md",
     "Pasted image 20240711195727.png",
     "Pasted image 20240711195645.png",
     "Pasted image 20240711195155.png",
@@ -199,7 +201,6 @@
     "Pasted image 20240711192802.png",
     "Ethical Hacking/5-Active Directory Ethical Hacking/2- AD Lab Requirements.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/1- Active Directory Components.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md",
     "Ethical Hacking/4- Capstone/Dev.md",
     "Excalidraw/Drawing 2024-07-10 19.26.09.excalidraw.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking",
@@ -213,7 +214,6 @@
     "Pasted Image 20240710192757_362.png",
     "Excalidraw",
     "Pasted image 20240710191259.png",
-    "Pasted image 20240710132114.png",
     "Ethical Hacking/4- Capstone/Butler.md",
     "PNPT Certification Path/5. Python.md",
     "PNPT Certification Path/1. What need to Learn.md",

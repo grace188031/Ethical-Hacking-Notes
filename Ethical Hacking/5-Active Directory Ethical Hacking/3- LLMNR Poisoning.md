@@ -46,3 +46,5 @@ Image of the Punisher's machine while accessing `\\192.168.64.4`
 Image of the kali machine while the responder is "ON". 
 
 ![[Pasted image 20240711195645.png]]
+
+- Use hashcat

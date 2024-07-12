@@ -97,4 +97,14 @@ Stopped: Thu Jul 11 17:33:42 2024
 
 ```
 
-- As seen above the password is `P@$$w0rd1` . You can rerun it with --show`hashcat -m 5600 hash.txt /usr/share/wordlists/rockyou.txt --show`
+#hashcattricks
+#rockyou 
+#hascatrules
+#wordlists 
+#ntlm
+- As seen above the password is `P@$$w0rd1` . You can rerun it with --show once you already executed it once`hashcat -m 5600 hash.txt /usr/share/wordlists/rockyou.txt --show`
+- You can also do `hashcat -m 5600 hash.txt /usr/share/wordlists/rockyou.txt --force` if you want to rerun it.
+- You can add -O to optimize the hash cracking. It makes hashcat faster `hashcat -m 5600 hash.txt /usr/share/wordlists/rockyou.txt -O`
+- There are better wordlist which is rockyou2021 you can use
+- Run against rules and wordlists. Rule like onerule to rule them all, the script is `hashcat -m 5600 hash.txt /usr/share/wordlists/rockyou.txt -r OneRule`. If NTLMv2 it may take a couple of hours depends on what you ant to crack
+

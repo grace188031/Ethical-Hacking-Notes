@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md",
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/1- Active Directory Components.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md",
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/1- Active Directory Components.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md",
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/1- Active Directory Components.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md"
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/1- Active Directory Components.md"
               }
             }
           },
@@ -192,6 +192,8 @@
   },
   "active": "41dca6ca89bfd2a8",
   "lastOpenFiles": [
+    "Ethical Hacking/4- Capstone/Blue - PNPT.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/LLMNR Poisoning Mitigation.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md",
     "Ethical Hacking/4- Capstone/Academy.md",
     "Pasted image 20240711195727.png",
@@ -206,7 +208,6 @@
     "Ethical Hacking/5-Active Directory Ethical Hacking",
     "Ethical Hacking/Active Directory Ethical Hacking.md",
     "Ethical Hacking/4- Capstone/BlackPearl.md",
-    "Ethical Hacking/4- Capstone/Blue - PNPT.md",
     "Pasted image 20240710193257.png",
     "Pasted image 20240710193050.png",
     "Ethical Hacking/2-Scanning and Enumeration/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",

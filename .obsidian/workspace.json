@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/1- Active Directory Components.md",
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/5-SMB Relay Attacks Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/1- Active Directory Components.md",
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/5-SMB Relay Attacks Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/1- Active Directory Components.md",
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/5-SMB Relay Attacks Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/1- Active Directory Components.md"
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/5-SMB Relay Attacks Overview.md"
               }
             }
           },
@@ -192,9 +192,11 @@
   },
   "active": "41dca6ca89bfd2a8",
   "lastOpenFiles": [
-    "Ethical Hacking/4- Capstone/Blue - PNPT.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/LLMNR Poisoning Mitigation.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/4-LLMNR Poisoning Mitigation.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/5-SMB Relay Attacks Overview.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/1- Active Directory Components.md",
+    "Ethical Hacking/4- Capstone/Blue - PNPT.md",
     "Ethical Hacking/4- Capstone/Academy.md",
     "Pasted image 20240711195727.png",
     "Pasted image 20240711195645.png",
@@ -202,7 +204,6 @@
     "Pasted image 20240711195044.png",
     "Pasted image 20240711192802.png",
     "Ethical Hacking/5-Active Directory Ethical Hacking/2- AD Lab Requirements.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/1- Active Directory Components.md",
     "Ethical Hacking/4- Capstone/Dev.md",
     "Excalidraw/Drawing 2024-07-10 19.26.09.excalidraw.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking",
@@ -235,7 +236,6 @@
     "Untitled 1.canvas",
     "PNPT Certification Path/3. Installing and updating.md",
     "How to add Git repository/Steps in adding owasp-amass git.md",
-    "How to add Git repository/Steps in adding Git from Remote.md",
     "Untitled.canvas",
     "Images",
     "How to add Git repository",

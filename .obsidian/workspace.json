@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
+                "file": "PNPT Certification Path/3. Installing and updating.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
+                "file": "PNPT Certification Path/3. Installing and updating.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
+                "file": "PNPT Certification Path/3. Installing and updating.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md"
+                "file": "PNPT Certification Path/3. Installing and updating.md"
               }
             }
           },
@@ -192,13 +193,13 @@
   },
   "active": "41dca6ca89bfd2a8",
   "lastOpenFiles": [
+    "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
     "Pasted image 20240714210939.png",
     "Pasted image 20240714210802.png",
     "Pasted image 20240714210446.png",
     "PNPT Certification Path/5. Python.md",
     "PNPT Certification Path/4. Bashscripts.md",
     "PNPT Certification Path/3. Installing and updating.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
     "Pasted image 20240714202746.png",
     "Pasted image 20240714202517.png",
     "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
@@ -219,7 +220,6 @@
     "Ethical Hacking/5-Active Directory Ethical Hacking",
     "Ethical Hacking/Active Directory Ethical Hacking.md",
     "Ethical Hacking/4- Capstone/BlackPearl.md",
-    "Pasted image 20240710193257.png",
     "Ethical Hacking/2-Scanning and Enumeration/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
     "Excalidraw",
     "Ethical Hacking/4- Capstone/Butler.md",

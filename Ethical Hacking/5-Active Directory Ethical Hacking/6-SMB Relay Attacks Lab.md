@@ -87,6 +87,18 @@ Check if they are off by running the command `sudo responder -I eth0 -dwPv`
 
 	- If you have pimpmykali installed, just use ntmrelay
 	- If you haven't pimpmykali, you can use the impacket-ntmlrelayx - newer version but not sure if it will work
-	- 
+
+![[Pasted image 20240714210446.png]]
+
+```
+impacket-ntlmrelayx -tf targets.txt smb2support
+```
+
+Execute the smb
 
 
+![[Pasted image 20240714210802.png]]
+
+We cant access but we caputured the logs in kali
+
+![[Pasted image 20240714210939.png]]

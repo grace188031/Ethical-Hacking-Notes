@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/7-SMB Relay Mitigation.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/7-SMB Relay Mitigation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/7-SMB Relay Mitigation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md"
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/7-SMB Relay Mitigation.md"
               }
             }
           },
@@ -192,9 +192,11 @@
   },
   "active": "41dca6ca89bfd2a8",
   "lastOpenFiles": [
+    "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/7-SMB Relay Mitigation.md",
+    "Pasted image 20240714230740.png",
     "Pasted image 20240714222330.png",
     "PNPT Certification Path/3. Installing and updating.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
     "Pasted image 20240714210939.png",
     "Pasted image 20240714210802.png",
     "Pasted image 20240714210446.png",
@@ -213,8 +215,6 @@
     "Pasted image 20240711195727.png",
     "Pasted image 20240711195645.png",
     "Pasted image 20240711195155.png",
-    "Pasted image 20240711195044.png",
-    "Pasted image 20240711192802.png",
     "Ethical Hacking/4- Capstone/Dev.md",
     "Excalidraw/Drawing 2024-07-10 19.26.09.excalidraw.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking",

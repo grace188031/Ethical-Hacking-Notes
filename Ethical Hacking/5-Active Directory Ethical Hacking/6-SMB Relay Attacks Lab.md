@@ -81,6 +81,12 @@ Nmap done: 1 IP address (1 host up) scanned in 0.36 seconds
 
 ![[Pasted image 20240714202746.png]]
 
-Check if they are off by running the command `sudo responder -I eth0 -dwPV`
+Check if they are off by running the command `sudo responder -I eth0 -dwPv`
+
+4. Setup ntlmrelayx while the responder is running
+
+	- If you have pimpmykali installed, just use ntmrelay
+	- If you haven't pimpmykali, you can use the impacket-ntmlrelayx - newer version but not sure if it will work
+	- 
 
 

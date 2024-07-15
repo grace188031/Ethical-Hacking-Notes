@@ -125,6 +125,6 @@ Execute the smb
 
 We cant access but we captured the logs in kali
 
-![[Pasted image 20240714210939.png]]
+![[Pasted image 20240714222330.png]]
 
 

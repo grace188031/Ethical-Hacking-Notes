@@ -81,4 +81,5 @@ Capturing, in the wireshark, here is the step by step
 
 1. IPV6 router advertisement - The attacker/kali impersonates will introduce itself as an  IPV6 router
 ![[Pasted image 20240716203249.png]]
-2. Th
+2. DHCPv6 Activity - devices perform DHCPv6 solicitation in response to the new router advertisement
+3. 

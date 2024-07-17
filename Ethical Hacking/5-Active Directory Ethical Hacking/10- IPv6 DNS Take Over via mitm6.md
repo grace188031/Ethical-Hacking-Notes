@@ -87,3 +87,8 @@ Capturing, in the wireshark, here is the step by step
 3. After obtaining DHCPv6 address, it then query for WPAD(Web proxy auto discovery) . AS you see below, the client query for the IPv4 and IPv6 address and the attacker replied its IPv4 and IPV6 address
 ![[Pasted image 20240716213537.png]]
 
+4. The Domain Computer requested wpad.dat file to the attacker's machine. based from the image, it successfully downloaded the wpad.dat.
+![[Pasted image 20240716221027.png]]
+
+5. 
+

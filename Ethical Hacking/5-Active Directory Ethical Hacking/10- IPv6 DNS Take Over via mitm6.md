@@ -90,5 +90,6 @@ Capturing, in the wireshark, here is the step by step
 4. The Domain Computer requested wpad.dat file to the attacker's machine. based from the image, it successfully downloaded the wpad.dat.
 ![[Pasted image 20240716221027.png]]
 
-5.  The wpad.dat contains java script.
+5.  Yes, the `wpad.dat` file contains JavaScript that directs the host to use the attacker's (Kali's) proxy
+6. 
 

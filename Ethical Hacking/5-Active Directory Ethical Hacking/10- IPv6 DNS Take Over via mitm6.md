@@ -90,6 +90,7 @@ Capturing, in the wireshark, here is the step by step
 4. The Domain Computer requested wpad.dat file to the attacker's machine. based from the image, it successfully downloaded the wpad.dat.
 ![[Pasted image 20240716221027.png]]
 
-5.  Yes, the `wpad.dat` file contains JavaScript that directs the host to use the attacker's (Kali's) proxy
-6. 
+5.  The `wpad.dat` file contains JavaScript that directs the host to use the attacker's (Kali's) proxy
+6. The domain computr attenpts to authenticate to the attacker's(KALi) proxy using NTLM authentication
+7. The attacker reposnds with ;407 Proxy Authentication required, prompting the domain computer to send an NTLM authentication (NTLM Negotiate)
 

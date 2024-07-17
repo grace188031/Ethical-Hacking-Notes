@@ -79,4 +79,6 @@ Sent spoofed reply for fakewpad.marvel.local. to fe80::fde3:206f:be61:b3b7
 
 Capturing, in the wireshark, here is the step by step
 
-1. 
+1. IPV6 router advertisement - The attacker/kali impersonates will introduce itself as an  IPV6 router
+![[Pasted image 20240716203249.png]]
+2. Th

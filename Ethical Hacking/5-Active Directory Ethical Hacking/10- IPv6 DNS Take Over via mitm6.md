@@ -87,14 +87,14 @@ Capturing, in the wireshark, here is the step by step
 3. After obtaining DHCPv6 address, it then query for WPAD(Web proxy auto discovery) . As you see below, the client queries for the IPv4 and IPv6 address of wpad.marvel.local and the attacker replies its IPv4 and IPV6 address
 ![[Pasted image 20240716213537.png]]
 
-4. The Domain Computer acknowledged that the WPAD server is kali/attacker's IP. It will requeste wpad.dat file to the attacker's machine via HTTP `GET`. Based from the image below, it successfully downloaded the wpad.dat.
+4. The Domain Computer acknowledged that the WPAD server is kali/attacker's IP. It will request the wpad.dat file to the attacker's machine via HTTP `GET`. Based on the image below, it successfully downloaded the wpad.dat.
 `GET http://fakewpad.marvel.local/wpad.dat`
 ![[Pasted image 20240716221027.png]]
 
-5.  The `wpad.dat` file contains JavaScript that directs the host to use the attacker's (Kali's) proxy.
-6. The domain computer attempts to authenticate to the attacker's(KALi) proxy using NTLM authentication.
+5.  The `wpad.dat` file contains JavaScript that directs the host to use the attacker's (Kali's) proxy. It will direxr
+6. When the domain computer makes HTTP request to the internet, it goes to the attacker's web proxy. It attempts to authenticate to the attacker's(KALi) proxy using NTLM authentication.
 
-1. The attacker reposnds with ;407 Proxy Authentication required, prompting the domain computer to send an NTLM authentication (NTLM Negotiate)
+7.  The attacker responds with ;407 Proxy Authentication required, prompting the domain computer to send an NTLM authentication (NTLM Negotiate)
 2. The domain computer sends an NTLM Negotiate message to the attacker.
 3. 
 

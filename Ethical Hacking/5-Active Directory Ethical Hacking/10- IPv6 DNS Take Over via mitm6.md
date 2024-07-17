@@ -84,4 +84,6 @@ Capturing, in the wireshark, here is the step by step
 2. DHCPv6 Activity - devices perform DHCPv6 solicitation in response to the new router advertisement. The Kali then offers link local and global address to the domain computer
 ![[Pasted image 20240716205537.png]]
 
-3. After obtaining DHCPv6 address, it then query for WPAD(Web proxy auto discovery) 
+3. After obtaining DHCPv6 address, it then query for WPAD(Web proxy auto discovery) . AS you see below, the client query for the IPv4 and IPv6 address and the attacker replied its IPv4 and IPV6 address
+![[Pasted image 20240716213537.png]]
+

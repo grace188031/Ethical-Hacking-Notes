@@ -112,3 +112,8 @@ As you see, the domain controller and the kali has now 3-way handshake communica
 11. Below is the lootme file that has been downloaded
 ![[Pasted image 20240718190953.png]]
 
+![[Pasted image 20240718192929.png]]
+
+![[Pasted image 20240718193014.png]]
+
+12. It can also create an administrator account.

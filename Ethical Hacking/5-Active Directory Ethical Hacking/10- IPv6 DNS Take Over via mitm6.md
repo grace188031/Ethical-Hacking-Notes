@@ -92,9 +92,11 @@ Capturing, in the wireshark, here is the step by step
 ![[Pasted image 20240716221027.png]]
 
 5.  The `wpad.dat` file contains JavaScript that instructs the host to use the attacker's (Kali's) machine as the proxy.
-6. When the domain computer attempts to access the internet, it routes the HTTP request through the attacker's proxy as per the instructions in the `wpad.dat`. IN the image below, at 429, it POST request to microsoft.
-![[Pasted image 20240717195039.png]]
-7.  The attacker responds with 407 Proxy Authentication required, prompting the domain computer to send an NTLM authentication (NTLM Negotiate). IN the image above, at item number 432, the attacker replied with HTTP/1.1 authentication is required.
-2. The domain computer sends an NTLM Negotiate message to the attacker.
-3. 
+6. When the domain computer attempts to access the internet, it routes the HTTP request through the attacker's proxy as per the instructions in the `wpad.dat`. Please see image below[item 439]
+7.  The attacker responds with 407 Proxy Authentication required, prompting the domain computer to send an NTLM authentication (NTLM Negotiate). In the image above, at item number 432, the attacker replied with HTTP/1.1 authentication is required. Please see image below [item 441]
+9. The domain computer sends an NTLM Negotiate message to the attacker. Please see image below [item 445]
+
+![[Pasted image 20240717195615.png]]
+
+![[Pasted image 20240717195952.png]]
 

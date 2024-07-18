@@ -102,3 +102,6 @@ Capturing, in the wireshark, here is the step by step
 
 10. After the NTLM authentication was aquired, Kali sense it it immediately via ntlmxrelay and negotiated with the domain controller (192.168.64.250). Please see the image below [item 447]
 
+![[Pasted image 20240717202044.png]]
+
+![[Pasted image 20240717202220.png]]

@@ -101,8 +101,12 @@ Capturing, in the wireshark, here is the step by step
 ![[Pasted image 20240717195952.png]]
 
 10. After the NTLM authentication was acquired, Kali sensed it immediately through ntlmxrelay and will communicate to the domain controller (192.168.64.250) with the relayed NTLM authentication. Please see the image below [item 447]
-![[Pasted image 20240718185630.png]]
+As you see, the domain controller and the kali has now 3-way handshake communication(downloading end enumerating sensitive infromation like domain users, domain computers) after authenticated to the domain controller.
+![[Pasted image 20240718185833.png]]
 
+- In the image below of Kali ntlmxrelay, you will see that the lootme file was created and all sensistive information has been stored there
 ![[Pasted image 20240717202044.png]]
 
 ![[Pasted image 20240717202220.png]]
+
+11. 

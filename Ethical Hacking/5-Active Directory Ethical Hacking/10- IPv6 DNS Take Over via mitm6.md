@@ -109,4 +109,6 @@ As you see, the domain controller and the kali has now 3-way handshake communica
 
 ![[Pasted image 20240717202220.png]]
 
-11. 
+11. Below is the lootme file that has been downloaded
+![[Pasted image 20240718190953.png]]
+

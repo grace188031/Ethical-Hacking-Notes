@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
+                "file": "Ethical Hacking/4- Capstone/Blue - PNPT.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/4- Capstone/Blue - TryHackMe.md",
+                "file": "Ethical Hacking/4- Capstone/BlackPearl.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/4- Capstone/Blue - TryHackMe.md",
+                "file": "Ethical Hacking/4- Capstone/BlackPearl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/4- Capstone/Blue - TryHackMe.md",
+                "file": "Ethical Hacking/4- Capstone/BlackPearl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/4- Capstone/Blue - TryHackMe.md"
+                "file": "Ethical Hacking/4- Capstone/BlackPearl.md"
               }
             }
           },
@@ -202,12 +202,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "99b8042c696f90a8",
+  "active": "bd2a61a3851b2e2c",
   "lastOpenFiles": [
+    "Ethical Hacking/4- Capstone/Blue - PNPT.md",
+    "Ethical Hacking/4- Capstone/Butler.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
+    "Ethical Hacking/4- Capstone/Blue - TryHackMe.md",
     "Ethical Hacking/4- Capstone/Academy.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/8-Gaining Shell Access.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md",
-    "Ethical Hacking/4- Capstone/Blue - TryHackMe.md",
     "Pasted image 20240718193014.png",
     "Pasted image 20240718192929.png",
     "Pasted image 20240718190953.png",
@@ -220,7 +223,6 @@
     "Pasted image 20240717195428.png",
     "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/2- AD Lab Requirements.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
     "excalidraw.pdf",
     "excalidraw.pdf.pdf",
     "Ethical Hacking/4- Capstone/BlackPearl.md",
@@ -234,14 +236,12 @@
     "Ethical Hacking/5-Active Directory Ethical Hacking/1- Active Directory Components.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/5-SMB Relay Attacks Overview.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/4-LLMNR Poisoning Mitigation.md",
-    "Ethical Hacking/4- Capstone/Blue - PNPT.md",
     "Ethical Hacking/4- Capstone/Dev.md",
     "Excalidraw/Drawing 2024-07-10 19.26.09.excalidraw.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking",
     "Ethical Hacking/Active Directory Ethical Hacking.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
     "Excalidraw",
-    "Ethical Hacking/4- Capstone/Butler.md",
     "PNPT Certification Path/1. What need to Learn.md",
     "Ethical Hacking/3-Exploit/10.5 Brute Force Attack.md",
     "Images/Untitled.canvas",

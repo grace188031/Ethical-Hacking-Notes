@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/4- Capstone/BlackPearl.md",
+                "file": "Ethical Hacking/4- Capstone/Dev.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "gtf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +102,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/4- Capstone/BlackPearl.md",
+                "file": "Ethical Hacking/4- Capstone/Dev.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/4- Capstone/BlackPearl.md",
+                "file": "Ethical Hacking/4- Capstone/Dev.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/4- Capstone/BlackPearl.md"
+                "file": "Ethical Hacking/4- Capstone/Dev.md"
               }
             }
           },
@@ -204,6 +205,11 @@
   },
   "active": "bd2a61a3851b2e2c",
   "lastOpenFiles": [
+    "Ethical Hacking/4- Capstone/BlackPearl.md",
+    "Ethical Hacking/4- Capstone/Dev.md",
+    "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
+    "PNPT Certification Path/4. Bashscripts.md",
     "Ethical Hacking/4- Capstone/Blue - PNPT.md",
     "Ethical Hacking/4- Capstone/Butler.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
@@ -221,22 +227,17 @@
     "Pasted image 20240717195952.png",
     "Pasted image 20240717195615.png",
     "Pasted image 20240717195428.png",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/2- AD Lab Requirements.md",
     "excalidraw.pdf",
     "excalidraw.pdf.pdf",
-    "Ethical Hacking/4- Capstone/BlackPearl.md",
     "Untitled 1.canvas",
     "Ethical Hacking/5-Active Directory Ethical Hacking/9-IPV6 Attacks-overview.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/7-SMB Relay Mitigation.md",
     "PNPT Certification Path/3. Installing and updating.md",
     "PNPT Certification Path/5. Python.md",
-    "PNPT Certification Path/4. Bashscripts.md",
-    "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/1- Active Directory Components.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/5-SMB Relay Attacks Overview.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/4-LLMNR Poisoning Mitigation.md",
-    "Ethical Hacking/4- Capstone/Dev.md",
     "Excalidraw/Drawing 2024-07-10 19.26.09.excalidraw.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking",
     "Ethical Hacking/Active Directory Ethical Hacking.md",

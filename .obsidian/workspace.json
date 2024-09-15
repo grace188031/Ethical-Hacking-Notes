@@ -47,11 +47,14 @@
             "id": "bd2a61a3851b2e2c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Ethical Hacking/4- Capstone/Dev.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled 4.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -85,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gtf",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/4- Capstone/Dev.md",
+                "file": "Untitled 4.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/4- Capstone/Dev.md",
+                "file": "Untitled 4.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/4- Capstone/Dev.md"
+                "file": "Untitled 4.canvas"
               }
             }
           },
@@ -205,8 +208,10 @@
   },
   "active": "bd2a61a3851b2e2c",
   "lastOpenFiles": [
-    "Ethical Hacking/4- Capstone/BlackPearl.md",
+    "Untitled 4.canvas",
+    "2024-09-15.md",
     "Ethical Hacking/4- Capstone/Dev.md",
+    "Ethical Hacking/4- Capstone/BlackPearl.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
     "PNPT Certification Path/4. Bashscripts.md",
@@ -244,7 +249,6 @@
     "Ethical Hacking/2-Scanning and Enumeration/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
     "Excalidraw",
     "PNPT Certification Path/1. What need to Learn.md",
-    "Ethical Hacking/3-Exploit/10.5 Brute Force Attack.md",
     "Images/Untitled.canvas",
     "Untitled 3.canvas",
     "Untitled 2.canvas",

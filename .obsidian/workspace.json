@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
+                "file": "Ethical Hacking/4- Capstone/Blue - PNPT.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nma",
+                "query": "openssh",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
+                "file": "Ethical Hacking/4- Capstone/Blue - PNPT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
+                "file": "Ethical Hacking/4- Capstone/Blue - PNPT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md"
+                "file": "Ethical Hacking/4- Capstone/Blue - PNPT.md"
               }
             }
           },
@@ -203,8 +203,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bd2a61a3851b2e2c",
+  "active": "0854c0df333bac3a",
   "lastOpenFiles": [
+    "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
     "Ethical Hacking/4- Capstone/Blue - PNPT.md",
     "Ethical Hacking/4- Capstone/Blue - TryHackMe.md",
     "Untitled 9.canvas",
@@ -218,7 +219,6 @@
     "2024-09-15.md",
     "Ethical Hacking/4- Capstone/Dev.md",
     "Ethical Hacking/4- Capstone/BlackPearl.md",
-    "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
     "PNPT Certification Path/4. Bashscripts.md",
     "Ethical Hacking/4- Capstone/Butler.md",

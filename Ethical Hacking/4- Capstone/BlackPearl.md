@@ -46,7 +46,7 @@ Nmap done: 1 IP address (1 host up) scanned in 17.36 seconds
 ### Enumerating port 80
 - - Checking the source code of the default website, we see the webmaster: `alek@blackpearl.tcm`
 
-![[Pasted image 20240710125702.png]]
+![Alt](../../Images/enumeration_80_blackpearl.png)
 - No result in ffuf, no directories detected using the `ffuf -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt:FUZZ -u http://192.168.64.8/FUZZ -mc 200,204,301,302,307,401,403,405`
 - We did dns reconnaissance to know the name of the site and do FUZZ again using the ffuf. Based from the dns enumeration, the name is blackpearl.tcm. We also configured the blackpearl.tcm in the host file of our attacker's machine(kali)
 

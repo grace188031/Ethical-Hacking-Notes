@@ -89,6 +89,18 @@
             "id": "8af075687ecd508e",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Images/navigate_vulnerability.png"
+              },
+              "icon": "lucide-image",
+              "title": "navigate_vulnerability"
+            }
+          },
+          {
+            "id": "65334263a520887a",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Ethical Hacking/4- Capstone/BlackPearl.md",
@@ -100,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -263,11 +275,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8af075687ecd508e",
+  "active": "65334263a520887a",
   "lastOpenFiles": [
+    "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md",
+    "Ethical Hacking/3-Exploit/10 Exploitation Basic.md",
+    "Images/php_version_shown.png",
+    "Images/host_file_malicious_domain.png",
+    "Images/navigate_vulnerability.png",
+    "Ethical Hacking/4- Capstone/BlackPearl.md",
     "Ethical Hacking/4- Capstone/Blue - PNPT.md",
     "Pasted image 20240711192802.png",
-    "Ethical Hacking/4- Capstone/BlackPearl.md",
     "Pasted image 20240617140157.png",
     "Ethical Hacking/4- Capstone/Blue - TryHackMe.md",
     "Ethical Hacking/4- Capstone/Butler.md",
@@ -277,14 +294,9 @@
     "Images/directory_traversal_boltwire.png",
     "Images/jenkins_vulnerable_groovy.png",
     "Images/reverse_shell_groovy.png",
-    "Images/winpeas_butler.png",
-    "Images/repeater_to_intruder.png",
-    "Pasted image 20240718192929.png",
     "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9.1 Scanning with Nessus Part 1.md",
     "Ethical Hacking/4- Capstone/Academy.md",
     "Ethical Hacking/3-Exploit/10.6 Credential Stuffing and Spraying.md",
-    "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md",
-    "Ethical Hacking/3-Exploit/10 Exploitation Basic.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/1- Active Directory Components.md",
     "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9 Vulnerability Scanning with Nessus.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.4 Enumerating HTTP and HTTPS Part 2.md",

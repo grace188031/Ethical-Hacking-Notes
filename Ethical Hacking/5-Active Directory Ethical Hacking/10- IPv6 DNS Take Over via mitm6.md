@@ -80,12 +80,12 @@ Sent spoofed reply for fakewpad.marvel.local. to fe80::fde3:206f:be61:b3b7
 Capturing, in the wireshark, here is the step by step
 
 1. IPV6 router advertisement - The attacker/kali impersonates will introduce itself as an  IPV6 router
-![[Pasted image 20240716203249.png]]
+![Alt](../../Images/IPV6_Attack_malicious_rogue_advertisement.png)
 2. DHCPv6 Activity - After the domain computer reboots, it perform DHCPv6 solicitation in response to the new router advertisement. The Kali then offers link local and global address to the domain computer
-![[Pasted image 20240716205537.png]]
+![Alt](../../Images/IPV6_attack_victim_respond and accer_malicious_ipv6_link_global_address.png)
 
 3. After obtaining DHCPv6 address, it then query for WPAD(Web proxy auto discovery) . As you see below, the client queries for the IPv4 and IPv6 address of wpad.marvel.local and the attacker replies its IPv4 and IPV6 address saying he is the wpad(introduced fakewpad.marvel.local)
-![[Pasted image 20240716213537.png]]
+![Alt](../../Images/IPV6_attack_victim_query_wpad_to_wpad_attacker_fake_wpad.png)
 
 4. The Domain Computer acknowledged that the WPAD server is kali/attacker's IP. It will request the wpad.dat file to the attacker's machine via HTTP `GET`. Based on the image below, it successfully downloaded the wpad.dat.
 `GET http://fakewpad.marvel.local/wpad.dat`

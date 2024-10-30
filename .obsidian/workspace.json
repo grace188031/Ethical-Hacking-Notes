@@ -103,12 +103,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/4- Capstone/Dev.md",
+                "file": "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9.1 Scanning with Nessus Part 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dev"
+              "title": "9.1 Scanning with Nessus Part 1"
             }
           }
         ],
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/4- Capstone/Dev.md",
+                "file": "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9.1 Scanning with Nessus Part 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Dev"
+              "title": "Backlinks for 9.1 Scanning with Nessus Part 1"
             }
           },
           {
@@ -203,12 +203,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/4- Capstone/Dev.md",
+                "file": "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9.1 Scanning with Nessus Part 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Dev"
+              "title": "Outgoing links from 9.1 Scanning with Nessus Part 1"
             }
           },
           {
@@ -230,10 +230,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/4- Capstone/Dev.md"
+                "file": "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9.1 Scanning with Nessus Part 1.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Dev"
+              "title": "Outline of 9.1 Scanning with Nessus Part 1"
             }
           },
           {
@@ -277,6 +277,8 @@
   },
   "active": "65334263a520887a",
   "lastOpenFiles": [
+    "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9 Vulnerability Scanning with Nessus.md",
+    "Ethical Hacking/4- Capstone/Dev.md",
     "Ethical Hacking/4- Capstone/Academy.md",
     "Ethical Hacking/4- Capstone/BlackPearl.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
@@ -301,7 +303,6 @@
     "Images/LLMNR_responder_config.png",
     "Ethical Hacking/4- Capstone/Butler.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/2- AD Lab Requirements.md",
-    "Ethical Hacking/4- Capstone/Dev.md",
     "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md",
     "Ethical Hacking/3-Exploit/10 Exploitation Basic.md",
     "Images/php_version_shown.png",
@@ -309,7 +310,6 @@
     "Ethical Hacking/4- Capstone/Blue - TryHackMe.md",
     "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9.1 Scanning with Nessus Part 1.md",
     "Ethical Hacking/3-Exploit/10.6 Credential Stuffing and Spraying.md",
-    "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9 Vulnerability Scanning with Nessus.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.4 Enumerating HTTP and HTTPS Part 2.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.1 Installing Kioptrix.md",
     "2024-09-15.md",

@@ -55,7 +55,7 @@ Nmap done: 1 IP address (1 host up) scanned in 18.61 seconds
 - Access the http://192.168.64.3
 ![Alt](../../Images/academypage.png)
 
-Checking path in the web reveals the Apache version
+Checking the path on the web reveals the Apache version
 
 ![Alt](../../Images/academyredirect.png)
 **Note: Finding revealing too much information**

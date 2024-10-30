@@ -41,11 +41,11 @@ As see here, its listening DHCP events
 - While accessing the attacker's machine using SMB, we were able to capture the hash
 Image of the Punisher's machine while accessing `\\192.168.64.4`
 
-![[Pasted image 20240711195727.png]]
+![Alt](../../Images/LLMNR_hash_directory.png)
 
 Image of the kali machine while the responder is "ON". 
 
-![[Pasted image 20240711195645.png]]
+![Alt](../../Images/LLMNR_hash.png)
 
 - Use hashcat to identify the module `hashcat --help | grep NTLM` or search hashcat modules online. As a result we can see that we can use 5600 module
 ```

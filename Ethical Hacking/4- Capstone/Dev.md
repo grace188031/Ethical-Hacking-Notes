@@ -111,7 +111,7 @@ server-status           [Status: 403, Size: 279, Words: 20, Lines: 10, Duration:
 
 dev site
 
-![Alt](../../dev_boltwire_page.png)
+![Alt](dev_boltwire_page.png)
 
 
 Check the boltwire exploit in your browser

@@ -103,12 +103,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md",
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3- LLMNR Poisoning"
+              "title": "10- IPv6 DNS Take Over via mitm6"
             }
           }
         ],
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md",
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 3- LLMNR Poisoning"
+              "title": "Backlinks for 10- IPv6 DNS Take Over via mitm6"
             }
           },
           {
@@ -203,12 +203,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md",
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 3- LLMNR Poisoning"
+              "title": "Outgoing links from 10- IPv6 DNS Take Over via mitm6"
             }
           },
           {
@@ -230,10 +230,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md"
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 3- LLMNR Poisoning"
+              "title": "Outline of 10- IPv6 DNS Take Over via mitm6"
             }
           },
           {
@@ -277,10 +277,20 @@
   },
   "active": "65334263a520887a",
   "lastOpenFiles": [
-    "Ethical Hacking/4- Capstone/Butler.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/9-IPV6 Attacks-overview.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/8-Gaining Shell Access.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/7-SMB Relay Mitigation.md",
+    "Images/SMB_relay_attack_mitigation.png",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/5-SMB Relay Attacks Overview.md",
+    "Images/SMB_relay_execute_smb.png",
+    "Images/SMB_Relay_Attack_Configure_Targets.png",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/4-LLMNR Poisoning Mitigation.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/2- AD Lab Requirements.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/1- Active Directory Components.md",
+    "Images/LLMNR_responder_config.png",
+    "Ethical Hacking/4- Capstone/Butler.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/2- AD Lab Requirements.md",
     "Ethical Hacking/4- Capstone/Dev.md",
     "Ethical Hacking/4- Capstone/Academy.md",
     "Ethical Hacking/4- Capstone/BlackPearl.md",
@@ -290,31 +300,20 @@
     "Images/host_file_malicious_domain.png",
     "Images/navigate_vulnerability.png",
     "Ethical Hacking/4- Capstone/Blue - PNPT.md",
-    "LLMNR_overview.png",
+    "Images/LLMNR_overview.png",
     "Pasted image 20240617140157.png",
     "Ethical Hacking/4- Capstone/Blue - TryHackMe.md",
     "Images/boltwire_exploit.png",
-    "Images/boltwire_registration.png",
-    "Images/directory_traversal_boltwire.png",
-    "Images/jenkins_vulnerable_groovy.png",
-    "Images/reverse_shell_groovy.png",
     "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9.1 Scanning with Nessus Part 1.md",
     "Ethical Hacking/3-Exploit/10.6 Credential Stuffing and Spraying.md",
     "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9 Vulnerability Scanning with Nessus.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.4 Enumerating HTTP and HTTPS Part 2.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.1 Installing Kioptrix.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/4-LLMNR Poisoning Mitigation.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/7-SMB Relay Mitigation.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/9-IPV6 Attacks-overview.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/8-Gaining Shell Access.md",
     "2024-09-15.md",
-    "Ethical Hacking/2-Scanning and Enumeration/8.7 Researching Potential Vulnerabilities.md",
     "Untitled 9.canvas",
     "Untitled 8.canvas",
-    "Tools/Info Aggregation.md",
-    "2024-10-03.md",
     "Untitled 7.canvas",
     "Untitled 6.canvas",
     "Untitled 5.canvas",

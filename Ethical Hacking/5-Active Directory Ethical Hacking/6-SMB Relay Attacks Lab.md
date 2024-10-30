@@ -74,12 +74,12 @@ Nmap done: 1 IP address (1 host up) scanned in 0.36 seconds
 
 2. After we identified the targets, put it in text file targets.txt
 
-![[Pasted image 20240714202517.png]]
+![Alt](../../Images/SMB_Relay_Attack_Configure_Targets.png)
 
 3. Change the responder configuration file to **SMB=OFF and HTTP=OFF**
 `sudo mousepad /etc/responder/Responder.conf`
 
-![[Pasted image 20240714202746.png]]
+![Alt](../../Images/SMB_relay_attack_responder_config_SMBOFF.png)
 
 Check if they are off by running the command `sudo responder -I eth0 -dwPv`
 
@@ -121,11 +121,11 @@ Impacket v0.12.0.dev1 - Copyright 2023 Fortra
 Execute the smb
 
 
-![[Pasted image 20240714210802.png]]
+![Alt](../../Images/SMB_relay_execute_smb.png)
 
 We can't access smb but we captured the logs and has in kali
 
-![[Pasted image 20240714222330.png]]
+![Alt](../../Images/SMB_relay_attack_logs.png)
 
 ```
 ┌──(kali㉿kali)-[~]
@@ -253,4 +253,4 @@ You can also execute command while doing the smb-relay attack. Just type the `im
 
 You can see below that it executed a specific command and output the `nt authority \system`
 
-![[Pasted image 20240714230740.png]]
+![Alt](../../Images/SMB_relay_attack_execute_command_NT_authority_execution.png)

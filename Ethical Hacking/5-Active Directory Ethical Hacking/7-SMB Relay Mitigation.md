@@ -6,4 +6,4 @@
 - Account tiering - Limits domain admins to specific tasks. COns is Enforvcing the policy may be difficult
 - Local Admin restriction - Can prevent a lot of lateral movement and Con is potential increase in the amount of service desk ticket
 
-![[Pasted image 20240714231216.png]]
+![Alt](../../Images/SMB_relay_attack_mitigation.png)

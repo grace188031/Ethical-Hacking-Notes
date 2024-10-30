@@ -105,7 +105,7 @@ As you see, the domain controller and the kali has now 3-way handshake communica
 ![Alt](../../Images/IPV6_attack_NTLMxrelay_message_domaincontroller.png)
 
 - In the image below of Kali ntlmxrelay, you will see that the lootme file was created and all sensistive information has been stored there
-![[Pasted image 20240717202044.png]]
+![Alt](../../Images/IPV6_attack_NLMXrelay_lootmefile_created.png)
 
 ![[Pasted image 20240717202220.png]]
 

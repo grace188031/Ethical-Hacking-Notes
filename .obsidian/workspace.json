@@ -53,6 +53,18 @@
             "id": "bd2a61a3851b2e2c",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Images/reverse_shell_groovy.png"
+              },
+              "icon": "lucide-image",
+              "title": "reverse_shell_groovy"
+            }
+          },
+          {
+            "id": "e192c33e39a4c602",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Ethical Hacking/4- Capstone/Butler.md",
@@ -64,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -227,11 +239,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bd2a61a3851b2e2c",
+  "active": "e192c33e39a4c602",
   "lastOpenFiles": [
+    "Images/jenkins_vulnerable_groovy.png",
+    "Images/reverse_shell_groovy.png",
+    "Images/winpeas_butler.png",
+    "Ethical Hacking/4- Capstone/Butler.md",
     "Images/repeater_to_intruder.png",
     "Pasted image 20240718192929.png",
-    "Ethical Hacking/4- Capstone/Butler.md",
     "Images/jenkins_payload.png",
     "Ethical Hacking/4- Capstone/Blue - TryHackMe.md",
     "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9.1 Scanning with Nessus Part 1.md",
@@ -268,8 +283,6 @@
     "Pasted image 20240718190953.png",
     "Pasted image 20240718185833.png",
     "Pasted image 20240718185630.png",
-    "Pasted image 20240717202220.png",
-    "Pasted image 20240717202044.png",
     "Images/excalidraw.pdf",
     "excalidraw.pdf.pdf",
     "Untitled 1.canvas",

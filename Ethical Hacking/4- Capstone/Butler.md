@@ -332,11 +332,11 @@ executing winpeas.exe, please see the results below
 
 We saw executable service
 
-![[Pasted image 20240708201859.png]]
+![Alt](../../Images/winpeas_executable_service_canexploit.png)
 
 The `C:\Program FIles (x86)\Wise\Wise Case 365\BootTime.exe` is unquoted, it means that we can input some malicious executable files in between caus its not quoted and treat each as separately
 
-![[Pasted image 20240708202418.png]]
+![Alt](../../Images/winpeas_unquoted_exe_regedit_canexploit.png)
 
 #msfvenom
 #injectmalware

@@ -89,7 +89,7 @@ Capturing, in the wireshark, here is the step by step
 
 4. The Domain Computer acknowledged that the WPAD server is kali/attacker's IP. It will request the wpad.dat file to the attacker's machine via HTTP `GET`. Based on the image below, it successfully downloaded the wpad.dat.
 `GET http://fakewpad.marvel.local/wpad.dat`
-![[Pasted image 20240716221027.png]]
+![Alt](../../Images/IPV6_attack_domain_controller_acknowledged_wpad_it_requestwpaddat_attacker_get.png)
 
 5.  The `wpad.dat` file contains JavaScript that instructs the host to use the attacker's (Kali's) machine as the proxy.
 6. When the domain computer attempts to access the internet, it routes the HTTP request through the attacker's proxy as per the instructions in the `wpad.dat`. Please see image below[item 439]

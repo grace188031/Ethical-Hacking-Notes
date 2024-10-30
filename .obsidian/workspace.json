@@ -101,14 +101,12 @@
             "id": "65334263a520887a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md",
-                "mode": "source",
-                "source": false
+                "file": "Images/IPV6_attack_lootme_domain_user_per_group_exposed.png"
               },
-              "icon": "lucide-file",
-              "title": "10.1 Reverse Shells vs Bind Shells"
+              "icon": "lucide-image",
+              "title": "IPV6_attack_lootme_domain_user_per_group_exposed"
             }
           }
         ],
@@ -184,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md",
+                "file": "Images/IPV6_attack_lootme_domain_user_per_group_exposed.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +192,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 10.1 Reverse Shells vs Bind Shells"
+              "title": "Backlinks for IPV6_attack_lootme_domain_user_per_group_exposed"
             }
           },
           {
@@ -203,12 +201,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md",
+                "file": "Images/IPV6_attack_lootme_domain_user_per_group_exposed.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 10.1 Reverse Shells vs Bind Shells"
+              "title": "Outgoing links from IPV6_attack_lootme_domain_user_per_group_exposed"
             }
           },
           {
@@ -230,10 +228,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md"
+                "file": "Images/IPV6_attack_lootme_domain_user_per_group_exposed.png"
               },
               "icon": "lucide-list",
-              "title": "Outline of 10.1 Reverse Shells vs Bind Shells"
+              "title": "Outline of IPV6_attack_lootme_domain_user_per_group_exposed"
             }
           },
           {
@@ -275,8 +273,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "65334263a520887a",
+  "active": "99b8042c696f90a8",
   "lastOpenFiles": [
+    "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
+    "Ethical Hacking/2-Scanning and Enumeration/8.5 Enumerating SMB.md",
+    "Ethical Hacking/3-Exploit/10.4 Manual Exploitation.md",
+    "Ethical Hacking/3-Exploit/10.2 Staged vs Non-Staged Payloads.md",
+    "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md",
     "Ethical Hacking/3-Exploit/10 Exploitation Basic.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/1- Active Directory Components.md",
     "Ethical Hacking/3-Exploit/10.6 Credential Stuffing and Spraying.md",
@@ -294,7 +297,6 @@
     "Ethical Hacking/4- Capstone/BlackPearl.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
     "Ethical Hacking/2-Scanning and Enumeration/8. Scanning and Enumeration.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
     "Images/IPV6_attack_NLMXrelay_lootmefile_created.png",
     "Images/IPV6_attack_mitm6_logs.png",
     "Images/IPV6_attack_NTLM_negotiate.png",
@@ -305,13 +307,9 @@
     "Ethical Hacking/5-Active Directory Ethical Hacking/7-SMB Relay Mitigation.md",
     "Images/SMB_relay_attack_mitigation.png",
     "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/5-SMB Relay Attacks Overview.md",
     "Images/SMB_relay_execute_smb.png",
     "Images/SMB_Relay_Attack_Configure_Targets.png",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/4-LLMNR Poisoning Mitigation.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md",
     "Images/LLMNR_responder_config.png",
-    "Ethical Hacking/4- Capstone/Butler.md",
     "Images/php_version_shown.png",
     "Untitled 9.canvas",
     "Untitled 8.canvas",

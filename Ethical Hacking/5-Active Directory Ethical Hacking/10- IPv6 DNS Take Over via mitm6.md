@@ -112,8 +112,8 @@ As you see, the domain controller and the kali has now 3-way handshake communica
 11. Below is the lootme file that has been downloaded
 ![Alt](../../Images/IPV6_attack_lootme_file_kali_GUI.png)
 
-![[Pasted image 20240718192929.png]]
+![Alt](../../Images/IPV6_attack_lootme_domain_user_per_group_exposed.png)
 
-![[Pasted image 20240718193014.png]]
+![Alt](../../Images/IPV6_attack_domain_users_per_group.png)
 
 12. It can also create an administrator account.

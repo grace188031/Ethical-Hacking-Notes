@@ -16,7 +16,9 @@
                 "file": "Ethical Hacking/4- Capstone/Butler.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Butler"
             }
           },
           {
@@ -28,7 +30,9 @@
                 "file": "Ethical Hacking/4- Capstone/BlackPearl.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "BlackPearl"
             }
           },
           {
@@ -40,7 +44,9 @@
                 "file": "Ethical Hacking/4- Capstone/Blue - PNPT.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Blue - PNPT"
             }
           },
           {
@@ -49,10 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/2-Scanning and Enumeration/8.7 Researching Potential Vulnerabilities.md",
+                "file": "Ethical Hacking/4- Capstone/Butler.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Butler"
             }
           }
         ],
@@ -76,7 +84,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -91,7 +101,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -99,11 +111,12 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -123,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ethical Hacking/2-Scanning and Enumeration/8.7 Researching Potential Vulnerabilities.md",
+                "file": "Ethical Hacking/4- Capstone/Butler.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +144,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Butler"
             }
           },
           {
@@ -140,10 +155,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ethical Hacking/2-Scanning and Enumeration/8.7 Researching Potential Vulnerabilities.md",
+                "file": "Ethical Hacking/4- Capstone/Butler.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Butler"
             }
           },
           {
@@ -154,7 +171,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -163,8 +182,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ethical Hacking/2-Scanning and Enumeration/8.7 Researching Potential Vulnerabilities.md"
-              }
+                "file": "Ethical Hacking/4- Capstone/Butler.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Butler"
             }
           },
           {
@@ -172,7 +193,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -180,11 +203,13 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -204,27 +229,40 @@
   },
   "active": "bd2a61a3851b2e2c",
   "lastOpenFiles": [
+    "repeater_to_intruder.png",
+    "Ethical Hacking/4- Capstone/Butler.md",
+    "jenkins_payload.png",
+    "Ethical Hacking/4- Capstone/Academy.md",
+    "Ethical Hacking/4- Capstone/BlackPearl.md",
     "Ethical Hacking/4- Capstone/Blue - TryHackMe.md",
+    "Images/jenkins.png",
+    "Ethical Hacking/4- Capstone/Blue - PNPT.md",
+    "Ethical Hacking/4- Capstone/Dev.md",
+    "Ethical Hacking/3-Exploit/10.6 Credential Stuffing and Spraying.md",
+    "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md",
+    "Ethical Hacking/3-Exploit/10 Exploitation Basic.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/1- Active Directory Components.md",
+    "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9 Vulnerability Scanning with Nessus.md",
+    "Ethical Hacking/2-Scanning and Enumeration/8.4 Enumerating HTTP and HTTPS Part 2.md",
+    "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
+    "Ethical Hacking/2-Scanning and Enumeration/8.1 Installing Kioptrix.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/4-LLMNR Poisoning Mitigation.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/7-SMB Relay Mitigation.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/9-IPV6 Attacks-overview.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/8-Gaining Shell Access.md",
+    "2024-09-15.md",
+    "Ethical Hacking/2-Scanning and Enumeration/8.7 Researching Potential Vulnerabilities.md",
     "Untitled 9.canvas",
     "Untitled 8.canvas",
     "Tools/Info Aggregation.md",
     "2024-10-03.md",
     "Untitled 7.canvas",
-    "2024-09-15.md",
     "Untitled 6.canvas",
     "Untitled 5.canvas",
-    "Ethical Hacking/4- Capstone/Dev.md",
     "Untitled 4.canvas",
-    "Ethical Hacking/4- Capstone/BlackPearl.md",
-    "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
-    "PNPT Certification Path/4. Bashscripts.md",
-    "Ethical Hacking/4- Capstone/Blue - PNPT.md",
-    "Ethical Hacking/4- Capstone/Butler.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
-    "Ethical Hacking/4- Capstone/Academy.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/8-Gaining Shell Access.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md",
     "Pasted image 20240718193014.png",
     "Pasted image 20240718192929.png",
     "Pasted image 20240718190953.png",
@@ -233,22 +271,10 @@
     "Pasted image 20240717202220.png",
     "Pasted image 20240717202044.png",
     "Pasted image 20240717195952.png",
-    "Pasted image 20240717195615.png",
-    "Pasted image 20240717195428.png",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/2- AD Lab Requirements.md",
     "excalidraw.pdf",
     "excalidraw.pdf.pdf",
     "Untitled 1.canvas",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/9-IPV6 Attacks-overview.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/7-SMB Relay Mitigation.md",
-    "PNPT Certification Path/3. Installing and updating.md",
-    "PNPT Certification Path/5. Python.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/1- Active Directory Components.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/5-SMB Relay Attacks Overview.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/4-LLMNR Poisoning Mitigation.md",
-    "Excalidraw/Drawing 2024-07-10 19.26.09.excalidraw.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking",
-    "Ethical Hacking/Active Directory Ethical Hacking.md",
     "Excalidraw",
     "Images/Untitled.canvas",
     "Untitled 3.canvas",

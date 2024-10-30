@@ -71,7 +71,7 @@ Nmap done: 1 IP address (1 host up) scanned in 524.40 seconds
 - http://192.168.64.7:8080
 
 #jenkins
-	- ![[Pasted image 20240708183417.png]]
+	- ![Alt](jenkins.png)
 
 #attackjenkins
 - https://github.com/gquere/pwn_jenkins
@@ -82,12 +82,12 @@ default credential of Jenkins is admin/password but not working
 We can brute force access it using burp suite
 
 
-![[Pasted image 20240708185535.png]]
+![Alt](jenkins_payload.png)
 
 
 Send to repeater then send to intruder
 
-![[Pasted image 20240708190618.png]]
+![Alt](repeater_to_intruder.png)
 
 #burpsuiteintruder
 #clusterbomb
@@ -101,7 +101,7 @@ Send to repeater then send to intruder
 clusterbomb - every single user with every single password
 use different combinations
 
-![[Pasted image 20240708191821.png]]
+![Alt](cluster_bomb_spraying.png)
 
 
 Payload 2

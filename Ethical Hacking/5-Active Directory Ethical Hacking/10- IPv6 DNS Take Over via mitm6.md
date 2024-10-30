@@ -96,7 +96,7 @@ Capturing, in the wireshark, here is the step by step
 7.  The attacker responds with 407 Proxy Authentication required, prompting the domain computer to send an NTLM authentication (NTLM Negotiate). In the image above, at item number 432, the attacker replied with HTTP/1.1 authentication is required. Please see image below [item 441]
 9. The domain computer sends an NTLM Negotiate message to the attacker. Please see image below [item 445]
 
-![[Pasted image 20240717195615.png]]
+![Alt](../../Images/IPV6_attack_NTLM_negotiate.png)
 
 ![[Pasted image 20240717195952.png]]
 

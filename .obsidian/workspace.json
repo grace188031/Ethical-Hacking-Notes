@@ -101,12 +101,14 @@
             "id": "65334263a520887a",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20240717195952.png"
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20240717195952"
+              "icon": "lucide-file",
+              "title": "10- IPv6 DNS Take Over via mitm6"
             }
           }
         ],
@@ -182,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20240717195952.png",
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +194,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Pasted image 20240717195952"
+              "title": "Backlinks for 10- IPv6 DNS Take Over via mitm6"
             }
           },
           {
@@ -201,12 +203,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20240717195952.png",
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Pasted image 20240717195952"
+              "title": "Outgoing links from 10- IPv6 DNS Take Over via mitm6"
             }
           },
           {
@@ -228,10 +230,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20240717195952.png"
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20240717195952"
+              "title": "Outline of 10- IPv6 DNS Take Over via mitm6"
             }
           },
           {
@@ -273,9 +275,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "99b8042c696f90a8",
+  "active": "65334263a520887a",
   "lastOpenFiles": [
+    "Images/IPV6_attack_NTLM_negotiate.png",
     "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
+    "Images/IPV6_attack_NTLM_negotiate_wireshark.png",
     "Images/IPV6_attack_victim_respond and accer_malicious_ipv6_link_global_address.png",
     "Ethical Hacking/5-Active Directory Ethical Hacking/9-IPV6 Attacks-overview.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/8-Gaining Shell Access.md",
@@ -301,7 +305,6 @@
     "Images/navigate_vulnerability.png",
     "Ethical Hacking/4- Capstone/Blue - PNPT.md",
     "Images/LLMNR_overview.png",
-    "Pasted image 20240617140157.png",
     "Ethical Hacking/4- Capstone/Blue - TryHackMe.md",
     "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9.1 Scanning with Nessus Part 1.md",
     "Ethical Hacking/3-Exploit/10.6 Credential Stuffing and Spraying.md",

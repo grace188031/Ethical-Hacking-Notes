@@ -147,7 +147,7 @@ navigate                [Status: 301, Size: 185, Words: 6, Lines: 8, Duration: 1
 - We see that there is 301 redirection which is the `navigate`
 - Lets access the `http://blackpearl.tcm/navigate`
 
-![[Pasted image 20240710132114.png]]
+![Alt](../../Images/navigate_vulnerability.png)
 
 - The navigate cms login page appeared
 - Check Google if there is a vulnerability in the navigate. Here are the relevant sites checked:
@@ -386,7 +386,7 @@ chmod u+x linpeas.sh
 #linpeas
 - In checking linpeas.sh, always start below the important information starts below. 
 	- Also checked that there are binary files that has a sticky bit set
-![[Pasted image 20240710191259.png]]
+![Alt](../../Images/SUID_privilege_escalation_gtfo.png)
 
 #linuxfind
 - Lets also try find command to check all the binaries that has sticky bit set using the command `find / -type f -perm -4000 2>/dev/null`
@@ -412,10 +412,10 @@ find / -type f -perm -4000 2>/dev/null
 #gtfobin 
 - Select SUID, then selct php, it will then direct you to page where the scripts are located
 
-![[Pasted image 20240710193050.png]]
+![Alt](../../Images/gtfo_bin_search_SUID_exploit.png)
 
 - Here is the script to abuse the binary that has suid set with php
-![[Pasted image 20240710193257.png]]
+![Alt](../../Images/gtfo_bin_suid_exploit.png)
 
 - Hence we will use the comman `/usr/bin/php7.3 -r "pcntl_exec('/bin/sh', ['-p']);"`
 
@@ -462,9 +462,9 @@ but the goal of this box is mainly to teach about Virtual Host Routing which is 
 
 - Configure the host file `/etc/hosts` to give a name to the victim's machine
 
-![[Pasted image 20240710130740.png]]
+![Alt](../../Images/host_file_malicious_domain.png)
 
 - After putting the hostname in the hostfile, the php web page appeared
-![[Pasted image 20240710131738.png]]
+![Alt](../../Images/php_version_shown.png)
 
 - We can now enumerate again using ffuf. The enumeration is in the 80/http enumeration section above

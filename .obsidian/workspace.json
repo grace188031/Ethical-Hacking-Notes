@@ -103,12 +103,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Info Aggregation.md",
+                "file": "Ethical Hacking/1-Reconnaisance/7.1 Reconnaissance - Discovering Email Address.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Info Aggregation"
+              "title": "7.1 Reconnaissance - Discovering Email Address"
             }
           }
         ],
@@ -277,10 +277,13 @@
   },
   "active": "65334263a520887a",
   "lastOpenFiles": [
+    "Ethical Hacking/1-Reconnaisance/7.2 Gathering Breached Credentials with Breach-Parse.md",
+    "Ethical Hacking/1-Reconnaisance/7.3 Hunting Breached Credentials with Dehashed.md",
+    "Ethical Hacking/1-Reconnaisance/7.4 Hunting SubDomains.md",
+    "Tools/Info Aggregation.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/9-IPV6 Attacks-overview.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
-    "Tools/Info Aggregation.md",
     "Tools/nmap.md",
     "Images/IPV6_attack_lootme_domain_user_per_group_exposed.png",
     "Ethical Hacking/2-Scanning and Enumeration/8.5 Enumerating SMB.md",
@@ -292,10 +295,7 @@
     "Ethical Hacking/3-Exploit/10.6 Credential Stuffing and Spraying.md",
     "Ethical Hacking/3-Exploit/10.5 Brute Force Attack.md",
     "Ethical Hacking/3-Exploit/10.3 Gaining Root with Metasploit.md",
-    "Ethical Hacking/1-Reconnaisance/7.4 Hunting SubDomains.md",
-    "Ethical Hacking/1-Reconnaisance/7.3 Hunting Breached Credentials with Dehashed.md",
     "Ethical Hacking/1-Reconnaisance/7.1 Reconnaissance - Discovering Email Address.md",
-    "Ethical Hacking/1-Reconnaisance/7.2 Gathering Breached Credentials with Breach-Parse.md",
     "Ethical Hacking/1-Reconnaisance/7. Reconnaisance.md",
     "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9.1 Scanning with Nessus Part 1.md",
     "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9 Vulnerability Scanning with Nessus.md",

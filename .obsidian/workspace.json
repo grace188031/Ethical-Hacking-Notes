@@ -101,12 +101,14 @@
             "id": "65334263a520887a",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Images/IPV6_attack_lootme_domain_user_per_group_exposed.png"
+                "file": "Tools/Info Aggregation.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "IPV6_attack_lootme_domain_user_per_group_exposed"
+              "icon": "lucide-file",
+              "title": "Info Aggregation"
             }
           }
         ],
@@ -141,7 +143,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "trans2",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -273,9 +275,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "99b8042c696f90a8",
+  "active": "65334263a520887a",
   "lastOpenFiles": [
     "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/9-IPV6 Attacks-overview.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
+    "Tools/Info Aggregation.md",
+    "Tools/nmap.md",
+    "Images/IPV6_attack_lootme_domain_user_per_group_exposed.png",
     "Ethical Hacking/2-Scanning and Enumeration/8.5 Enumerating SMB.md",
     "Ethical Hacking/3-Exploit/10.4 Manual Exploitation.md",
     "Ethical Hacking/3-Exploit/10.2 Staged vs Non-Staged Payloads.md",
@@ -302,15 +309,10 @@
     "Images/IPV6_attack_NTLM_negotiate.png",
     "Images/IPV6_attack_NTLM_negotiate_wireshark.png",
     "Images/IPV6_attack_victim_respond and accer_malicious_ipv6_link_global_address.png",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/9-IPV6 Attacks-overview.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/8-Gaining Shell Access.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/7-SMB Relay Mitigation.md",
     "Images/SMB_relay_attack_mitigation.png",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
     "Images/SMB_relay_execute_smb.png",
     "Images/SMB_Relay_Attack_Configure_Targets.png",
     "Images/LLMNR_responder_config.png",
-    "Images/php_version_shown.png",
     "Untitled 9.canvas",
     "Untitled 8.canvas",
     "Untitled 7.canvas",

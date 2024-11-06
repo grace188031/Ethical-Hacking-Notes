@@ -110,9 +110,23 @@
               "icon": "lucide-file",
               "title": "7.1 Reconnaissance - Discovering Email Address"
             }
+          },
+          {
+            "id": "f9cb4ae579628513",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/Info Aggregation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Info Aggregation"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -275,8 +289,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "65334263a520887a",
+  "active": "99b8042c696f90a8",
   "lastOpenFiles": [
+    "Ethical Hacking/1-Reconnaisance/7.7 Google Fu.md",
     "Ethical Hacking/1-Reconnaisance/7.2 Gathering Breached Credentials with Breach-Parse.md",
     "Ethical Hacking/1-Reconnaisance/7.3 Hunting Breached Credentials with Dehashed.md",
     "Ethical Hacking/1-Reconnaisance/7.4 Hunting SubDomains.md",
@@ -303,7 +318,6 @@
     "Ethical Hacking/4- Capstone/Academy.md",
     "Ethical Hacking/4- Capstone/BlackPearl.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
-    "Ethical Hacking/2-Scanning and Enumeration/8. Scanning and Enumeration.md",
     "Images/IPV6_attack_NLMXrelay_lootmefile_created.png",
     "Images/IPV6_attack_mitm6_logs.png",
     "Images/IPV6_attack_NTLM_negotiate.png",

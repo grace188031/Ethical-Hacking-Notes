@@ -145,12 +145,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/2-Scanning and Enumeration/8.1 Installing Kioptrix.md",
+                "file": "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8.1 Installing Kioptrix"
+              "title": "8.2 Scanning with Nmap"
             }
           }
         ],
@@ -185,7 +185,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ness",
+                "query": "gtf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -319,6 +319,9 @@
   },
   "active": "5797e26005e44185",
   "lastOpenFiles": [
+    "Ethical Hacking/2-Scanning and Enumeration/8.1 Installing Kioptrix.md",
+    "Ethical Hacking/2-Scanning and Enumeration/8. Scanning and Enumeration.md",
+    "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
     "Ethical Hacking/1-Reconnaisance/7.8 Utilizing Social Media.md",
     "Ethical Hacking/1-Reconnaisance/7.9 Shodan.io.md",
     "Ethical Hacking/1-Reconnaisance/7.10 ping.eu.md",
@@ -327,12 +330,9 @@
     "Ethical Hacking/2-Scanning and Enumeration/8.7 Researching Potential Vulnerabilities.md",
     "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/11 - Buffer Overflow.md",
-    "Ethical Hacking/2-Scanning and Enumeration/8.1 Installing Kioptrix.md",
-    "Ethical Hacking/2-Scanning and Enumeration/8. Scanning and Enumeration.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/8-Gaining Shell Access.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.3 Enumerating HTTP and HTTPS Part 1.md",
-    "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
     "PNPT Certification Path/4. Bashscripts.md",
     "Ethical Hacking/1-Reconnaisance/7. Reconnaisance.md",
     "Ethical Hacking/1-Reconnaisance/7.7 Google Fu.md",

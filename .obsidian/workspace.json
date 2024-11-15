@@ -145,12 +145,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/3-Exploit/10 Exploitation Basic.md",
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/8-Gaining Shell Access.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10 Exploitation Basic"
+              "title": "8-Gaining Shell Access"
             }
           }
         ],
@@ -185,7 +185,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gtf",
+                "query": "meterp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -206,7 +206,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -317,10 +318,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5797e26005e44185",
+  "active": "0854c0df333bac3a",
   "lastOpenFiles": [
-    "Ethical Hacking/5-Active Directory Ethical Hacking/11 - Buffer Overflow.md",
+    "Ethical Hacking/4- Capstone/BlackPearl.md",
+    "Ethical Hacking/2-Scanning and Enumeration/8.6 Enumerating SSH.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.7 Researching Potential Vulnerabilities.md",
+    "Ethical Hacking/2-Scanning and Enumeration/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
+    "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9 Vulnerability Scanning with Nessus.md",
+    "Ethical Hacking/3-Exploit/10.2 Staged vs Non-Staged Payloads.md",
+    "Ethical Hacking/4- Capstone/Academy.md",
+    "Ethical Hacking/3-Exploit/10.3 Gaining Root with Metasploit.md",
+    "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md",
+    "Ethical Hacking/3-Exploit/10 Exploitation Basic.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/11 - Buffer Overflow.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.4 Enumerating HTTP and HTTPS Part 2.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.3 Enumerating HTTP and HTTPS Part 1.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
@@ -330,22 +340,13 @@
     "Ethical Hacking/1-Reconnaisance/7.7 Google Fu.md",
     "Ethical Hacking/1-Reconnaisance/7.1 Reconnaissance - Discovering Email Address.md",
     "Ethical Hacking/4- Capstone/Blue - PNPT.md",
-    "Ethical Hacking/4- Capstone/BlackPearl.md",
-    "Ethical Hacking/4- Capstone/Academy.md",
     "Pasted image 20241113192005.png",
     "Ethical Hacking/1-Reconnaisance/7.8 Utilizing Social Media.md",
     "Ethical Hacking/1-Reconnaisance/7.9 Shodan.io.md",
     "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9.1 Scanning with Nessus Part 1.md",
-    "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9 Vulnerability Scanning with Nessus.md",
-    "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md",
-    "Ethical Hacking/2-Scanning and Enumeration/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/8-Gaining Shell Access.md",
     "PNPT Certification Path/4. Bashscripts.md",
     "Ethical Hacking/1-Reconnaisance/7. Reconnaisance.md",
-    "Ethical Hacking/1-Reconnaisance/7.3 Hunting Breached Credentials with Dehashed.md",
-    "Tools/Info Aggregation.md",
-    "Ethical Hacking/1-Reconnaisance/7.2 Gathering Breached Credentials with Breach-Parse.md",
-    "Ethical Hacking/1-Reconnaisance/7.4 Hunting SubDomains.md",
     "Images/IPV6_attack_lootme_domain_user_per_group_exposed.png",
     "Images/IPV6_attack_NLMXrelay_lootmefile_created.png",
     "Images/IPV6_attack_mitm6_logs.png",

@@ -145,12 +145,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/4- Capstone/Blue - PNPT.md",
+                "file": "Ethical Hacking/1-Reconnaisance/7.10 ping.eu.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Blue - PNPT"
+              "title": "7.10 ping.eu"
             }
           }
         ],
@@ -319,6 +319,9 @@
   },
   "active": "5797e26005e44185",
   "lastOpenFiles": [
+    "Ethical Hacking/1-Reconnaisance/7.7 Google Fu.md",
+    "Ethical Hacking/1-Reconnaisance/7.1 Reconnaissance - Discovering Email Address.md",
+    "Ethical Hacking/4- Capstone/Blue - PNPT.md",
     "Ethical Hacking/4- Capstone/BlackPearl.md",
     "Ethical Hacking/4- Capstone/Academy.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
@@ -338,14 +341,11 @@
     "Ethical Hacking/2-Scanning and Enumeration/8.3 Enumerating HTTP and HTTPS Part 1.md",
     "PNPT Certification Path/4. Bashscripts.md",
     "Ethical Hacking/1-Reconnaisance/7. Reconnaisance.md",
-    "Ethical Hacking/1-Reconnaisance/7.7 Google Fu.md",
     "Ethical Hacking/1-Reconnaisance/7.3 Hunting Breached Credentials with Dehashed.md",
     "Tools/Info Aggregation.md",
     "Ethical Hacking/1-Reconnaisance/7.2 Gathering Breached Credentials with Breach-Parse.md",
     "Ethical Hacking/1-Reconnaisance/7.4 Hunting SubDomains.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/9-IPV6 Attacks-overview.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
     "Images/IPV6_attack_lootme_domain_user_per_group_exposed.png",
     "Images/IPV6_attack_NLMXrelay_lootmefile_created.png",
     "Images/IPV6_attack_mitm6_logs.png",

@@ -145,12 +145,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
+                "file": "Ethical Hacking/4- Capstone/Blue - PNPT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8.2 Scanning with Nmap"
+              "title": "Blue - PNPT"
             }
           }
         ],
@@ -319,10 +319,12 @@
   },
   "active": "5797e26005e44185",
   "lastOpenFiles": [
+    "Ethical Hacking/4- Capstone/BlackPearl.md",
+    "Ethical Hacking/4- Capstone/Academy.md",
+    "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
     "Pasted image 20241113192005.png",
     "Ethical Hacking/2-Scanning and Enumeration/8.1 Installing Kioptrix.md",
     "Ethical Hacking/2-Scanning and Enumeration/8. Scanning and Enumeration.md",
-    "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
     "Ethical Hacking/1-Reconnaisance/7.8 Utilizing Social Media.md",
     "Ethical Hacking/1-Reconnaisance/7.9 Shodan.io.md",
     "Ethical Hacking/1-Reconnaisance/7.10 ping.eu.md",
@@ -344,7 +346,6 @@
     "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/9-IPV6 Attacks-overview.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
-    "Tools/nmap.md",
     "Images/IPV6_attack_lootme_domain_user_per_group_exposed.png",
     "Images/IPV6_attack_NLMXrelay_lootmefile_created.png",
     "Images/IPV6_attack_mitm6_logs.png",
@@ -354,7 +355,6 @@
     "Images/SMB_relay_attack_mitigation.png",
     "Images/SMB_relay_execute_smb.png",
     "Images/SMB_Relay_Attack_Configure_Targets.png",
-    "Images/LLMNR_responder_config.png",
     "Untitled 9.canvas",
     "Untitled 8.canvas",
     "Untitled 7.canvas",

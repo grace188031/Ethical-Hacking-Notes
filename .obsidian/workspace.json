@@ -145,12 +145,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/1-Reconnaisance/7.5 Identifying Website Technologies.md",
+                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/2- AD Lab Requirements.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7.5 Identifying Website Technologies"
+              "title": "2- AD Lab Requirements"
             }
           }
         ],
@@ -185,7 +185,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wappa",
+                "query": "passw",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -320,6 +320,8 @@
   },
   "active": "5797e26005e44185",
   "lastOpenFiles": [
+    "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
+    "Ethical Hacking/1-Reconnaisance/7.5 Identifying Website Technologies.md",
     "Ethical Hacking/1-Reconnaisance/7. Reconnaisance.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/8-Gaining Shell Access.md",
     "Ethical Hacking/4- Capstone/BlackPearl.md",
@@ -345,8 +347,6 @@
     "Pasted image 20241113192005.png",
     "Ethical Hacking/1-Reconnaisance/7.8 Utilizing Social Media.md",
     "Ethical Hacking/1-Reconnaisance/7.9 Shodan.io.md",
-    "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9.1 Scanning with Nessus Part 1.md",
-    "PNPT Certification Path/4. Bashscripts.md",
     "Images/IPV6_attack_lootme_domain_user_per_group_exposed.png",
     "Images/IPV6_attack_NLMXrelay_lootmefile_created.png",
     "Images/IPV6_attack_mitm6_logs.png",

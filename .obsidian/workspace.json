@@ -16,9 +16,7 @@
                 "file": "Ethical Hacking/4- Capstone/Butler.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Butler"
+              }
             }
           },
           {
@@ -30,9 +28,7 @@
                 "file": "Ethical Hacking/4- Capstone/BlackPearl.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "BlackPearl"
+              }
             }
           },
           {
@@ -44,117 +40,23 @@
                 "file": "Ethical Hacking/4- Capstone/Blue - PNPT.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Blue - PNPT"
+              }
             }
           },
           {
             "id": "bd2a61a3851b2e2c",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "Images/reverse_shell_groovy.png"
-              },
-              "icon": "lucide-image",
-              "title": "reverse_shell_groovy"
-            }
-          },
-          {
-            "id": "e192c33e39a4c602",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Images/directory_traversal_boltwire.png"
-              },
-              "icon": "lucide-image",
-              "title": "directory_traversal_boltwire"
-            }
-          },
-          {
-            "id": "e7e3985ebdb305bb",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Images/boltwire_registration.png"
-              },
-              "icon": "lucide-image",
-              "title": "boltwire_registration"
-            }
-          },
-          {
-            "id": "8af075687ecd508e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Images/navigate_vulnerability.png"
-              },
-              "icon": "lucide-image",
-              "title": "navigate_vulnerability"
-            }
-          },
-          {
-            "id": "65334263a520887a",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/1-Reconnaisance/7.1 Reconnaissance - Discovering Email Address.md",
+                "file": "Ethical Hacking/2-Scanning and Enumeration/8.7 Researching Potential Vulnerabilities.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "7.1 Reconnaissance - Discovering Email Address"
-            }
-          },
-          {
-            "id": "f9cb4ae579628513",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/Info Aggregation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Info Aggregation"
-            }
-          },
-          {
-            "id": "f16dcf55e3ed532f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/11 - Buffer Overflow.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "11 - Buffer Overflow"
-            }
-          },
-          {
-            "id": "5797e26005e44185",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/2- AD Lab Requirements.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2- AD Lab Requirements"
+              }
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -174,9 +76,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+              }
             }
           },
           {
@@ -185,15 +85,13 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "passw",
+                "query": "wc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
+              }
             }
           },
           {
@@ -201,9 +99,7 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "state": {}
             }
           }
         ],
@@ -211,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 292.5
   },
   "right": {
     "id": "af3095085d650761",
@@ -227,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Images/IPV6_attack_lootme_domain_user_per_group_exposed.png",
+                "file": "Ethical Hacking/2-Scanning and Enumeration/8.7 Researching Potential Vulnerabilities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,9 +131,7 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for IPV6_attack_lootme_domain_user_per_group_exposed"
+              }
             }
           },
           {
@@ -246,12 +140,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Images/IPV6_attack_lootme_domain_user_per_group_exposed.png",
+                "file": "Ethical Hacking/2-Scanning and Enumeration/8.7 Researching Potential Vulnerabilities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from IPV6_attack_lootme_domain_user_per_group_exposed"
+              }
             }
           },
           {
@@ -262,9 +154,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              }
             }
           },
           {
@@ -273,10 +163,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Images/IPV6_attack_lootme_domain_user_per_group_exposed.png"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of IPV6_attack_lootme_domain_user_per_group_exposed"
+                "file": "Ethical Hacking/2-Scanning and Enumeration/8.7 Researching Potential Vulnerabilities.md"
+              }
             }
           },
           {
@@ -284,9 +172,7 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "state": {}
             }
           },
           {
@@ -294,13 +180,11 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -318,53 +202,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5797e26005e44185",
+  "active": "0854c0df333bac3a",
   "lastOpenFiles": [
-    "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
-    "Ethical Hacking/1-Reconnaisance/7.5 Identifying Website Technologies.md",
-    "Ethical Hacking/1-Reconnaisance/7. Reconnaisance.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/8-Gaining Shell Access.md",
-    "Ethical Hacking/4- Capstone/BlackPearl.md",
-    "Ethical Hacking/2-Scanning and Enumeration/8.6 Enumerating SSH.md",
-    "Ethical Hacking/2-Scanning and Enumeration/8.7 Researching Potential Vulnerabilities.md",
-    "Ethical Hacking/2-Scanning and Enumeration/8.8 Create an Assessment Note Easy to navigate (Cherry Tree).md",
-    "Ethical Hacking/2.1-Vulnerability Scanning with Nessus/9 Vulnerability Scanning with Nessus.md",
-    "Ethical Hacking/3-Exploit/10.2 Staged vs Non-Staged Payloads.md",
-    "Ethical Hacking/4- Capstone/Academy.md",
-    "Ethical Hacking/3-Exploit/10.3 Gaining Root with Metasploit.md",
-    "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md",
-    "Ethical Hacking/3-Exploit/10 Exploitation Basic.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/11 - Buffer Overflow.md",
-    "Ethical Hacking/2-Scanning and Enumeration/8.4 Enumerating HTTP and HTTPS Part 2.md",
-    "Ethical Hacking/2-Scanning and Enumeration/8.3 Enumerating HTTP and HTTPS Part 1.md",
-    "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
-    "Ethical Hacking/2-Scanning and Enumeration/8.1 Installing Kioptrix.md",
-    "Ethical Hacking/2-Scanning and Enumeration/8. Scanning and Enumeration.md",
-    "Ethical Hacking/1-Reconnaisance/7.10 ping.eu.md",
-    "Ethical Hacking/1-Reconnaisance/7.7 Google Fu.md",
-    "Ethical Hacking/1-Reconnaisance/7.1 Reconnaissance - Discovering Email Address.md",
-    "Ethical Hacking/4- Capstone/Blue - PNPT.md",
     "Pasted image 20241113192005.png",
-    "Ethical Hacking/1-Reconnaisance/7.8 Utilizing Social Media.md",
+    "Images/winpeas_unquoted_exe_regedit_canexploit.png",
+    "Images/winpeas_executable_service_canexploit.png",
+    "Images/winpeas_butler.png",
+    "Images/reverse_shell_groovy.png",
+    "Images/repeater_to_intruder.png",
+    "Images/php_version_shown.png",
+    "Images/navigate_vulnerability.png",
+    "Images/jenkins_vulnerable_groovy.png",
+    "Images/jenkins_success_login.png",
+    "Images/jenkins_payload.png",
+    "Images/excalidraw.pdf",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/11 - Buffer Overflow.md",
     "Ethical Hacking/1-Reconnaisance/7.9 Shodan.io.md",
-    "Images/IPV6_attack_lootme_domain_user_per_group_exposed.png",
-    "Images/IPV6_attack_NLMXrelay_lootmefile_created.png",
-    "Images/IPV6_attack_mitm6_logs.png",
-    "Images/IPV6_attack_NTLM_negotiate.png",
-    "Images/IPV6_attack_NTLM_negotiate_wireshark.png",
-    "Images/IPV6_attack_victim_respond and accer_malicious_ipv6_link_global_address.png",
-    "Images/SMB_relay_attack_mitigation.png",
-    "Images/SMB_relay_execute_smb.png",
-    "Images/SMB_Relay_Attack_Configure_Targets.png",
+    "Ethical Hacking/1-Reconnaisance/7.10 ping.eu.md",
+    "Ethical Hacking/4- Capstone/Blue - TryHackMe.md",
     "Untitled 9.canvas",
     "Untitled 8.canvas",
+    "Tools/Info Aggregation.md",
+    "2024-10-03.md",
     "Untitled 7.canvas",
+    "2024-09-15.md",
     "Untitled 6.canvas",
     "Untitled 5.canvas",
+    "Ethical Hacking/4- Capstone/Dev.md",
     "Untitled 4.canvas",
-    "Images/excalidraw.pdf",
+    "Ethical Hacking/4- Capstone/BlackPearl.md",
+    "Ethical Hacking/2-Scanning and Enumeration/8.2 Scanning with Nmap.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
+    "PNPT Certification Path/4. Bashscripts.md",
+    "Ethical Hacking/4- Capstone/Blue - PNPT.md",
+    "Ethical Hacking/4- Capstone/Butler.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
+    "Ethical Hacking/4- Capstone/Academy.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/8-Gaining Shell Access.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/2- AD Lab Requirements.md",
+    "excalidraw.pdf",
     "excalidraw.pdf.pdf",
     "Untitled 1.canvas",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/9-IPV6 Attacks-overview.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/7-SMB Relay Mitigation.md",
+    "PNPT Certification Path/3. Installing and updating.md",
+    "PNPT Certification Path/5. Python.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/1- Active Directory Components.md",
+    "Ethical Hacking/5-Active Directory Ethical Hacking/5-SMB Relay Attacks Overview.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking",
     "Excalidraw",
     "Images/Untitled.canvas",

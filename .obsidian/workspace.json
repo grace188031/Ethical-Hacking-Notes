@@ -159,12 +159,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md",
+                "file": "Ethical Hacking/3-Exploit/10.5 Brute Force Attack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3- LLMNR Poisoning"
+              "title": "10.5 Brute Force Attack"
             }
           }
         ],
@@ -199,7 +199,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "responder",
+                "query": "hydra",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -220,7 +220,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -333,13 +334,13 @@
   },
   "active": "acea393e08227d45",
   "lastOpenFiles": [
+    "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/4-LLMNR Poisoning Mitigation.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/5-SMB Relay Attacks Overview.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/6-SMB Relay Attacks Lab.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/7-SMB Relay Mitigation.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/9-IPV6 Attacks-overview.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/8-Gaining Shell Access.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/3- LLMNR Poisoning.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/2- AD Lab Requirements.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
     "Ethical Hacking/1-Reconnaisance/7.5 Identifying Website Technologies.md",

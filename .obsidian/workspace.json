@@ -159,12 +159,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ethical Hacking/1-Reconnaisance/7.3 Hunting Breached Credentials with Dehashed.md",
+                "file": "Ethical Hacking/1-Reconnaisance/7. Reconnaisance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7.3 Hunting Breached Credentials with Dehashed"
+              "title": "7. Reconnaisance"
             }
           }
         ],
@@ -346,8 +346,10 @@
   },
   "active": "1247940eecb24020",
   "lastOpenFiles": [
-    "Ethical Hacking/1-Reconnaisance/7.3 Hunting Breached Credentials with Dehashed.md",
+    "Ethical Hacking/1-Reconnaisance/7. Reconnaisance.md",
+    "Ethical Hacking/4- Capstone/Butler.md",
     "Chats/New Chat.md",
+    "Ethical Hacking/1-Reconnaisance/7.3 Hunting Breached Credentials with Dehashed.md",
     "PNPT Certification Path/1. What need to Learn.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/8-Gaining Shell Access.md",
     "Chats",
@@ -361,7 +363,6 @@
     "Ethical Hacking/5-Active Directory Ethical Hacking/2- AD Lab Requirements.md",
     "Ethical Hacking/5-Active Directory Ethical Hacking/10- IPv6 DNS Take Over via mitm6.md",
     "Ethical Hacking/1-Reconnaisance/7.5 Identifying Website Technologies.md",
-    "Ethical Hacking/1-Reconnaisance/7. Reconnaisance.md",
     "Ethical Hacking/4- Capstone/BlackPearl.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.6 Enumerating SSH.md",
     "Ethical Hacking/2-Scanning and Enumeration/8.7 Researching Potential Vulnerabilities.md",
@@ -372,7 +373,6 @@
     "Ethical Hacking/3-Exploit/10.3 Gaining Root with Metasploit.md",
     "Ethical Hacking/3-Exploit/10.1 Reverse Shells vs Bind Shells.md",
     "Ethical Hacking/3-Exploit/10 Exploitation Basic.md",
-    "Ethical Hacking/5-Active Directory Ethical Hacking/11 - Buffer Overflow.md",
     "Pasted image 20241113192005.png",
     "Images/IPV6_attack_lootme_domain_user_per_group_exposed.png",
     "Images/IPV6_attack_NLMXrelay_lootmefile_created.png",
